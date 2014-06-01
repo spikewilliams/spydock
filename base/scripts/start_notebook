@@ -1,0 +1,9 @@
+#!/bin/bash
+export PYTHONPATH=/notebooks
+ipython notebook \
+    --NotebookApp.port=8888 \
+    --NotebookApp.open_browser=False \
+    --NotebookApp.ip='0.0.0.0' \
+    --NotebookApp.notebook_dir='/notebooks' \
+    --IPKernelApp.pylab='inline' \
+    --script

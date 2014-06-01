@@ -1,0 +1,211 @@
+..................S.....................................................................................................................................................................S.......................................................................................................................................................................S.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E.................................................................................................................................................................................................SSS......................................................................................................E......................................................................................................................................................................................................................................................E..............................................................................................................E......................E...........................................................................................EEEEEE..................SSSSSSSSSSSSSSSSSSSSS............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................../usr/local/lib/python3.4/site-packages/numpy/lib/nanfunctions.py:514: FutureWarning: In Numpy 1.9 the sum along empty slices will be zero.
+  FutureWarning)
+...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E....................................................
+======================================================================
+ERROR: test_floating_exceptions (test_numeric.TestFloatExceptions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+    raise KnownFailureTest(msg)
+numpy.testing.noseclasses.KnownFailureTest: See ticket 1755
+
+======================================================================
+ERROR: Ticket #99
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+    raise KnownFailureTest(msg)
+numpy.testing.noseclasses.KnownFailureTest: numpy.intp('0xff', 16) not supported on Py3, as it does not inherit from Python int
+
+======================================================================
+ERROR: test_umath.TestComplexFunctions.test_branch_cuts_failing
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
+    self.test(*self.arg)
+  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+    raise KnownFailureTest(msg)
+numpy.testing.noseclasses.KnownFailureTest: These branch cuts are known to fail
+
+======================================================================
+ERROR: test_umath_complex.TestCarg.test_zero
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
+    self.test(*self.arg)
+  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+    raise KnownFailureTest(msg)
+numpy.testing.noseclasses.KnownFailureTest: Complex arithmetic with signed zero is buggy on most implementation
+
+======================================================================
+ERROR: test_umath_complex.TestCexp.test_special_values2
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
+    self.test(*self.arg)
+  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+    raise KnownFailureTest(msg)
+numpy.testing.noseclasses.KnownFailureTest: cexp(nan + 0I) is wrong on most implementations
+
+======================================================================
+ERROR: Failure: ImportError (cannot import name 'fib2')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+    return load_source(name, filename, file)
+  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
+    module = methods.load()
+  File "<frozen importlib._bootstrap>", line 1220, in load
+  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1129, in _exec
+  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/f2py_ext/tests/test_fib2.py", line 5, in <module>
+    from f2py_ext import fib2
+ImportError: cannot import name 'fib2'
+
+======================================================================
+ERROR: Failure: ImportError (cannot import name 'foo')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+    return load_source(name, filename, file)
+  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
+    module = methods.load()
+  File "<frozen importlib._bootstrap>", line 1220, in load
+  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1129, in _exec
+  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/f2py_f90_ext/tests/test_foo.py", line 5, in <module>
+    from f2py_f90_ext import foo
+ImportError: cannot import name 'foo'
+
+======================================================================
+ERROR: Failure: ImportError (cannot import name 'fib3')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+    return load_source(name, filename, file)
+  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
+    module = methods.load()
+  File "<frozen importlib._bootstrap>", line 1220, in load
+  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1129, in _exec
+  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/gen_ext/tests/test_fib3.py", line 5, in <module>
+    from gen_ext import fib3
+ImportError: cannot import name 'fib3'
+
+======================================================================
+ERROR: Failure: ImportError (No module named 'pyrex_ext.primes')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+    return load_source(name, filename, file)
+  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
+    module = methods.load()
+  File "<frozen importlib._bootstrap>", line 1220, in load
+  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1129, in _exec
+  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/pyrex_ext/tests/test_primes.py", line 5, in <module>
+    from pyrex_ext.primes import primes
+ImportError: No module named 'pyrex_ext.primes'
+
+======================================================================
+ERROR: Failure: ImportError (cannot import name 'example')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+    return load_source(name, filename, file)
+  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
+    module = methods.load()
+  File "<frozen importlib._bootstrap>", line 1220, in load
+  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1129, in _exec
+  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/swig_ext/tests/test_example.py", line 5, in <module>
+    from swig_ext import example
+ImportError: cannot import name 'example'
+
+======================================================================
+ERROR: Failure: ImportError (cannot import name 'example2')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 414, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+    return load_source(name, filename, file)
+  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
+    module = methods.load()
+  File "<frozen importlib._bootstrap>", line 1220, in load
+  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1129, in _exec
+  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/swig_ext/tests/test_example2.py", line 5, in <module>
+    from swig_ext import example2
+ImportError: cannot import name 'example2'
+
+======================================================================
+ERROR: test_simple (test_utils.TestArrayAlmostEqualNulp)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+    raise KnownFailureTest(msg)
+numpy.testing.noseclasses.KnownFailureTest: Github issue #347
+
+----------------------------------------------------------------------
+Ran 4982 tests in 290.286s
+
+FAILED (SKIP=27, errors=12)
