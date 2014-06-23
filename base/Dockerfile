@@ -28,7 +28,7 @@ RUN apt-get install -y gfortran \
 	libxslt1-dev \
 	octave
 
-RUN wget https://www.python.org/ftp/python/3.4.0/Python-3.4.0.tgz \  
+RUN wget https://www.python.org/ftp/python/3.4.1/Python-3.4.1.tgz \  
 	&& tar -xf Python-*.tgz \
 	&& cd Python-* && ./configure  --with-ensurepip=install && make && make install && cd .. \
 	&& rm -rf Python-3*
@@ -36,13 +36,20 @@ RUN wget https://www.python.org/ftp/python/3.4.0/Python-3.4.0.tgz \
 RUN pip3 install readline nose pyzmq tornado jinja2 sphinx Cython  numpy pytz lxml html5lib beautifulsoup4 \
 	 python-dateutil oct2py pymongo requests ipython 
 	
-RUN pip3 install pymysql xlrd xlwt-future
-#TODO: find version of xlutils that will work with xlwt-future/python 3.x 
+# This is to get a version of xlwt that works with Python 3
+RUN apt-get -y install unzip && \
+	wget https://github.com/takluyver/xlwt/archive/py3.zip \
+	&& unzip py3.zip \
+	&& cd xlwt-py3 && python3 setup.py install && cd .. \
+	&& rm -rf xlwt-py3 && rm -f xlwt-py3
 
-RUN wget https://github.com/pydata/pandas/releases/download/v0.13.1/pandas-0.13.1.tar.gz \ 
-	&& tar -xf pandas-*.tar.gz \
+RUN pip3 install pymysql xlrd  
+#TODO: find version of xlutils that will work with xlwt/python 3.x 
+
+RUN wget https://github.com/pydata/pandas/archive/v0.14.0.tar.gz \ 
+	&& tar -xf v0.14.0.tar.gz \
 	&& cd pandas-* && python3 setup.py install && cd .. \
-	&& rm -rf pandas-*
+	&& rm -rf pandas-* && rm v0*tar.gz
 
 RUN wget http://downloads.sourceforge.net/project/scipy/scipy/0.14.0/scipy-0.14.0.tar.gz \
 	&& tar -xf scipy-*.tar.gz \
