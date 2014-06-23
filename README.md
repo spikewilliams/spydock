@@ -1,11 +1,11 @@
 SpyDock
 =======
 
-Release 2014.05 (Hydrogen) contains the following packages:
+Release 2014.06 (Helium) contains the following packages:
 
-- Python: 3.4.0 
+- Python: 3.4.1 
 - IPython: 2.1.0 
-- Pandas: 0.13.1 
+- Pandas: 0.14.0 
 - Numpy: 1.8.1 
 - SciPy: 0.14.0 
 - MatPlotLib: 1.3.1 
