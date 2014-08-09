@@ -34,7 +34,7 @@ RUN wget https://www.python.org/ftp/python/3.4.1/Python-3.4.1.tgz \
 	&& rm -rf Python-3*
 
 RUN pip3 install readline nose pyzmq tornado jinja2 sphinx Cython  numpy pytz lxml html5lib beautifulsoup4 \
-	 python-dateutil oct2py pymongo requests ipython 
+	 python-dateutil oct2py pymongo requests ipython numpy_display 
 	
 # This is to get a version of xlwt that works with Python 3
 RUN apt-get -y install unzip && \
@@ -45,9 +45,15 @@ RUN apt-get -y install unzip && \
 
 RUN pip3 install pymysql xlrd  
 #TODO: find version of xlutils that will work with xlwt/python 3.x 
+RUN pip3 install numexpr bottleneck xlsxwriter openpyxl SQLAlchemy
 
-RUN wget https://github.com/pydata/pandas/archive/v0.14.0.tar.gz \ 
-	&& tar -xf v0.14.0.tar.gz \
+#RUN wget https://pypi.python.org/packages/source/S/SQLAlchemy/SQLAlchemy-0.9.6.tar.gz \
+#	&& tar -xf SQLAlchemy*.tar.gz \
+#	&& cd SQLAlchemy* && python3 setup.py install && cd .. \
+#	&& rm -rf SQLAlchemy*
+
+RUN wget https://github.com/pydata/pandas/archive/v0.14.1.tar.gz \ 
+	&& tar -xf v0.14.1.tar.gz \
 	&& cd pandas-* && python3 setup.py install && cd .. \
 	&& rm -rf pandas-* && rm v0*tar.gz
 
