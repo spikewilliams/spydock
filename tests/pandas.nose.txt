@@ -1,371 +1,41 @@
-SS..SS..SS..SS..SS..SS..SS..SS..SS..SSSSSSSSSS..SS..SS..SSS.S..........SS..SS..SS..S............................F...F.S....SSSF.E.................S...SSS.S.SS.SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS....S..................S.......................S.SS.......E..EEEE..........E....EEEEEEEEEEEE.EEEEE...............................................................................................................................................S..........S..........................................................................................................................................................S............................................................................................................................................................................................S........................................................................SSSSSSSSSSSS.......................S.S.....................................................................................................................................................S.................................S..................S..S.SSSSSSS...................S.....................S.....SSSSSSSSSSSSSSSSSSSSSSSSSS........................................................................................................................................................S.....................................................F......................................................S..S..S....S........................................................S......S.S.......S...S..S............S................S....S...S...S.....................................................................................................................................................................................................................................................................................................................................................................................................................................S...........................................................................................................E.....F.......................F....................................................................S............................................................................S............S.............................................................................................................................../usr/local/lib/python3.4/site-packages/numpy/core/_methods.py:55: RuntimeWarning: Mean of empty slice.
+............/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1023: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
+  "incomparable objects" % e, RuntimeWarning)
+/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1023: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
+  "incomparable objects" % e, RuntimeWarning)
+../usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1037: RuntimeWarning: unorderable types: str() > int(), sort order is undefined for incomparable objects
+  "incomparable objects" % e, RuntimeWarning)
+/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1037: RuntimeWarning: unorderable types: int() > str(), sort order is undefined for incomparable objects
+  "incomparable objects" % e, RuntimeWarning)
+.....................................................................................................................................................................................................................................................................S...........................FS...S.S....SSS...............................................S....................SS..........................S.....S....................S..........................S.....S.....................S..........................S.SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS........E.................................S.EE....................................................................................................................................................S..........S................................................................................................................................................................S...........................................................................................................................................................................................................S....................................................................SS.....SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS......................................................S.............................SSSSSSSSSSS....................................S.S.......................................................................................................................................................S..................................S..................S..S.SSSSSSS...........................S...........................S.....SSSSSSSSSSSSSSSSSSSSSSSSSS..................................................................................................................................................................S.....................................................................................................................................S..S..............................................................................................................................................................................S...S.................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S..........................................................................................................................................................................................................................................................................................................................S............................................................................................................S............................................................................................................................................/usr/local/lib/python3.4/site-packages/numpy/core/_methods.py:55: RuntimeWarning: Mean of empty slice.
   warnings.warn("Mean of empty slice.", RuntimeWarning)
-.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................SSS..SSSS.S.S.S.S.S.SSS.S.S.S.S.S.S.S...S.S.SSSSSSSSS.............................S..............................................................................................................................................................................................................................................................................................................................................................................................................................................S................................................................................................................................S................................................................................................................................................................S.................................................................................................................................................................SS......................S...S.............SSS.........S............SS............SS.....SSSS......................................................................................................................................................................F..................................................S........................................................................................................................................................................................................................................
-======================================================================
-ERROR: test_get_data_single_symbol (pandas.io.tests.test_data.TestYahoo)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/core/index.py", line 1038, in get_value
-    return tslib.get_value_box(s, key)
-  File "tslib.pyx", line 454, in pandas.tslib.get_value_box (pandas/tslib.c:10269)
-  File "tslib.pyx", line 462, in pandas.tslib.get_value_box (pandas/tslib.c:10043)
-TypeError: 'str' object cannot be interpreted as an integer
+......................................................................................................................................................................................................................................................................................................................S..............................................................................................................................................................................................................................................................................................................SS.....S...SS.......S.S.......................SS.....S...SS.......S.S..............SS..SS.......................................................................S......................................./usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:2954: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+  "is being cleared", UserWarning)
+....................................../usr/local/lib/python3.4/site-packages/matplotlib-1.3.1-py3.4-linux-x86_64.egg/matplotlib/axes.py:4749: UserWarning: No labeled objects found. Use label='...' kwarg on individual plots.
+  warnings.warn("No labeled objects found. "
+....................................................................................................................................................../usr/local/lib/python3.4/site-packages/matplotlib-1.3.1-py3.4-linux-x86_64.egg/matplotlib/__init__.py:1157: UserWarning:  This call to matplotlib.use() has no effect
+because the backend has already been chosen;
+matplotlib.use() must be called *before* pylab, matplotlib.pyplot,
+or matplotlib.backends is imported for the first time.
 
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tseries/index.py", line 1215, in get_value
-    return _maybe_box(self, Index.get_value(self, series, key), series, key)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/core/index.py", line 1046, in get_value
-    raise e1
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/core/index.py", line 1032, in get_value
-    return self._engine.get_value(s, k)
-  File "index.pyx", line 97, in pandas.index.IndexEngine.get_value (pandas/index.c:2969)
-  File "index.pyx", line 105, in pandas.index.IndexEngine.get_value (pandas/index.c:2784)
-  File "index.pyx", line 518, in pandas.index.DatetimeEngine.get_loc (pandas/index.c:9262)
-  File "index.pyx", line 524, in pandas.index.DatetimeEngine._date_check_type (pandas/index.c:9432)
-KeyError: 'OCT-08-2010'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "index.pyx", line 508, in pandas.index.DatetimeEngine.get_loc (pandas/index.c:9090)
-  File "hashtable.pyx", line 382, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6942)
-  File "hashtable.pyx", line 388, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6883)
-KeyError: 1286496000000000000
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tseries/index.py", line 1228, in get_value
-    return self.get_value_maybe_box(series, key)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tseries/index.py", line 1238, in get_value_maybe_box
-    values = self._engine.get_value(_values_from_object(series), key)
-  File "index.pyx", line 97, in pandas.index.IndexEngine.get_value (pandas/index.c:2969)
-  File "index.pyx", line 105, in pandas.index.IndexEngine.get_value (pandas/index.c:2784)
-  File "index.pyx", line 510, in pandas.index.DatetimeEngine.get_loc (pandas/index.c:9140)
-KeyError: Timestamp('2010-10-08 00:00:00', tz=None)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 1135, in wrapper
-    return t(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_data.py", line 192, in test_get_data_single_symbol
-    self.assertEqual(df.Volume.ix['OCT-08-2010'], 2859200)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/core/indexing.py", line 56, in __getitem__
-    return self._getitem_axis(key, axis=0)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/core/indexing.py", line 758, in _getitem_axis
-    return self._get_label(key, axis=axis)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/core/indexing.py", line 61, in _get_label
-    return self.obj[label]
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/core/series.py", line 491, in __getitem__
-    result = self.index.get_value(self, key)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tseries/index.py", line 1230, in get_value
-    raise KeyError(key)
-KeyError: 'OCT-08-2010'
-
+  warnings.warn(_use_error_msg)
+.............................................................................................................................................../usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1023: RuntimeWarning: Cannot compare type 'Timestamp' with type 'str', sort order is undefined for incomparable objects
+  "incomparable objects" % e, RuntimeWarning)
+................................................../usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1023: RuntimeWarning: Cannot compare type 'Timestamp' with type 'int', sort order is undefined for incomparable objects
+  "incomparable objects" % e, RuntimeWarning)
+.....................................................................................................S..............................................................................S.....S................................................................S...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S.................................................................................................................................................................................................................................S...S.............SSS.........S............SS.............SS.....SSSS..............................................................................................................................................................................................................................S...............................S..........................................................................................................................................................................................................................
 ======================================================================
 ERROR: test_file_like (pandas.io.tests.test_html.TestReadHtml)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 294, in test_file_like
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 290, in test_file_like
     df1 = self.read_html(f, '.*Water.*')
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 97, in read_html
     return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 851, in read_html
+    parse_dates, tupleize_cols, thousands, attrs, encoding)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 714, in _parse
     raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_header_and_index_no_types (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 244, in test_header_and_index_no_types
-    index_col=0, infer_types=False)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_header_and_index_with_types (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 252, in test_header_and_index_with_types
-    index_col=0)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_index (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 237, in test_index
-    df1 = self.read_html(self.spam_data, '.*Water.*', index_col=0)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_infer_types (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 259, in test_infer_types
-    infer_types=False)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_nyse_wsj_commas_table (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 451, in test_nyse_wsj_commas_table
-    attrs={'class': 'mdcTable'})[0]
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 895: ordinal not in range(128)
-
-======================================================================
-ERROR: test_skiprows_int (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 179, in test_skiprows_int
-    df1 = self.read_html(self.spam_data, '.*Water.*', skiprows=1)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_skiprows_invalid (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 234, in test_skiprows_invalid
-    self.read_html(self.spam_data, '.*Water.*', skiprows='asdf')
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_skiprows_list (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 191, in test_skiprows_list
-    df1 = self.read_html(self.spam_data, '.*Water.*', skiprows=[1, 2])
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_skiprows_ndarray (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 226, in test_skiprows_ndarray
-    skiprows=np.arange(2))
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_skiprows_set (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 198, in test_skiprows_set
-    skiprows=set([1, 2]))
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_skiprows_slice (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 204, in test_skiprows_slice
-    df1 = self.read_html(self.spam_data, '.*Water.*', skiprows=1)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_skiprows_slice_long (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 218, in test_skiprows_slice_long
-    skiprows=slice(2, 5))
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_skiprows_slice_short (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 211, in test_skiprows_slice_short
-    skiprows=slice(2))
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_skiprows_xrange (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 186, in test_skiprows_xrange
-    skiprows=range(2))[0]
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_spam_header (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 174, in test_spam_header
-    df = self.read_html(self.spam_data, '.*Water.*', header=1)[0]
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_spam_no_match (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 164, in test_spam_no_match
-    dfs = self.read_html(self.spam_data)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_spam_no_types (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 146, in test_spam_no_types
-    infer_types=False)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
-
-======================================================================
-ERROR: test_spam_with_types (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 156, in test_spam_with_types
-    df1 = self.read_html(self.spam_data, '.*Water.*')
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 705, in raise_with_traceback
     raise exc.with_traceback(traceback)
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
 
@@ -373,7 +43,7 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordi
 ERROR: test_string (pandas.io.tests.test_html.TestReadHtml)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 285, in test_string
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 281, in test_string
     data = f.read()
   File "/usr/local/lib/python3.4/encodings/ascii.py", line 26, in decode
     return codecs.ascii_decode(input, self.errors)[0]
@@ -383,193 +53,45 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordi
 ERROR: test_string_io (pandas.io.tests.test_html.TestReadHtml)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 274, in test_string_io
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 270, in test_string_io
     data1 = StringIO(f.read())
   File "/usr/local/lib/python3.4/encodings/ascii.py", line 26, in decode
     return codecs.ascii_decode(input, self.errors)[0]
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
 
 ======================================================================
-ERROR: test_thousands_macau_index_col (pandas.io.tests.test_html.TestReadHtml)
+FAIL: test_fred (pandas.io.tests.test_data.TestFred)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 406, in test_thousands_macau_index_col
-    dfs = self.read_html(macau_data, index_col=0, header=0)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xe7 in position 6193: ordinal not in range(128)
-
-======================================================================
-ERROR: test_thousands_macau_stats (pandas.io.tests.test_html.TestReadHtml)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 397, in test_thousands_macau_stats
-    attrs={'class': 'style1'})
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 95, in read_html
-    return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 839, in read_html
-    parse_dates, tupleize_cols, thousands, attrs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 708, in _parse
-    raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 703, in raise_with_traceback
-    raise exc.with_traceback(traceback)
-UnicodeDecodeError: 'ascii' codec can't decode byte 0xe7 in position 6193: ordinal not in range(128)
-
-======================================================================
-ERROR: test_getitem_pydatetime_tz (pandas.tseries.tests.test_timezones.TestTimeZoneSupport)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "index.pyx", line 508, in pandas.index.DatetimeEngine.get_loc (pandas/index.c:9090)
-  File "hashtable.pyx", line 382, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6942)
-  File "hashtable.pyx", line 388, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6883)
-KeyError: 1356365220000000000
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tseries/tests/test_timezones.py", line 648, in test_getitem_pydatetime_tz
-    self.assertEqual(ts[time_pandas], ts[time_datetime])
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/core/series.py", line 491, in __getitem__
-    result = self.index.get_value(self, key)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tseries/index.py", line 1212, in get_value
-    return self.get_value_maybe_box(series, timestamp)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tseries/index.py", line 1238, in get_value_maybe_box
-    values = self._engine.get_value(_values_from_object(series), key)
-  File "index.pyx", line 97, in pandas.index.IndexEngine.get_value (pandas/index.c:2969)
-  File "index.pyx", line 105, in pandas.index.IndexEngine.get_value (pandas/index.c:2784)
-  File "index.pyx", line 510, in pandas.index.DatetimeEngine.get_loc (pandas/index.c:9140)
-KeyError: Timestamp('2012-12-24 17:07:00+0100', tz='Europe/Berlin')
-
-======================================================================
-FAIL: test_fred_multi (pandas.io.tests.test_data.TestFred)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 1135, in wrapper
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 1346, in wrapper
     return t(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_data.py", line 455, in test_fred_multi
-    assert_frame_equal(received, expected, check_less_precise=True)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 509, in assert_frame_equal
-    check_less_precise=check_less_precise)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 458, in assert_series_equal
-    assert_almost_equal(left.values, right.values, check_less_precise)
-  File "testing.pyx", line 58, in pandas._testing.assert_almost_equal (pandas/src/testing.c:2638)
-  File "testing.pyx", line 93, in pandas._testing.assert_almost_equal (pandas/src/testing.c:1879)
-  File "testing.pyx", line 140, in pandas._testing.assert_almost_equal (pandas/src/testing.c:2469)
-AssertionError: expected 217.47800 but got 217.46600
-
-======================================================================
-FAIL: test_fred_parts (pandas.io.tests.test_data.TestFred)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 1135, in wrapper
-    return t(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_data.py", line 424, in test_fred_parts
-    self.assertEqual(df.ix['2010-05-01'][0], 217.23)
-AssertionError: 217.29900000000001 != 217.23
-
-======================================================================
-FAIL: test_get_data_multiple_symbols (pandas.io.tests.test_data.TestYahoo)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 1135, in wrapper
-    return t(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_data.py", line 204, in test_get_data_multiple_symbols
-    testit()
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_data.py", line 201, in testit
-    self.assertEquals(ts[0].dayofyear, 96)
-AssertionError: 111 != 96
-
-======================================================================
-FAIL: test_timezone_comparaison_bug (pandas.tseries.tests.test_daterange.TestDateRange)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tseries/tests/test_daterange.py", line 116, in test_timezone_comparaison_bug
-    date_range(start, periods=2, tz='US/Eastern')
-AssertionError: Inferred time zone not equal to passed time zone
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tseries/tests/test_daterange.py", line 118, in test_timezone_comparaison_bug
-    self.fail()
-AssertionError: None
-
-======================================================================
-FAIL: test_infer_tz (pandas.tseries.tests.test_timezones.TestTimeZoneSupport)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tseries/tests/test_timezones.py", line 396, in test_infer_tz
-    assert(tools._infer_tzinfo(start, end) is eastern)
-AssertionError
-
-======================================================================
-FAIL: test_with_tz (pandas.tseries.tests.test_timezones.TestTimeZoneSupport)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tseries/tests/test_timezones.py", line 321, in test_with_tz
-    self.assert_(central[0].tz is tz)
-AssertionError: False is not true
-
-======================================================================
-FAIL: test_getitem_setitem_datetime_tz (pandas.tests.test_series.TestSeries)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/tests/test_series.py", line 4394, in test_getitem_setitem_datetime_tz
-    assert_series_equal(result, ts)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.13.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 458, in assert_series_equal
-    assert_almost_equal(left.values, right.values, check_less_precise)
-  File "testing.pyx", line 58, in pandas._testing.assert_almost_equal (pandas/src/testing.c:2638)
-  File "testing.pyx", line 82, in pandas._testing.assert_almost_equal (pandas/src/testing.c:1730)
-AssertionError: Length of two iterators not the same: 51 != 50
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.14.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_data.py", line 448, in test_fred
+    self.assertEqual(int(received), 16535)
+AssertionError: 16502 != 16535
 
 ----------------------------------------------------------------------
-Ran 4516 tests in 291.542s
+Ran 7352 tests in 556.583s
 
-FAILED (SKIP=287, errors=25, failures=7)
-month: 7, year: 2014
-month: 7, year: 2014
-month: 7, year: 2014
-month: 7, year: 2014
-['Idx']
-['Idx']
-None
-False
-0    9
-1    9
-2    9
-3    8
-4    8
-5    8
-Name: C, dtype: int64
-0    8
-1    9
-dtype: int64
-    A   B  C
-0  12  10  8
-1 NaN NaN  9
-
-[2 rows x 3 columns]
-    A   B  C
-0  12  10  8
-1 NaN NaN  9
-
-[2 rows x 3 columns]
-----------------------------------------
-    0  1  2  3  4  5  6  7  8  9
-10  0  7  6  5  3  5  4  8  9  7
-----------------------------------------
-10    7
-----------------------------------------
-10    7
-----------------------------------------
-10    7
-----------------------------------------
-10    7
-None
+FAILED (SKIP=227, errors=3, failures=1)
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2011-01-04, 2011-01-02]
+Length: 2, Freq: None, Timezone: None <class 'pandas.tseries.index.DatetimeIndex'>
+[2011-01-04, 2011-01-02]
+Length: 2, Freq: None, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2011-01-04, 2011-01-02]
+Length: 2, Freq: None, Timezone: None <class 'pandas.tseries.index.DatetimeIndex'>
+[2011-01-04, 2011-01-02]
+Length: 2, Freq: None, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2011-01-04 00:00:00+09:00, 2011-01-02 00:00:00+09:00]
+Length: 2, Freq: None, Timezone: Asia/Tokyo <class 'pandas.tseries.index.DatetimeIndex'>
+[2011-01-04 00:00:00+09:00, 2011-01-02 00:00:00+09:00]
+Length: 2, Freq: None, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2011-01-04 00:00:00+09:00, 2011-01-02 00:00:00+09:00]
+Length: 2, Freq: None, Timezone: Asia/Tokyo <class 'pandas.tseries.index.DatetimeIndex'>
+[2011-01-04 00:00:00+09:00, 2011-01-02 00:00:00+09:00]
+Length: 2, Freq: None, Timezone: Asia/Tokyo
+zounds!
 Warning: discarding nonzero nanoseconds

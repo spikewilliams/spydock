@@ -66,7 +66,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 1220, in load
   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
   File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 1471, in exec_module
   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
   File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/f2py_ext/tests/test_fib2.py", line 5, in <module>
     from f2py_ext import fib2
@@ -91,7 +91,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 1220, in load
   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
   File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 1471, in exec_module
   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
   File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/f2py_f90_ext/tests/test_foo.py", line 5, in <module>
     from f2py_f90_ext import foo
@@ -116,7 +116,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 1220, in load
   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
   File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 1471, in exec_module
   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
   File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/gen_ext/tests/test_fib3.py", line 5, in <module>
     from gen_ext import fib3
@@ -141,7 +141,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 1220, in load
   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
   File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 1471, in exec_module
   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
   File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/pyrex_ext/tests/test_primes.py", line 5, in <module>
     from pyrex_ext.primes import primes
@@ -166,7 +166,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 1220, in load
   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
   File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 1471, in exec_module
   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
   File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/swig_ext/tests/test_example.py", line 5, in <module>
     from swig_ext import example
@@ -191,7 +191,7 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 1220, in load
   File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
   File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1448, in exec_module
+  File "<frozen importlib._bootstrap>", line 1471, in exec_module
   File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
   File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/swig_ext/tests/test_example2.py", line 5, in <module>
     from swig_ext import example2
@@ -206,6 +206,6 @@ Traceback (most recent call last):
 numpy.testing.noseclasses.KnownFailureTest: Github issue #347
 
 ----------------------------------------------------------------------
-Ran 4982 tests in 290.286s
+Ran 4982 tests in 291.778s
 
 FAILED (SKIP=27, errors=12)
