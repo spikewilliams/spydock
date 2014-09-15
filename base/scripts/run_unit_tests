@@ -1,4 +1,4 @@
 #!/bin/bash
 nosetests -s pandas > /tests/pandas.nose.txt 2>&1
 nosetests -s numpy > /tests/numpy.nose.txt 2>&1
-nosetests -s IPython > /tests/IPython.nose.test 2>&1
+nosetests -s IPython > /tests/IPython.nose.txt 2>&1

@@ -45,7 +45,7 @@ RUN apt-get -y install unzip && \
 
 RUN pip3 install pymysql xlrd  
 #TODO: find version of xlutils that will work with xlwt/python 3.x 
-RUN pip3 install numexpr bottleneck xlsxwriter openpyxl SQLAlchemy
+RUN pip3 install numexpr bottleneck xlsxwriter openpyxl SQLAlchemy bokeh
 
 #RUN wget https://pypi.python.org/packages/source/S/SQLAlchemy/SQLAlchemy-0.9.6.tar.gz \
 #	&& tar -xf SQLAlchemy*.tar.gz \
@@ -63,10 +63,10 @@ RUN wget http://downloads.sourceforge.net/project/scipy/scipy/0.14.0/scipy-0.14.
 	&& rm -rf scipy-*
 
 # matlibplot and its dependencies
-RUN wget https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.3.1/matplotlib-1.3.1.tar.gz \
-	&& tar -xf matplotlib-1.3.1.tar.gz \
-	&& ln -s /usr/include/freetype2/*  matplotlib-1.3.1 \
-	&& cd matplotlib-1.3.1 && python3 setup.py install && cd .. \
+RUN wget https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.4.0/matplotlib-1.4.0.tar.gz \
+	&& tar -xf matplotlib-1.4.0.tar.gz \
+	&& ln -s /usr/include/freetype2/*  matplotlib-1.4.0 \
+	&& cd matplotlib-1.4.0 && python3 setup.py install && cd .. \
 	&& rm -rf matplotlib-*
 
 VOLUME ["/notebooks","/config","/data","/output","/var/log","/tests"]
