@@ -1,7 +1,7 @@
 FROM debian:jessie
 MAINTAINER Bobby Williams spikewilliams@gmail.com
 
-#ENV DEBIAN_FRONTEND noninteractive
+ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update -y
 RUN apt-get upgrade -y
