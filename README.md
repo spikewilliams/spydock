@@ -1,12 +1,12 @@
 SpyDock
 =======
 
-Release 2014.09 (Beryllium) contains the following packages:
+Release 2014.10 (Boron) contains the following packages:
 
 - Python: 3.4.1 
-- IPython: 2.2.0 
+- IPython: 2.3.0 
 - Pandas: 0.14.1 
-- Numpy: 1.8.2 
+- Numpy: 1.9.0 
 - SciPy: 0.14.0 
 - MatPlotLib: 1.4.0 
 - BeautifulSoup: 4.3.2
