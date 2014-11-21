@@ -28,7 +28,7 @@ RUN apt-get install -y gfortran \
 	libxslt1-dev \
 	octave
 
-RUN wget https://www.python.org/ftp/python/3.4.1/Python-3.4.1.tgz \  
+RUN wget https://www.python.org/ftp/python/3.4.2/Python-3.4.2.tgz \  
 	&& tar -xf Python-*.tgz \
 	&& cd Python-* && ./configure  --with-ensurepip=install && make && make install && cd .. \
 	&& rm -rf Python-3*
@@ -52,8 +52,8 @@ RUN pip3 install numexpr bottleneck xlsxwriter openpyxl SQLAlchemy bokeh
 #	&& cd SQLAlchemy* && python3 setup.py install && cd .. \
 #	&& rm -rf SQLAlchemy*
 
-RUN wget https://github.com/pydata/pandas/archive/v0.14.1.tar.gz \ 
-	&& tar -xf v0.14.1.tar.gz \
+RUN wget https://github.com/pydata/pandas/archive/v0.15.0.tar.gz \ 
+	&& tar -xf v0.15.0.tar.gz \
 	&& cd pandas-* && python3 setup.py install && cd .. \
 	&& rm -rf pandas-* && rm v0*tar.gz
 
@@ -63,10 +63,10 @@ RUN wget http://downloads.sourceforge.net/project/scipy/scipy/0.14.0/scipy-0.14.
 	&& rm -rf scipy-*
 
 # matlibplot and its dependencies
-RUN wget https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.4.0/matplotlib-1.4.0.tar.gz \
-	&& tar -xf matplotlib-1.4.0.tar.gz \
-	&& ln -s /usr/include/freetype2/*  matplotlib-1.4.0 \
-	&& cd matplotlib-1.4.0 && python3 setup.py install && cd .. \
+RUN wget https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.4.2/matplotlib-1.4.2.tar.gz \
+	&& tar -xf matplotlib-1.4.2.tar.gz \
+	&& ln -s /usr/include/freetype2/*  matplotlib-1.4.2 \
+	&& cd matplotlib-1.4.2 && python3 setup.py install && cd .. \
 	&& rm -rf matplotlib-*
 
 VOLUME ["/notebooks","/config","/data","/output","/var/log","/tests"]

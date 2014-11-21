@@ -1,14 +1,14 @@
 SpyDock
 =======
 
-Release 2014.10 (Boron) contains the following packages:
+Release 2014.11 (Carbon) contains the following packages:
 
-- Python: 3.4.1 
+- Python: 3.4.2 
 - IPython: 2.3.0 
-- Pandas: 0.14.1 
-- Numpy: 1.9.0 
+- Pandas: 0.15.0 
+- Numpy: 1.9.1 
 - SciPy: 0.14.0 
-- MatPlotLib: 1.4.0 
+- MatPlotLib: 1.4.2 
 - BeautifulSoup: 4.3.2
 
 Currently, usage of SpyDock is limited to running scripts inside the web-based “IPython Notebook” IDE, which is built in to the container. This environment is well-suited for the development and execution of web-scraping and data processing scripts.
