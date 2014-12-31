@@ -1,28 +1,28 @@
-............/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1225: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
+............/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1239: RuntimeWarning: unorderable types: str() > int(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1254: RuntimeWarning: unorderable types: str() > int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1225: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1239: RuntimeWarning: unorderable types: int() > str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1254: RuntimeWarning: unorderable types: int() > str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-./usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1225: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
+./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1239: RuntimeWarning: unorderable types: str() > int(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1254: RuntimeWarning: unorderable types: str() > int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1225: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1239: RuntimeWarning: unorderable types: int() > str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1254: RuntimeWarning: unorderable types: int() > str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-./usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1225: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
+./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1225: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-./usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1225: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
+./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1225: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-........................................................................................................................................................................................................................................................................S............................S...S.SSSSSSSS..........SSSSSSS..............................S.....................S......S....................SS..........................S.....S....................S..........................S.....S.....................S..........................S.SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.........E...................................EE......................................................................................................................................................S..........S..................................................................................................................................................................S................................................................................................................................................................................................................S......................................................................SS......SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.....................................................................................................SSSSSSSSSSS............................................S.S.......................................................................................................................................................S...................................S..................S..S..................S......................................./usr/local/lib/python3.4/site-packages/numpy/lib/function_base.py:1890: RuntimeWarning: Degrees of freedom <= 0 for slice
+........................................................................................................................................................................................................................................................................S............................S...S.S.SSS..................................................S.....................S......S....................SS..........................S.....S....................S..........................S.....S.....................S..........................S.SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.........E...................................EE......................................................................................................................................................S..........S...................................................................................................................................................................S..................................................................................................................................................................................................................S......................................................................SS......SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.......................................................................................................SSSSSSSSSSS.............................................FSS.E.......................................................................................................................................................S...................................S...................S..S..................S......................................./usr/local/lib/python3.4/site-packages/numpy/lib/function_base.py:1890: RuntimeWarning: Degrees of freedom <= 0 for slice
   warnings.warn("Degrees of freedom <= 0 for slice", RuntimeWarning)
 /usr/local/lib/python3.4/site-packages/numpy/lib/nanfunctions.py:1057: RuntimeWarning: Degrees of freedom <= 0 for slice.
   warnings.warn("Degrees of freedom <= 0 for slice.", RuntimeWarning)
@@ -4394,46 +4394,46 @@
   warnings.warn("Degrees of freedom <= 0 for slice.", RuntimeWarning)
 /usr/local/lib/python3.4/site-packages/numpy/lib/nanfunctions.py:1057: RuntimeWarning: Degrees of freedom <= 0 for slice.
   warnings.warn("Degrees of freedom <= 0 for slice.", RuntimeWarning)
-..............S.....SSSSSSSSSSSSSSSSSSSSSSSSSSS.........................................................................................................................................................................S.........................................................................................................................................................................S..S......................................................................................................................................................................................S...S...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S............................................................................................................................................./usr/local/lib/python3.4/site-packages/numpy/core/_methods.py:59: RuntimeWarning: Mean of empty slice.
+..............S.....SSSSSSSSSSSSSSSSSSSSSSSSSSS...........................................................................................................................................................................S..........................................................................................................................................................................S..S......................................................................................................................................................................................S...S........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S............................................................................................................................................../usr/local/lib/python3.4/site-packages/numpy/core/_methods.py:59: RuntimeWarning: Mean of empty slice.
   warnings.warn("Mean of empty slice.", RuntimeWarning)
-..............................................................................................................................................................................................................................................................................................................................S......................................................................................................................................................................................................................................................................................................................SS.....S...SS.......S.S.......................SS.....S...SS.......S.S..............SS..SS...............................................................................S........................................./usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3194: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+..............................................................................................................................................................................................................................................................................................................................S.......................................................................................................................................................................................................................................................................................................................SS.....S...SS.......S.S.......................SS.....S...SS.......S.S..............SS..SS...............................................................................S........................................./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3195: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
   "is being cleared", UserWarning)
-../usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3177: UserWarning: When passing multiple axes, sharex and sharey are ignored.These settings must be specified when creating axes
+../usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3178: UserWarning: When passing multiple axes, sharex and sharey are ignored.These settings must be specified when creating axes
   "These settings must be specified when creating axes", UserWarning)
-.../usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3194: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+.../usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3195: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
   "is being cleared", UserWarning)
-............................S/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3194: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+............................S/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3195: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
   "is being cleared", UserWarning)
 .../usr/local/lib/python3.4/site-packages/matplotlib-1.4.2-py3.4-linux-x86_64.egg/matplotlib/axes/_axes.py:476: UserWarning: No labelled objects found. Use label='...' kwarg on individual plots.
   warnings.warn("No labelled objects found. "
-./usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3194: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3195: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
   "is being cleared", UserWarning)
-..................................../usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3194: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+...................................../usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3195: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
   "is being cleared", UserWarning)
-./usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3177: UserWarning: When passing multiple axes, sharex and sharey are ignored.These settings must be specified when creating axes
+./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3178: UserWarning: When passing multiple axes, sharex and sharey are ignored.These settings must be specified when creating axes
   "These settings must be specified when creating axes", UserWarning)
 ..../usr/local/lib/python3.4/site-packages/matplotlib-1.4.2-py3.4-linux-x86_64.egg/matplotlib/axes/_axes.py:476: UserWarning: No labelled objects found. Use label='...' kwarg on individual plots.
   warnings.warn("No labelled objects found. "
-......../usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3174: UserWarning: When passing multiple axes, layout keyword is ignored
+......../usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3175: UserWarning: When passing multiple axes, layout keyword is ignored
   warnings.warn("When passing multiple axes, layout keyword is ignored", UserWarning)
-........................................................................................................................................................................................................................................................................................................./usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1225: RuntimeWarning: Cannot compare type 'Timestamp' with type 'str', sort order is undefined for incomparable objects
+............................................................................................................................................................................................................................................................................................................./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: Cannot compare type 'Timestamp' with type 'str', sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-........................................................./usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1225: RuntimeWarning: Cannot compare type 'Timestamp' with type 'int', sort order is undefined for incomparable objects
+........................................................../usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: Cannot compare type 'Timestamp' with type 'int', sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-..................................................................................................................S................................................................................................................................................................................S......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S......................................................................................................................................................................................................................................S...S.............SSS.........S...........SS.............SS.....SSSS..............................................................................................................................................................................................................................................S................................S............................................................................................................................................................................................................................................
+.......................................................................................................................S...................................................................................................................................................................................S.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S......................................................................................................................................................................................................................................S...S.............SSS.........S...........SS...............SS.....SSSS..............................................................................................................................................................................................................................................S................................S................................................................................................................................................................................................................................................
 ======================================================================
 ERROR: test_file_like (pandas.io.tests.test_html.TestReadHtml)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 284, in test_file_like
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 284, in test_file_like
     df1 = self.read_html(f, '.*Water.*')
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 92, in read_html
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 92, in read_html
     return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/io/html.py", line 851, in read_html
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 848, in read_html
     parse_dates, tupleize_cols, thousands, attrs, encoding)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/io/html.py", line 712, in _parse
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 712, in _parse
     raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 705, in raise_with_traceback
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 705, in raise_with_traceback
     raise exc.with_traceback(traceback)
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
 
@@ -4441,7 +4441,7 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordi
 ERROR: test_string (pandas.io.tests.test_html.TestReadHtml)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 275, in test_string
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 275, in test_string
     data = f.read()
   File "/usr/local/lib/python3.4/encodings/ascii.py", line 26, in decode
     return codecs.ascii_decode(input, self.errors)[0]
@@ -4451,16 +4451,51 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordi
 ERROR: test_string_io (pandas.io.tests.test_html.TestReadHtml)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 264, in test_string_io
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 264, in test_string_io
     data1 = StringIO(f.read())
   File "/usr/local/lib/python3.4/encodings/ascii.py", line 26, in decode
     return codecs.ascii_decode(input, self.errors)[0]
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
 
+======================================================================
+ERROR: test_wdi_search (pandas.io.tests.test_wb.TestWB)
 ----------------------------------------------------------------------
-Ran 7792 tests in 996.687s
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 1417, in wrapper
+    return t(*args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_wb.py", line 25, in test_wdi_search
+    result = search('gdp.*capita.*constant').loc[6716:,['id','name']]
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/indexing.py", line 1200, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/indexing.py", line 704, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/indexing.py", line 131, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/indexing.py", line 1260, in _has_valid_type
+    (key.start, self.obj._get_axis_name(axis))
+KeyError: 'start bound [6716] is not the [index]'
 
-FAILED (SKIP=245, errors=3)
+======================================================================
+FAIL: test_wdi_download (pandas.io.tests.test_wb.TestWB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 1417, in wrapper
+    return t(*args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_wb.py", line 53, in test_wdi_download
+    assert_frame_equal(result, pandas.DataFrame(expected))
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 707, in assert_frame_equal
+    check_exact=check_exact)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 651, in assert_series_equal
+    assert_almost_equal(left.values, right.values, check_less_precise)
+  File "das/src/testing.pyx", line 58, in pandas._testing.assert_almost_equal (pandas/src/testing.c:2745)
+  File "das/src/testing.pyx", line 93, in pandas._testing.assert_almost_equal (pandas/src/testing.c:1830)
+  File "das/src/testing.pyx", line 140, in pandas._testing.assert_almost_equal (pandas/src/testing.c:2577)
+AssertionError: expected 39682.47225 but got 39677.30176, with decimal 5
+
+----------------------------------------------------------------------
+Ran 7838 tests in 717.772s
+
+FAILED (SKIP=234, errors=4, failures=1)
    a  b  c
 0  1  2  3
 1  4  5  6
@@ -4505,17 +4540,17 @@ category    2500 non-null category
 dtypes: category(1), int64(1)
 memory usage: 41.6 KB
 <class 'pandas.core.frame.DataFrame'>
-Int64Index: 247 entries, 12 to 2470
+Int64Index: 263 entries, 0 to 2497
 Data columns (total 2 columns):
-int64       247 non-null int64
-category    247 non-null category
+int64       263 non-null int64
+category    263 non-null category
 dtypes: category(1), int64(1)
-memory usage: 4.2 KB
+memory usage: 4.4 KB
 zounds!
    jim  joe     jolie
-0   15   32  0.731879
-1   31   21 -0.188943
-2    6   42  0.306722
-3   46   13 -0.143796
-4   26   14 -0.113290
+0   22   49  0.337037
+1   13   42  0.287555
+2   23   17  1.089826
+3   43   48  0.103154
+4   17   17  1.057666
 Warning: discarding nonzero nanoseconds

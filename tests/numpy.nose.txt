@@ -4,21 +4,21 @@
   ref = ref and a1.base != None
 /usr/local/lib/python3.4/site-packages/numpy/core/tests/test_ufunc.py:544: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
   ref = ref and a2.base != None
-...........................................................E.........................................................................SSSSS.........................................E......................E...........................................................................................EEEEEE..................SSSSSSSSSSSSSSSSSSSSSSS..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................EException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7fd0a16c4b38>>
+...........................................................E.........................................................................SSSSS.........................................E......................E...........................................................................................EEEEEE..................SSSSSSSSSSSSSSSSSSSSSSS..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................EException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f921b2d0d30>>
 Traceback (most recent call last):
   File "/usr/local/lib/python3.4/zipfile.py", line 1457, in __del__
     self.close()
   File "/usr/local/lib/python3.4/zipfile.py", line 1565, in close
     fp.close()
 OSError: [Errno 28] No space left on device
-EException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7fd0a16c4b38>>
+EException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f921b2d0a58>>
 Traceback (most recent call last):
   File "/usr/local/lib/python3.4/zipfile.py", line 1457, in __del__
     self.close()
   File "/usr/local/lib/python3.4/zipfile.py", line 1560, in close
     self.fp.flush()
 OSError: [Errno 28] No space left on device
-EEEException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7fd0a11bc668>>
+EEEException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f921b7c92b0>>
 Traceback (most recent call last):
   File "/usr/local/lib/python3.4/zipfile.py", line 1457, in __del__
     self.close()
@@ -27,28 +27,28 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.4/tempfile.py", line 399, in func_wrapper
     return func(*args, **kwargs)
 ValueError: I/O operation on closed file
-EEEException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7fd0a11bc5c0>>
+EEEException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f921b7c9cf8>>
 Traceback (most recent call last):
   File "/usr/local/lib/python3.4/zipfile.py", line 1457, in __del__
     self.close()
   File "/usr/local/lib/python3.4/zipfile.py", line 1468, in close
     pos1 = self.fp.tell()
 ValueError: I/O operation on closed file
-EF....E.EEException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7fd0a161c978>>
+EF....E.EEException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f921b7c9588>>
 Traceback (most recent call last):
   File "/usr/local/lib/python3.4/zipfile.py", line 1457, in __del__
     self.close()
   File "/usr/local/lib/python3.4/zipfile.py", line 1565, in close
     fp.close()
 OSError: [Errno 28] No space left on device
-Exception ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7fd0a161c400>>
+Exception ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f921b7c9390>>
 Traceback (most recent call last):
   File "/usr/local/lib/python3.4/zipfile.py", line 1457, in __del__
     self.close()
   File "/usr/local/lib/python3.4/zipfile.py", line 1565, in close
     fp.close()
 OSError: [Errno 28] No space left on device
-Exception ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7fd0a161c748>>
+Exception ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f921b7c9400>>
 Traceback (most recent call last):
   File "/usr/local/lib/python3.4/zipfile.py", line 1457, in __del__
     self.close()
@@ -276,7 +276,7 @@ Traceback (most recent call last):
     format.write_array(fid, np.asanyarray(val))
   File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 562, in write_array
     array.tofile(fp)
-OSError: 2147583648 requested and 524398512 written
+OSError: 2147583648 requested and 1618579376 written
 
 ======================================================================
 ERROR: test_closing_fid (test_io.TestSavezLoad)
@@ -311,7 +311,7 @@ Traceback (most recent call last):
     tmpdir = mkdtemp(*args, **kwargs)
   File "/usr/local/lib/python3.4/tempfile.py", line 295, in mkdtemp
     _os.mkdir(file, 0o700)
-OSError: [Errno 28] No space left on device: '/tmp/numpy_test_closing_zipfile_after_load_zvzes72c'
+OSError: [Errno 28] No space left on device: '/tmp/numpy_test_closing_zipfile_after_load_i_7bb43o'
 
 ======================================================================
 ERROR: test_format_2_0 (test_io.TestSavezLoad)
@@ -551,6 +551,6 @@ Traceback (most recent call last):
 AssertionError: [OSError(28, 'No space left on device'), OSError(28, 'No space left on device'), OSError(28, 'No space left on device')]
 
 ----------------------------------------------------------------------
-Ran 5410 tests in 119.539s
+Ran 5410 tests in 94.200s
 
 FAILED (SKIP=39, errors=25, failures=1)

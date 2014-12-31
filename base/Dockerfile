@@ -52,8 +52,8 @@ RUN pip3 install numexpr bottleneck xlsxwriter openpyxl SQLAlchemy bokeh
 #	&& cd SQLAlchemy* && python3 setup.py install && cd .. \
 #	&& rm -rf SQLAlchemy*
 
-RUN wget https://github.com/pydata/pandas/archive/v0.15.0.tar.gz \ 
-	&& tar -xf v0.15.0.tar.gz \
+RUN wget https://github.com/pydata/pandas/archive/v0.15.1.tar.gz \ 
+	&& tar -xf v0.15.1.tar.gz \
 	&& cd pandas-* && python3 setup.py install && cd .. \
 	&& rm -rf pandas-* && rm v0*tar.gz
 

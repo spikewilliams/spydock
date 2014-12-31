@@ -4,8 +4,8 @@ SpyDock
 Release 2014.11 (Carbon) contains the following packages:
 
 - Python: 3.4.2 
-- IPython: 2.3.0 
-- Pandas: 0.15.0 
+- IPython: 2.3.1 
+- Pandas: 0.15.1 
 - Numpy: 1.9.1 
 - SciPy: 0.14.0 
 - MatPlotLib: 1.4.2 

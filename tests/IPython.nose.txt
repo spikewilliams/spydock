@@ -1,4 +1,4 @@
-..............................................S.........................S..SS..................................SSS...........'%run a.py /tmp/tmpz4ye1luh/a'
+..............................................S.........................S..SS..................................SSS...........'%run a.py /tmp/tmpkisyj5hl/a'
 ..............................ERROR - failed to write data to stream: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='ANSI_X3.4-1968'>
 E....................................................................................................................Automatic calling is: OFF
 -> autocallable()
@@ -18,8 +18,8 @@ def f():
     test = 1
     return test
 
-The following commands were written to file `/tmp/tmpfccfk3sj/test4.py`:
-The history saving thread hit an unexpected error (OperationalError('attempt to write a readonly database',)).History will not be written to the database.
+The following commands were written to file `/tmp/tmpbaogklay/test4.py`:
+The history saving thread hit an unexpected error (OperationalError('disk I/O error',)).History will not be written to the database.
 === Executing: ===
 a += 1
 === Output: ===
@@ -69,7 +69,7 @@ SyntaxError: Missing parentheses in call to 'print'
 
 Out[1]: 
 Activating auto-logging. Current session state plus future input saved.
-Filename       : /tmp/tmpxm9vpn1o/test_unicode.log
+Filename       : /tmp/tmpz2og3z2_/test_unicode.log
 Mode           : backup
 Output logging : True
 Raw input log  : False
@@ -82,7 +82,7 @@ ERROR - failed to write data to stream: <_io.TextIOWrapper name='<stdout>' mode=
 .Out[1]: ('c', 'd')
 .Out[1]: ('c', 'd')
 .Out[1]: ('c', 'd')
-.Out[1]: <__main__.A at 0x7f8f5ca37cc0>
+.Out[1]: <__main__.A at 0x7f6ac24a5fd0>
 ........Available objects for config:
      TerminalInteractiveShell
      HistoryManager
@@ -123,8 +123,8 @@ Flushing input history
        ^
 SyntaxError: invalid syntax
 
-.......CPU times: user 4 us, sys: 1 us, total: 5 us
-Wall time: 9.3 us
+.......CPU times: user 3 us, sys: 1e+03 ns, total: 4 us
+Wall time: 6.68 us
 Exception reporting mode: Plain
 Doctest mode is: ON
 Exception reporting mode: Context
@@ -140,24 +140,24 @@ Exception reporting mode: Context
 Out[9]: <A instance>
 ..Variable   Type    Data/Info
 ----------------------------
-a          A       <object with id 140253711252952 (str() failed)>
-.....1 loops, best of 3: 1.42 us per loop
-1 loops, best of 1: 2.84 us per loop
-1 loops, best of 1: 2.97 us per loop
-1 loops, best of 1: 1.44 us per loop
-1 loops, best of 1: 3 us per loop
-1 loops, best of 1: 2.95 us per loop
-100000000 loops, best of 3: 16.7 ns per loop
-1 loops, best of 1: 56.1 us per loop
-1 loops, best of 1: 55.1 us per loop
-10 loops, best of 10: 104 ns per loop
+a          A       <object with id 140096502366160 (str() failed)>
+.....1 loops, best of 3: 988 ns per loop
+1 loops, best of 1: 2.12 us per loop
+1 loops, best of 1: 2.22 us per loop
+1 loops, best of 1: 1.14 us per loop
+1 loops, best of 1: 2.19 us per loop
+1 loops, best of 1: 2.22 us per loop
+100000000 loops, best of 3: 9.14 ns per loop
+1 loops, best of 1: 66.3 us per loop
+1 loops, best of 1: 67 us per loop
+10 loops, best of 10: 105 ns per loop
 ...............   Installed daft_extension.py. To use it, type:
   %load_ext daft_extension
-Writing /tmp/tmpz4q6_br3/file1
-Writing /tmp/tmpbb66k5pf/file1
-Writing /tmp/tmpiqulemlz/file1
-Writing /tmp/tmpokrnq_mk/file2
-Appending to /tmp/tmpokrnq_mk/file2
+Writing /tmp/tmpbb3ld57o/file1
+Writing /tmp/tmpq8zekxl5/file1
+Writing /tmp/tmpkb_qjhnn/file1
+Writing /tmp/tmp5b60gjcq/file2
+Appending to /tmp/tmp5b60gjcq/file2
 .............Starting job # 0 in a separate thread.
 Starting job # 2 in a separate thread.
 Starting job # 3 in a separate thread.
@@ -165,12 +165,12 @@ Created `%timeit_alias` as an alias for `%timeit`.
 Created `%%timeit_alias` as an alias for `%%timeit`.
 Created `%%timeit_cell_alias` as an alias for `%%timeit`.
 Created `%env_alias` as an alias for `%env`.
-The following commands were written to file `/tmp/tmppdfc0gij/testsave.py`:
+The following commands were written to file `/tmp/tmp7di144e8/testsave.py`:
 a=1
 def b():
   return a**2
 print(a, b())
-The following commands were written to file `/tmp/tmppdfc0gij/testsave.py`:
+The following commands were written to file `/tmp/tmp7di144e8/testsave.py`:
 a=1
 def b():
   return a**2
@@ -178,11 +178,11 @@ print(a, b())
 The storemagic extension is already loaded. To reload it, use:
   %reload_ext storemagic
 Stored 'var' (int)
-IPython will make a temporary file named: /tmp/ipython_edit_svgjwxcj/ipython_edit_9ysrcyyy.py
+IPython will make a temporary file named: /tmp/ipython_edit_qxg2ncvr/ipython_edit_vavn2chx.py
 ............Block assigned to 'foo'
 Re-executing '        >>> x = [1,2,3]...' (119 chars)
-......................E..........<function f at 0x7f8f6e9ae620>
-<bound method SimpleClass.method of <IPython.core.tests.test_oinspect.SimpleClass object at 0x7f8f5c9c3da0>>
+......................E..........<function f at 0x7f6ad4361620>
+<bound method SimpleClass.method of <IPython.core.tests.test_oinspect.SimpleClass object at 0x7f6ac2456cf8>>
 <built-in function any>
 <method 'upper' of 'str' objects>
  foo()
@@ -203,37 +203,37 @@ Automatic calling is: OFF
         2    0.000    0.000    0.000    0.000 {built-in method open}
       2/1    0.000    0.000    0.000    0.000 {built-in method exec}
         1    0.000    0.000    0.000    0.000 interactiveshell.py:2496(safe_execfile)
-        1    0.000    0.000    0.000    0.000 {built-in method compile}
         1    0.000    0.000    0.000    0.000 py3compat.py:108(execfile)
+        1    0.000    0.000    0.000    0.000 {built-in method compile}
         1    0.000    0.000    0.000    0.000 posixpath.py:318(normpath)
         1    0.000    0.000    0.000    0.000 posixpath.py:145(dirname)
         1    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
-        1    0.000    0.000    0.000    0.000 syspathcontext.py:57(__enter__)
-        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
-        1    0.000    0.000    0.000    0.000 posixpath.py:221(expanduser)
-        1    0.000    0.000    0.000    0.000 syspathcontext.py:54(__init__)
-        4    0.000    0.000    0.000    0.000 {built-in method isinstance}
-        1    0.000    0.000    0.000    0.000 posixpath.py:60(isabs)
-        1    0.000    0.000    0.000    0.000 syspathcontext.py:64(__exit__)
         1    0.000    0.000    0.000    0.000 _bootlocale.py:23(getpreferredencoding)
+        1    0.000    0.000    0.000    0.000 syspathcontext.py:57(__enter__)
+        4    0.000    0.000    0.000    0.000 {built-in method isinstance}
+        1    0.000    0.000    0.000    0.000 syspathcontext.py:54(__init__)
+        1    0.000    0.000    0.000    0.000 posixpath.py:221(expanduser)
+        1    0.000    0.000    0.000    0.000 syspathcontext.py:64(__exit__)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 posixpath.py:355(abspath)
         4    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
         2    0.000    0.000    0.000    0.000 posixpath.py:38(_get_sep)
-        2    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 posixpath.py:60(isabs)
         1    0.000    0.000    0.000    0.000 {built-in method nl_langinfo}
-        1    0.000    0.000    0.000    0.000 posixpath.py:355(abspath)
-        1    0.000    0.000    0.000    0.000 codecs.py:251(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
         1    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method len}
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
         1    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
         2    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
-        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
-        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
-        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
-        1    0.000    0.000    0.000    0.000 {built-in method len}
-        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-        1    0.000    0.000    0.000    0.000 py3compat.py:13(no_code)
-        1    0.000    0.000    0.000    0.000 tmplsu30q90.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 tmp11xz_dba.py:1(<module>)
         1    0.000    0.000    0.000    0.000 {built-in method getdefaultencoding}
-        1    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 codecs.py:251(__init__)
+        1    0.000    0.000    0.000    0.000 py3compat.py:13(no_code)
  Out[11]: True
 ..............
 IPython CPU timings (estimated):
@@ -253,7 +253,7 @@ NOTE: Enter 'c' at the ipdb>  prompt to continue execution.
 *** Blank or comment
 *** Blank or comment
 NOTE: Enter 'c' at the ipdb>  prompt to continue execution.
-         585 function calls (582 primitive calls) in 0.003 seconds
+         585 function calls (582 primitive calls) in 0.002 seconds
 
    Ordered by: internal time
 
@@ -263,252 +263,252 @@ NOTE: Enter 'c' at the ipdb>  prompt to continue execution.
         3    0.000    0.000    0.000    0.000 {built-in method open}
         3    0.000    0.000    0.000    0.000 {built-in method compile}
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:99(_write_atomic)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2016(find_spec)
         3    0.000    0.000    0.000    0.000 {built-in method replace}
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:2016(find_spec)
-        3    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:1534(get_code)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:52(<listcomp>)
-       26    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1534(get_code)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:50(_path_join)
         2    0.000    0.000    0.000    0.000 {built-in method listdir}
         3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:2147(_find_spec)
-       46    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
-      4/1    0.000    0.000    0.003    0.003 {built-in method exec}
-        3    0.000    0.000    0.000    0.000 {method 'write' of '_io.FileIO' objects}
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1641(set_data)
+      4/1    0.000    0.000    0.002    0.002 {built-in method exec}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1641(set_data)
        21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:68(_path_stat)
+        3    0.000    0.000    0.000    0.000 {method 'write' of '_io.FileIO' objects}
         6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:437(cache_from_source)
-       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(_path_is_mode_type)
-        1    0.000    0.000    0.000    0.000 {built-in method mkdir}
+       46    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:666(_code_to_bytecode)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(_path_is_mode_type)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1853(_path_hooks)
-       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:56(_path_split)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1019(init_module_attrs)
-        3    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
-        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1186(_load_unlocked)
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1902(_get_spec)
-        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2234(_find_and_load)
-        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2207(_find_and_load_unlocked)
-        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
-       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:518(_verbose_message)
+        1    0.000    0.000    0.000    0.000 {built-in method mkdir}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:56(_path_split)
        19    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
-        1    0.000    0.000    0.001    0.001 runpy.py:88(_run_module_code)
-       11    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
-        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:824(cached)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2061(_fill_cache)
+        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
+       26    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2207(_find_and_load_unlocked)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2234(_find_and_load)
+       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:518(_verbose_message)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1186(_load_unlocked)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1979(__init__)
+       11    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1902(_get_spec)
         3    0.000    0.000    0.000    0.000 {built-in method dumps}
-        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2120(__enter__)
-        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:40(_w_long)
-        1    0.000    0.000    0.002    0.002 util.py:64(find_spec)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:884(spec_from_file_location)
-       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1985(<genexpr>)
-       10    0.000    0.000    0.000    0.000 {built-in method hasattr}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2011(_get_spec)
-        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:313(_call_with_frames_removed)
-        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:87(_path_isfile)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:739(__exit__)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:274(_get_module_lock)
-       13    0.000    0.000    0.000    0.000 {built-in method len}
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1636(_cache_bytecode)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2061(_fill_cache)
+        1    0.000    0.000    0.001    0.001 runpy.py:88(_run_module_code)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:824(cached)
         9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2124(__exit__)
-        1    0.000    0.000    0.001    0.001 runpy.py:62(_run_code)
-       10    0.000    0.000    0.000    0.000 {built-in method getattr}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1870(_path_importer_cache)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2102(path_hook_for_FileFinder)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2120(__enter__)
+        1    0.000    0.000    0.001    0.001 util.py:64(find_spec)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:313(_call_with_frames_removed)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:40(_w_long)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:884(spec_from_file_location)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2011(_get_spec)
         6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:92(_path_isdir)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:261(__enter__)
-       11    0.000    0.000    0.000    0.000 {built-in method release_lock}
+       10    0.000    0.000    0.000    0.000 {built-in method hasattr}
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1985(<genexpr>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:739(__exit__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:87(_path_isfile)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:274(_get_module_lock)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:192(acquire)
-        2    0.000    0.000    0.000    0.000 {built-in method any}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:172(__init__)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1526(source_to_code)
-        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1465(exec_module)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1099(create)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1636(_cache_bytecode)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:506(_calc_mode)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:534(_check_name_wrapper)
+        1    0.000    0.000    0.001    0.001 runpy.py:62(_run_code)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:261(__enter__)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:217(release)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:129(_new_module)
-        1    0.000    0.000    0.002    0.002 runpy.py:102(_get_module_details)
+       10    0.000    0.000    0.000    0.000 {built-in method getattr}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1099(create)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1465(exec_module)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1870(_path_importer_cache)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1526(source_to_code)
         9    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
-        1    0.000    0.000    0.001    0.001 {built-in method __import__}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1631(path_stats)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1336(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:172(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2102(path_hook_for_FileFinder)
+        2    0.000    0.000    0.000    0.000 {built-in method any}
         6    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
-        9    0.000    0.000    0.000    0.000 {built-in method acquire_lock}
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1934(find_spec)
-        1    0.000    0.000    0.003    0.003 runpy.py:172(run_module)
-        1    0.000    0.000    0.001    0.001 absolute.py:2(<module>)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1266(find_spec)
-        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:742(<genexpr>)
-        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1122(_exec)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:842(parent)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1591(__init__)
-        1    0.000    0.000    0.000    0.000 runpy.py:25(__init__)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:790(__init__)
+       13    0.000    0.000    0.000    0.000 {built-in method len}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:129(_new_module)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:534(_check_name_wrapper)
+        1    0.000    0.000    0.001    0.001 {built-in method __import__}
+       11    0.000    0.000    0.000    0.000 {built-in method release_lock}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1631(path_stats)
         6    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1336(find_spec)
+        1    0.000    0.000    0.001    0.001 absolute.py:2(<module>)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1934(find_spec)
+        1    0.000    0.000    0.002    0.002 interactiveshell.py:2609(safe_run_module)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:742(<genexpr>)
+        1    0.000    0.000    0.002    0.002 runpy.py:102(_get_module_details)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2264(_handle_fromlist)
-        1    0.000    0.000    0.003    0.003 interactiveshell.py:2609(safe_run_module)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:790(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1266(find_spec)
+        1    0.000    0.000    0.000    0.000 runpy.py:25(__init__)
+        9    0.000    0.000    0.000    0.000 {built-in method acquire_lock}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1591(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:842(parent)
+        1    0.000    0.000    0.002    0.002 runpy.py:172(run_module)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1122(_exec)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:732(__enter__)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:268(__exit__)
-        5    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
-        3    0.000    0.000    0.000    0.000 {built-in method is_frozen}
-        2    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
-        4    0.000    0.000    0.000    0.000 {built-in method get_ident}
-        3    0.000    0.000    0.000    0.000 {built-in method isinstance}
         3    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
-        1    0.000    0.000    0.003    0.003 <string>:1(<module>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:268(__exit__)
+        3    0.000    0.000    0.000    0.000 {built-in method is_frozen}
         4    0.000    0.000    0.000    0.000 {built-in method allocate_lock}
-        2    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1000(__init__)
-        1    0.000    0.000    0.000    0.000 {built-in method is_builtin}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:34(_relax_case)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1616(get_filename)
-        3    0.000    0.000    0.000    0.000 {built-in method id}
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:257(__init__)
+        5    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method isinstance}
+        1    0.000    0.000    0.002    0.002 <string>:1(<module>)
         1    0.000    0.000    0.000    0.000 runpy.py:30(__enter__)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:728(__init__)
         1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
-        1    0.000    0.000    0.000    0.000 {built-in method setattr}
-        1    0.000    0.000    0.000    0.000 runpy.py:57(__exit__)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:288(cb)
-        1    0.000    0.000    0.000    0.000 runpy.py:51(__enter__)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:850(has_location)
         1    0.000    0.000    0.000    0.000 runpy.py:39(__exit__)
+        4    0.000    0.000    0.000    0.000 {built-in method get_ident}
+        3    0.000    0.000    0.000    0.000 {built-in method id}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:850(has_location)
+        1    0.000    0.000    0.000    0.000 runpy.py:57(__exit__)
+        1    0.000    0.000    0.000    0.000 {built-in method is_builtin}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:288(cb)
+        2    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
         1    0.000    0.000    0.000    0.000 runpy.py:47(__init__)
-        1    0.000    0.000    0.000    0.000 __init__.py:1(<module>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:34(_relax_case)
+        1    0.000    0.000    0.000    0.000 {built-in method setattr}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1616(get_filename)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1000(__init__)
+        1    0.000    0.000    0.000    0.000 runpy.py:51(__enter__)
         1    0.000    0.000    0.000    0.000 sub.py:2(<module>)
-        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}.
-          585 function calls (582 primitive calls) in 0.003 seconds
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 __init__.py:1(<module>).
+          585 function calls (582 primitive calls) in 0.002 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
        21    0.000    0.000    0.000    0.000 {built-in method stat}
         6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1621(get_data)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2016(find_spec)
         3    0.000    0.000    0.000    0.000 {built-in method open}
         3    0.000    0.000    0.000    0.000 {built-in method compile}
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:99(_write_atomic)
         3    0.000    0.000    0.000    0.000 {built-in method replace}
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:2016(find_spec)
         3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1534(get_code)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:52(<listcomp>)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:50(_path_join)
         2    0.000    0.000    0.000    0.000 {built-in method listdir}
         3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:2147(_find_spec)
-       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:56(_path_split)
-      4/1    0.000    0.000    0.003    0.003 {built-in method exec}
-       46    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+      4/1    0.000    0.000    0.002    0.002 {built-in method exec}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1641(set_data)
         3    0.000    0.000    0.000    0.000 {method 'write' of '_io.FileIO' objects}
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1641(set_data)
-       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:68(_path_stat)
         6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:437(cache_from_source)
-       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(_path_is_mode_type)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:666(_code_to_bytecode)
+       46    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:68(_path_stat)
         1    0.000    0.000    0.000    0.000 {built-in method mkdir}
-        2    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1853(_path_hooks)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1019(init_module_attrs)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:666(_code_to_bytecode)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:56(_path_split)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(_path_is_mode_type)
         3    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1019(init_module_attrs)
        26    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
-        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
-        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1186(_load_unlocked)
        19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:518(_verbose_message)
-        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2207(_find_and_load_unlocked)
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1902(_get_spec)
-       11    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1979(__init__)
-        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2234(_find_and_load)
-        1    0.000    0.000    0.001    0.001 runpy.py:88(_run_module_code)
-        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:824(cached)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2061(_fill_cache)
-        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:40(_w_long)
-        3    0.000    0.000    0.000    0.000 {built-in method dumps}
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1186(_load_unlocked)
        19    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:884(spec_from_file_location)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1902(_get_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1979(__init__)
+       11    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2207(_find_and_load_unlocked)
+        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:824(cached)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2234(_find_and_load)
+        3    0.000    0.000    0.000    0.000 {built-in method dumps}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2061(_fill_cache)
+        1    0.000    0.000    0.001    0.001 runpy.py:88(_run_module_code)
        10    0.000    0.000    0.000    0.000 {built-in method hasattr}
-        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2124(__exit__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:40(_w_long)
         9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2120(__enter__)
-        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:313(_call_with_frames_removed)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2011(_get_spec)
-        1    0.000    0.000    0.001    0.001 runpy.py:62(_run_code)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2124(__exit__)
        16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1985(<genexpr>)
-        1    0.000    0.000    0.002    0.002 util.py:64(find_spec)
-        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:92(_path_isdir)
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1636(_cache_bytecode)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:261(__enter__)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1631(path_stats)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:884(spec_from_file_location)
        10    0.000    0.000    0.000    0.000 {built-in method getattr}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:313(_call_with_frames_removed)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:92(_path_isdir)
+        1    0.000    0.000    0.001    0.001 runpy.py:62(_run_code)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:261(__enter__)
+        1    0.000    0.000    0.001    0.001 util.py:64(find_spec)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:739(__exit__)
-       13    0.000    0.000    0.000    0.000 {built-in method len}
-        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:87(_path_isfile)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1870(_path_importer_cache)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:192(acquire)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:274(_get_module_lock)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1099(create)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:506(_calc_mode)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:172(__init__)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2102(path_hook_for_FileFinder)
-        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1465(exec_module)
         2    0.000    0.000    0.000    0.000 {built-in method any}
-        9    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1636(_cache_bytecode)
        11    0.000    0.000    0.000    0.000 {built-in method release_lock}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:217(release)
-        6    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:87(_path_isfile)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:274(_get_module_lock)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1870(_path_importer_cache)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1526(source_to_code)
-        1    0.000    0.000    0.001    0.001 {built-in method __import__}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:129(_new_module)
-        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:742(<genexpr>)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:732(__enter__)
+        9    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:506(_calc_mode)
+       13    0.000    0.000    0.000    0.000 {built-in method len}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:172(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:217(release)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1099(create)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1465(exec_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:192(acquire)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2102(path_hook_for_FileFinder)
+        6    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1631(path_stats)
         1    0.000    0.000    0.001    0.001 relative.py:2(<module>)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1336(find_spec)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:534(_check_name_wrapper)
-        9    0.000    0.000    0.000    0.000 {built-in method acquire_lock}
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1934(find_spec)
-        1    0.000    0.000    0.002    0.002 runpy.py:102(_get_module_details)
-        1    0.000    0.000    0.000    0.000 runpy.py:25(__init__)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:790(__init__)
-        1    0.000    0.000    0.003    0.003 interactiveshell.py:2609(safe_run_module)
-        5    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:268(__exit__)
-        3    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:842(parent)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1591(__init__)
-        1    0.000    0.000    0.003    0.003 runpy.py:172(run_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:129(_new_module)
+        1    0.000    0.000    0.001    0.001 {built-in method __import__}
         6    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2264(_handle_fromlist)
-        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1122(_exec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1336(find_spec)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1934(find_spec)
+        5    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:732(__enter__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:534(_check_name_wrapper)
+        1    0.000    0.000    0.002    0.002 interactiveshell.py:2609(safe_run_module)
+        9    0.000    0.000    0.000    0.000 {built-in method acquire_lock}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:742(<genexpr>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:268(__exit__)
+        1    0.000    0.000    0.002    0.002 runpy.py:102(_get_module_details)
         3    0.000    0.000    0.000    0.000 {built-in method is_frozen}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1266(find_spec)
-        2    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:842(parent)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:790(__init__)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1122(_exec)
         1    0.000    0.000    0.000    0.000 runpy.py:30(__enter__)
+        1    0.000    0.000    0.000    0.000 runpy.py:25(__init__)
         4    0.000    0.000    0.000    0.000 {built-in method get_ident}
-        1    0.000    0.000    0.003    0.003 <string>:1(<module>)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:257(__init__)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:288(cb)
-        4    0.000    0.000    0.000    0.000 {built-in method allocate_lock}
-        3    0.000    0.000    0.000    0.000 {built-in method isinstance}
-        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1000(__init__)
-        1    0.000    0.000    0.000    0.000 {built-in method is_builtin}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1616(get_filename)
-        3    0.000    0.000    0.000    0.000 {built-in method id}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:34(_relax_case)
-        1    0.000    0.000    0.000    0.000 runpy.py:51(__enter__)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:728(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1591(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2264(_handle_fromlist)
+        1    0.000    0.000    0.002    0.002 runpy.py:172(run_module)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1266(find_spec)
         1    0.000    0.000    0.000    0.000 runpy.py:39(__exit__)
-        1    0.000    0.000    0.000    0.000 sub.py:2(<module>)
-        1    0.000    0.000    0.000    0.000 {built-in method setattr}
-        1    0.000    0.000    0.000    0.000 runpy.py:57(__exit__)
+        3    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method id}
+        3    0.000    0.000    0.000    0.000 {built-in method isinstance}
+        1    0.000    0.000    0.002    0.002 <string>:1(<module>)
+        4    0.000    0.000    0.000    0.000 {built-in method allocate_lock}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:288(cb)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:257(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1616(get_filename)
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:728(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:850(has_location)
+        1    0.000    0.000    0.000    0.000 runpy.py:57(__exit__)
+        1    0.000    0.000    0.000    0.000 {built-in method is_builtin}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1000(__init__)
+        1    0.000    0.000    0.000    0.000 runpy.py:51(__enter__)
+        1    0.000    0.000    0.000    0.000 sub.py:2(<module>)
+        2    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
         1    0.000    0.000    0.000    0.000 runpy.py:47(__init__)
-        1    0.000    0.000    0.000    0.000 __init__.py:1(<module>)
-        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}..........
- ...S.....Compiling /.cython/inline/_cython_inline_b91b05323ed2da44fdbad26ce2928a80.pyx because it changed.
-Cythonizing /.cython/inline/_cython_inline_b91b05323ed2da44fdbad26ce2928a80.pyx
-warning: /.cython/inline/_cython_inline_b91b05323ed2da44fdbad26ce2928a80.pyx:6:4: Unreachable code
-.....EEEEEEE.EEEE.....E........E.......E..................../tmp/tmpml6q5wjh
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:34(_relax_case)
+        1    0.000    0.000    0.000    0.000 {built-in method setattr}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 __init__.py:1(<module>)..........
+ ...S.....Compiling /.cython/inline/_cython_inline_3f4f99c4a5086e70e82a65d63a97f1a8.pyx because it changed.
+Cythonizing /.cython/inline/_cython_inline_3f4f99c4a5086e70e82a65d63a97f1a8.pyx
+warning: /.cython/inline/_cython_inline_3f4f99c4a5086e70e82a65d63a97f1a8.pyx:6:4: Unreachable code
+.....EEEEEEE.EEEE.....E........E.......E..................../tmp/tmpnk7uw3_7
 Stored 'foo' (int)
-Warning:bar is <function bar at 0x7f8f5c13e7b8>
+Warning:bar is <function bar at 0x7f6ac1bc4620>
 Proper storage of interactively declared classes (or instances
 of those classes) is not possible! Only instances
 of classes in real modules on file system can be %store'd.
@@ -519,7 +519,7 @@ Stored 'foo' (int)
 ('hi', 5)
 ({},)
 (None,)
-[2K[2K.[2K[2K....EEEEEEEEEEEEEEEEE..........EEEEEEEE........................S.................EEEEEEESE.....E............S....................S..................................S........SS...SS.SSSSS.SSSSSS..SS..SS.SSSS.SSSS.......S.............................SSS............S.................SSS.......E....SS......SSSS..........................................................................EEF..EE...EEEEE...............................................................................................................S........SSS...S................S.F..S..S............S..S...........................................................S.............S......................................................S..S............S..
+[2K[2K.[2K[2K....EEEEEEEEEEEEEEEEE..........EEEEEEEE........................S.................EEEEEEESE.....E............S....................S..................................S........SS...SS.SSSSS.SSSSSS..SS..SS.SSSS.SSSS.......S.............................SSS............S.................SSS.......E....SS......SSSS..........................................................................EEF..EE...EEEEE................................................................................................................S........SSS...S................S.F..S..S............S..S...........................................................S.............S......................................................S..S............S..
 ======================================================================
 ERROR: IPython.core.tests.test_history.test_history
 ----------------------------------------------------------------------
@@ -567,13 +567,13 @@ Traceback (most recent call last):
     data = self.eval(cmd, **eval_kwargs)
   File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 249, in eval
     post_call=post_call)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 756, in evaluate
+  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 760, in evaluate
     raise Oct2PyError(msg)
 oct2py.utils.Oct2PyError: Oct2Py tried to run:
 """
-load /tmp/tmpi731eb8y.mat "A__"
+load /tmp/tmp57ffawzx.mat "A__"
 [a__] = run(A__)
-save -v6 /tmp/tmp_d3w1z7e.mat a__
+save -v6 /tmp/tmpq01yqw7z.mat a__
 """
 Octave returned:
 run: file SCRIPT must exist and be a valid Octave scriptfile
@@ -648,13 +648,13 @@ Traceback (most recent call last):
     data = self.eval(cmd, **eval_kwargs)
   File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 249, in eval
     post_call=post_call)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 756, in evaluate
+  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 760, in evaluate
     raise Oct2PyError(msg)
 oct2py.utils.Oct2PyError: Oct2Py tried to run:
 """
-load /tmp/tmpi731eb8y.mat "A__"
+load /tmp/tmp57ffawzx.mat "A__"
 [a__] = run(A__)
-save -v6 /tmp/tmp_d3w1z7e.mat a__
+save -v6 /tmp/tmpq01yqw7z.mat a__
 """
 Octave returned:
 run: file SCRIPT must exist and be a valid Octave scriptfile
@@ -1499,7 +1499,7 @@ Traceback (most recent call last):
     self.error(obj, value)
   File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 707, in error
     raise TraitError(e)
-IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f8f4a790be0>) was specified.
+IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f6aa84cbc18>) was specified.
 
 ======================================================================
 ERROR: test_handle_image_callable (IPython.terminal.console.tests.test_image_handler.ZMQTerminalInteractiveShellTestCase)
@@ -1523,7 +1523,7 @@ Traceback (most recent call last):
     self.error(obj, value)
   File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 707, in error
     raise TraitError(e)
-IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f8f77e825c0>) was specified.
+IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f6ab057ab00>) was specified.
 
 ======================================================================
 ERROR: test_handle_image_stream (IPython.terminal.console.tests.test_image_handler.ZMQTerminalInteractiveShellTestCase)
@@ -1547,7 +1547,7 @@ Traceback (most recent call last):
     self.error(obj, value)
   File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 707, in error
     raise TraitError(e)
-IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f8f70ba6a20>) was specified.
+IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f6ad6539a20>) was specified.
 
 ======================================================================
 ERROR: test_handle_image_tempfile (IPython.terminal.console.tests.test_image_handler.ZMQTerminalInteractiveShellTestCase)
@@ -1571,7 +1571,7 @@ Traceback (most recent call last):
     self.error(obj, value)
   File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 707, in error
     raise TraitError(e)
-IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f8f70b9c9b0>) was specified.
+IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f6ad6551f28>) was specified.
 
 ======================================================================
 ERROR: test_no_call_by_default (IPython.terminal.console.tests.test_image_handler.ZMQTerminalInteractiveShellTestCase)
@@ -1595,7 +1595,7 @@ Traceback (most recent call last):
     self.error(obj, value)
   File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 707, in error
     raise TraitError(e)
-IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f8f70dd0c50>) was specified.
+IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f6ad6566828>) was specified.
 
 ======================================================================
 FAIL: test_exit_code_signal (IPython.core.tests.test_interactiveshell.TestSystemRaw)
@@ -1689,6 +1689,6 @@ AssertionError: Did not find 'is not a writable location' in printed output (on 
 
 
 ----------------------------------------------------------------------
-Ran 1255 tests in 78.651s
+Ran 1256 tests in 57.061s
 
 FAILED (SKIP=75, errors=60, failures=3)
