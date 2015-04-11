@@ -1,12 +1,11 @@
-# -*- coding: utf-8 -*-
-# <nbformat>3.0</nbformat>
 
-# <codecell>
+# coding: utf-8
+
+# In[1]:
 
 import xml.etree.ElementTree as et
 import pandas as pd
 
-# <markdowncell>
 
 # In this example, we are parsing an XML file full of information on country names and ISO 3166 codes. Inside the file's root node there are elements that look like this:
 # 
@@ -16,14 +15,16 @@ import pandas as pd
 #                 numeric_code="008"
 #                 name="Albania"
 #                 official_name="Republic of Albania" />
+# 
 
-# <codecell>
+# In[2]:
 
 tree = et.parse('/data/iso_3166.xml')
 root = tree.getroot()
 root
 
-# <codecell>
+
+# In[3]:
 
 entries = root.findall("iso_3166_entry")
 data = []
@@ -41,6 +42,8 @@ for entry in entries:
     
 pd.DataFrame(data)
 
-# <codecell>
+
+# In[ ]:
+
 
 

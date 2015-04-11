@@ -1,28 +1,136 @@
-............/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
+............/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1266: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1254: RuntimeWarning: unorderable types: str() > int(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1280: RuntimeWarning: unorderable types: str() > int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1266: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1254: RuntimeWarning: unorderable types: int() > str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1280: RuntimeWarning: unorderable types: int() > str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
+./usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1266: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1254: RuntimeWarning: unorderable types: str() > int(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1280: RuntimeWarning: unorderable types: str() > int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1266: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1254: RuntimeWarning: unorderable types: int() > str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1280: RuntimeWarning: unorderable types: int() > str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
+./usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1266: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1266: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
+./usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1266: RuntimeWarning: unorderable types: str() < int(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
+/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1266: RuntimeWarning: unorderable types: int() < str(), sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-........................................................................................................................................................................................................................................................................S............................S...S.S.SSS..................................................S.....................S......S....................SS..........................S.....S....................S..........................S.....S.....................S..........................S.SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.........E...................................EE......................................................................................................................................................S..........S...................................................................................................................................................................S..................................................................................................................................................................................................................S......................................................................SS......SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.......................................................................................................SSSSSSSSSSS.............................................FSS.E.......................................................................................................................................................S...................................S...................S..S..................S......................................./usr/local/lib/python3.4/site-packages/numpy/lib/function_base.py:1890: RuntimeWarning: Degrees of freedom <= 0 for slice
+........................................................................................................................................................................................................................................................................S................................S...S.S.SSS..............................E...................../usr/local/lib/python3.4/site-packages/openpyxl/styles/styleable.py:111: UserWarning: Use formatting objects such as font directly
+  warn("Use formatting objects such as font directly")
+/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+ES/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E.S/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E.....S...................SS./usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+ES/usr/local/lib/python3.4/site-packages/openpyxl/styles/__init__.py:52: UserWarning: Call to deprecated function or class copy (Copy formatting objects like font directly).
+  def copy(self):
+E.../usr/local/lib/python3.4/site-packages/openpyxl/styles/styleable.py:111: UserWarning: Use formatting objects such as font directly
+  warn("Use formatting objects such as font directly")
+...S...................S..........................S......S....................S..........................S.SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.........E...................................EE..........................................................................................................................................................S..........S.......................................................................................................................................................................S.....................................................................................................................................................................................................................S.......................................................................SS.........SSSS....................................................................................................................S..........................................................SS..........................................................................................................................................................S.....................................S...............................S..S..................S......................................./usr/local/lib/python3.4/site-packages/numpy/lib/function_base.py:1890: RuntimeWarning: Degrees of freedom <= 0 for slice
   warnings.warn("Degrees of freedom <= 0 for slice", RuntimeWarning)
 /usr/local/lib/python3.4/site-packages/numpy/lib/nanfunctions.py:1057: RuntimeWarning: Degrees of freedom <= 0 for slice.
   warnings.warn("Degrees of freedom <= 0 for slice.", RuntimeWarning)
@@ -4394,46 +4502,1180 @@
   warnings.warn("Degrees of freedom <= 0 for slice.", RuntimeWarning)
 /usr/local/lib/python3.4/site-packages/numpy/lib/nanfunctions.py:1057: RuntimeWarning: Degrees of freedom <= 0 for slice.
   warnings.warn("Degrees of freedom <= 0 for slice.", RuntimeWarning)
-..............S.....SSSSSSSSSSSSSSSSSSSSSSSSSSS...........................................................................................................................................................................S..........................................................................................................................................................................S..S......................................................................................................................................................................................S...S........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S............................................................................................................................................../usr/local/lib/python3.4/site-packages/numpy/core/_methods.py:59: RuntimeWarning: Mean of empty slice.
+..............S.....SSSSSSSSSSSSSSSSSSSSSSSSSSS...........................................................................................................................................................................S.......................................................................................................................   a  b  c
+0  1  2  3
+1  4  5  6
+2  7  8  9
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00, ..., 2013-11-05 00:00:00]
+Length: 25, Freq: 3H, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00, ..., 2013-11-05 00:00:00]
+Length: 433, Freq: 10T, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00, ..., 2013-11-05 00:01:12]
+Length: 73, Freq: 3601S, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00, ..., 2013-11-05 00:00:00.072000]
+Length: 73, Freq: 3600001L, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00, ..., 2013-11-05 00:00:00.000072]
+Length: 73, Freq: 3600000001U, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00, ..., 2013-11-05 00:00:00.000000072]
+Length: 73, Freq: 3600000000001N, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00, ..., 2014-03-11 00:00:00]
+Length: 25, Freq: 3H, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00, ..., 2014-03-11 00:00:00]
+Length: 433, Freq: 10T, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00, ..., 2014-03-11 00:01:12]
+Length: 73, Freq: 3601S, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00, ..., 2014-03-11 00:00:00.072000]
+Length: 73, Freq: 3600001L, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00, ..., 2014-03-11 00:00:00.000072]
+Length: 73, Freq: 3600000001U, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00, ..., 2014-03-11 00:00:00.000000072]
+Length: 73, Freq: 3600000000001N, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00, ..., 2014-01-03 00:00:00]
+Length: 17, Freq: 3H, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00, ..., 2014-01-03 00:00:00]
+Length: 289, Freq: 10T, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00, ..., 2014-01-03 00:00:48]
+Length: 49, Freq: 3601S, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00, ..., 2014-01-03 00:00:00.048000]
+Length: 49, Freq: 3600001L, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00, ..., 2014-01-03 00:00:00.000048]
+Length: 49, Freq: 3600000001U, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00, ..., 2014-01-03 00:00:00.000000048]
+Length: 49, Freq: 3600000000001N, Timezone: None
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+11:00, ..., 2013-11-05 00:00:00+11:00]
+Length: 25, Freq: 3H, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+11:00, ..., 2013-11-05 00:00:00+11:00]
+Length: 433, Freq: 10T, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+11:00, ..., 2013-11-05 00:01:12+11:00]
+Length: 73, Freq: 3601S, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+11:00, ..., 2013-11-05 00:00:00.072000+11:00]
+Length: 73, Freq: 3600001L, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+11:00, ..., 2013-11-05 00:00:00.000072+11:00]
+Length: 73, Freq: 3600000001U, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+11:00, ..., 2013-11-05 00:00:00+11:00]
+Length: 73, Freq: 3600000000001N, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+11:00, ..., 2014-03-11 00:00:00+11:00]
+Length: 25, Freq: 3H, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+11:00, ..., 2014-03-11 00:00:00+11:00]
+Length: 433, Freq: 10T, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+11:00, ..., 2014-03-11 00:01:12+11:00]
+Length: 73, Freq: 3601S, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+11:00, ..., 2014-03-11 00:00:00.072000+11:00]
+Length: 73, Freq: 3600001L, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+11:00, ..., 2014-03-11 00:00:00.000072+11:00]
+Length: 73, Freq: 3600000001U, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+11:00, ..., 2014-03-11 00:00:00+11:00]
+Length: 73, Freq: 3600000000001N, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+11:00, ..., 2014-01-03 00:00:00+11:00]
+Length: 17, Freq: 3H, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+11:00, ..., 2014-01-03 00:00:00+11:00]
+Length: 289, Freq: 10T, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+11:00, ..., 2014-01-03 00:00:48+11:00]
+Length: 49, Freq: 3601S, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+11:00, ..., 2014-01-03 00:00:00.048000+11:00]
+Length: 49, Freq: 3600001L, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+11:00, ..., 2014-01-03 00:00:00.000048+11:00]
+Length: 49, Freq: 3600000001U, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+11:00, ..., 2014-01-03 00:00:00+11:00]
+Length: 49, Freq: 3600000000001N, Timezone: Australia/Sydney
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+09:00, ..., 2013-11-05 00:00:00+09:00]
+Length: 25, Freq: 3H, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+09:00, ..., 2013-11-05 00:00:00+09:00]
+Length: 433, Freq: 10T, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+09:00, ..., 2013-11-05 00:01:12+09:00]
+Length: 73, Freq: 3601S, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+09:00, ..., 2013-11-05 00:00:00.072000+09:00]
+Length: 73, Freq: 3600001L, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+09:00, ..., 2013-11-05 00:00:00.000072+09:00]
+Length: 73, Freq: 3600000001U, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+09:00, ..., 2013-11-05 00:00:00+09:00]
+Length: 73, Freq: 3600000000001N, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+09:00, ..., 2014-03-11 00:00:00+09:00]
+Length: 25, Freq: 3H, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+09:00, ..., 2014-03-11 00:00:00+09:00]
+Length: 433, Freq: 10T, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+09:00, ..., 2014-03-11 00:01:12+09:00]
+Length: 73, Freq: 3601S, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+09:00, ..., 2014-03-11 00:00:00.072000+09:00]
+Length: 73, Freq: 3600001L, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+09:00, ..., 2014-03-11 00:00:00.000072+09:00]
+Length: 73, Freq: 3600000001U, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+09:00, ..., 2014-03-11 00:00:00+09:00]
+Length: 73, Freq: 3600000000001N, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+09:00, ..., 2014-01-03 00:00:00+09:00]
+Length: 17, Freq: 3H, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+09:00, ..., 2014-01-03 00:00:00+09:00]
+Length: 289, Freq: 10T, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+09:00, ..., 2014-01-03 00:00:48+09:00]
+Length: 49, Freq: 3601S, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+09:00, ..., 2014-01-03 00:00:00.048000+09:00]
+Length: 49, Freq: 3600001L, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+09:00, ..., 2014-01-03 00:00:00.000048+09:00]
+Length: 49, Freq: 3600000001U, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+09:00, ..., 2014-01-03 00:00:00+09:00]
+Length: 49, Freq: 3600000000001N, Timezone: Asia/Tokyo
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+01:00, ..., 2013-11-05 00:00:00+01:00]
+Length: 25, Freq: 3H, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+01:00, ..., 2013-11-05 00:00:00+01:00]
+Length: 433, Freq: 10T, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+01:00, ..., 2013-11-05 00:01:12+01:00]
+Length: 73, Freq: 3601S, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+01:00, ..., 2013-11-05 00:00:00.072000+01:00]
+Length: 73, Freq: 3600001L, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+01:00, ..., 2013-11-05 00:00:00.000072+01:00]
+Length: 73, Freq: 3600000001U, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00+01:00, ..., 2013-11-05 00:00:00+01:00]
+Length: 73, Freq: 3600000000001N, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+01:00, ..., 2014-03-11 00:00:00+01:00]
+Length: 25, Freq: 3H, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+01:00, ..., 2014-03-11 00:00:00+01:00]
+Length: 433, Freq: 10T, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+01:00, ..., 2014-03-11 00:01:12+01:00]
+Length: 73, Freq: 3601S, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+01:00, ..., 2014-03-11 00:00:00.072000+01:00]
+Length: 73, Freq: 3600001L, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+01:00, ..., 2014-03-11 00:00:00.000072+01:00]
+Length: 73, Freq: 3600000001U, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00+01:00, ..., 2014-03-11 00:00:00+01:00]
+Length: 73, Freq: 3600000000001N, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+01:00, ..., 2014-01-03 00:00:00+01:00]
+Length: 17, Freq: 3H, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+01:00, ..., 2014-01-03 00:00:00+01:00]
+Length: 289, Freq: 10T, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+01:00, ..., 2014-01-03 00:00:48+01:00]
+Length: 49, Freq: 3601S, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+01:00, ..., 2014-01-03 00:00:00.048000+01:00]
+Length: 49, Freq: 3600001L, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+01:00, ..., 2014-01-03 00:00:00.000048+01:00]
+Length: 49, Freq: 3600000001U, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00+01:00, ..., 2014-01-03 00:00:00+01:00]
+Length: 49, Freq: 3600000000001N, Timezone: Europe/Paris
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-07:00, ..., 2013-11-04 23:00:00-08:00]
+Length: 25, Freq: 3H, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-07:00, ..., 2013-11-05 00:00:00-08:00]
+Length: 439, Freq: 10T, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-07:00, ..., 2013-11-05 00:01:13-08:00]
+Length: 74, Freq: 3601S, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-07:00, ..., 2013-11-05 00:00:00.073000-08:00]
+Length: 74, Freq: 3600001L, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-07:00, ..., 2013-11-05 00:00:00.000073-08:00]
+Length: 74, Freq: 3600000001U, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-07:00, ..., 2013-11-05 00:00:00-08:00]
+Length: 74, Freq: 3600000000001N, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-08:00, ..., 2014-03-11 01:00:00-07:00]
+Length: 25, Freq: 3H, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-08:00, ..., 2014-03-11 00:00:00-07:00]
+Length: 427, Freq: 10T, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-08:00, ..., 2014-03-11 00:01:11-07:00]
+Length: 72, Freq: 3601S, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-08:00, ..., 2014-03-11 00:00:00.071000-07:00]
+Length: 72, Freq: 3600001L, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-08:00, ..., 2014-03-11 00:00:00.000071-07:00]
+Length: 72, Freq: 3600000001U, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-08:00, ..., 2014-03-11 00:00:00-07:00]
+Length: 72, Freq: 3600000000001N, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-08:00, ..., 2014-01-03 00:00:00-08:00]
+Length: 17, Freq: 3H, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-08:00, ..., 2014-01-03 00:00:00-08:00]
+Length: 289, Freq: 10T, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-08:00, ..., 2014-01-03 00:00:48-08:00]
+Length: 49, Freq: 3601S, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-08:00, ..., 2014-01-03 00:00:00.048000-08:00]
+Length: 49, Freq: 3600001L, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-08:00, ..., 2014-01-03 00:00:00.000048-08:00]
+Length: 49, Freq: 3600000001U, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-08:00, ..., 2014-01-03 00:00:00-08:00]
+Length: 49, Freq: 3600000000001N, Timezone: US/Pacific
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-04:00, ..., 2013-11-04 23:00:00-05:00]
+Length: 25, Freq: 3H, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-04:00, ..., 2013-11-05 00:00:00-05:00]
+Length: 439, Freq: 10T, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-04:00, ..., 2013-11-05 00:01:13-05:00]
+Length: 74, Freq: 3601S, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-04:00, ..., 2013-11-05 00:00:00.073000-05:00]
+Length: 74, Freq: 3600001L, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-04:00, ..., 2013-11-05 00:00:00.000073-05:00]
+Length: 74, Freq: 3600000001U, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2013-11-02 00:00:00-04:00, ..., 2013-11-05 00:00:00-05:00]
+Length: 74, Freq: 3600000000001N, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-05:00, ..., 2014-03-11 01:00:00-04:00]
+Length: 25, Freq: 3H, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-05:00, ..., 2014-03-11 00:00:00-04:00]
+Length: 427, Freq: 10T, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-05:00, ..., 2014-03-11 00:01:11-04:00]
+Length: 72, Freq: 3601S, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-05:00, ..., 2014-03-11 00:00:00.071000-04:00]
+Length: 72, Freq: 3600001L, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-05:00, ..., 2014-03-11 00:00:00.000071-04:00]
+Length: 72, Freq: 3600000001U, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-03-08 00:00:00-05:00, ..., 2014-03-11 00:00:00-04:00]
+Length: 72, Freq: 3600000000001N, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-05:00, ..., 2014-01-03 00:00:00-05:00]
+Length: 17, Freq: 3H, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-05:00, ..., 2014-01-03 00:00:00-05:00]
+Length: 289, Freq: 10T, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-05:00, ..., 2014-01-03 00:00:48-05:00]
+Length: 49, Freq: 3601S, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-05:00, ..., 2014-01-03 00:00:00.048000-05:00]
+Length: 49, Freq: 3600001L, Timezone: US/Eastern
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-05:00, ..., 2014-01-03 00:00:00.000048-05:00]
+Length: 49, Freq: 3600000001U, Timezone: US/Eastern...............................................................S..S.....................................................................................................................................................S................................................S...S.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S............................................................................................................................................................/usr/local/lib/python3.4/site-packages/numpy/core/_methods.py:59: RuntimeWarning: Mean of empty slice.
   warnings.warn("Mean of empty slice.", RuntimeWarning)
-..............................................................................................................................................................................................................................................................................................................................S.......................................................................................................................................................................................................................................................................................................................SS.....S...SS.......S.S.......................SS.....S...SS.......S.S..............SS..SS...............................................................................S........................................./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3195: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+..................................................................................................................................................................................................................................................................................................................................S..............................................................................................................................................................................................................................................................................................................................SS.....S...SS.......S.S.......................SS.....S...SS.......S.S..............SS..SS...................................................................................S.............................................../usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3227: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
   "is being cleared", UserWarning)
-../usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3178: UserWarning: When passing multiple axes, sharex and sharey are ignored.These settings must be specified when creating axes
+../usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3210: UserWarning: When passing multiple axes, sharex and sharey are ignored.These settings must be specified when creating axes
   "These settings must be specified when creating axes", UserWarning)
-.../usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3195: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+..../usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3227: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
   "is being cleared", UserWarning)
-............................S/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3195: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+...............................S/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3227: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
   "is being cleared", UserWarning)
-.../usr/local/lib/python3.4/site-packages/matplotlib-1.4.2-py3.4-linux-x86_64.egg/matplotlib/axes/_axes.py:476: UserWarning: No labelled objects found. Use label='...' kwarg on individual plots.
-  warnings.warn("No labelled objects found. "
-./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3195: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+..../usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3227: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
   "is being cleared", UserWarning)
-...................................../usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3195: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+....................................../usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3227: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
   "is being cleared", UserWarning)
-./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3178: UserWarning: When passing multiple axes, sharex and sharey are ignored.These settings must be specified when creating axes
+./usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3210: UserWarning: When passing multiple axes, sharex and sharey are ignored.These settings must be specified when creating axes
   "These settings must be specified when creating axes", UserWarning)
-..../usr/local/lib/python3.4/site-packages/matplotlib-1.4.2-py3.4-linux-x86_64.egg/matplotlib/axes/_axes.py:476: UserWarning: No labelled objects found. Use label='...' kwarg on individual plots.
-  warnings.warn("No labelled objects found. "
-......../usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3175: UserWarning: When passing multiple axes, layout keyword is ignored
-  warnings.warn("When passing multiple axes, layout keyword is ignored", UserWarning)
-............................................................................................................................................................................................................................................................................................................./usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: Cannot compare type 'Timestamp' with type 'str', sort order is undefined for incomparable objects
+.................................../usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tools/plotting.py:3227: UserWarning: To output multiple subplots, the figure containing the passed axes is being cleared
+  "is being cleared", UserWarning)
+............................................................................................................................................................................................................................................................................................................/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1266: RuntimeWarning: Cannot compare type 'Timestamp' with type 'str', sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-........................................................../usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/index.py:1240: RuntimeWarning: Cannot compare type 'Timestamp' with type 'int', sort order is undefined for incomparable objects
+...................../usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/util/decorators.py:13: FutureWarning: diff is deprecated. Use difference instead
+  FutureWarning)
+.........................................../usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:1266: RuntimeWarning: Cannot compare type 'Timestamp' with type 'int', sort order is undefined for incomparable objects
   "incomparable objects" % e, RuntimeWarning)
-.......................................................................................................................S...................................................................................................................................................................................S.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S......................................................................................................................................................................................................................................S...S.............SSS.........S...........SS...............SS.....SSSS..............................................................................................................................................................................................................................................S................................S................................................................................................................................................................................................................................................
+...../usr/local/lib/python3.4/site-packages/numpy/core/numeric.py:2367: DeprecationWarning: elementwise comparison failed; this will raise the error in the future.
+  return bool(asarray(a1 == a2).all())
+................................................................................................/usr/local/lib/python3.4/site-packages/numpy/testing/utils.py:648: FutureWarning: numpy equal will not check object identity in the future. The comparison did not return the same result as suggested by the identity (`is`)) and will change.
+  val = comparison(x, y)
+........................S................................................................................................................./usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/index.py:4307: PerformanceWarning: indexing past lexsort depth may impact performance.
+  PerformanceWarning)
+.......................................................................................S........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................../usr/local/lib/python3.4/site-packages/nose/case.py:198: DeprecationWarning: fromstring() is deprecated. Use frombytes() instead.
+  self.test(*self.arg)
+.....................................................................................................................................S................................................................................................................................................................................................................/usr/local/lib/python3.4/site-packages/xlrd/xlsx.py:246: PendingDeprecationWarning: This method will be removed in future versions.  Use 'tree.iter()' or 'list(tree.iter())' instead.
+  for elem in self.tree.getiterator():
+/usr/local/lib/python3.4/site-packages/xlrd/xlsx.py:292: PendingDeprecationWarning: This method will be removed in future versions.  Use 'tree.iter()' or 'list(tree.iter())' instead.
+  for elem in self.tree.getiterator():
+./usr/local/lib/python3.4/site-packages/xlrd/xlsx.py:246: PendingDeprecationWarning: This method will be removed in future versions.  Use 'tree.iter()' or 'list(tree.iter())' instead.
+  for elem in self.tree.getiterator():
+/usr/local/lib/python3.4/site-packages/xlrd/xlsx.py:292: PendingDeprecationWarning: This method will be removed in future versions.  Use 'tree.iter()' or 'list(tree.iter())' instead.
+  for elem in self.tree.getiterator():
+........................S...S.............SSS.........S...........SS...............SS.....SSSS................................................................................................../usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/ops.py:566: DeprecationWarning: elementwise comparison failed; this will raise the error in the future.
+  result = getattr(x, name)(y)
+.....................................................................................................................................................S.................................S............../usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/internals.py:3856: DeprecationWarning: elementwise comparison failed; this will raise the error in the future.
+  res = op(a, b)
+................................................F............./usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tests/test_series.py:4786: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpx5f1h3o4' mode='r' encoding='ANSI_X3.4-1968'>
+  lines = io.open(path, newline=None).readlines()
+...................................................................................................../usr/local/lib/python3.4/site-packages/numpy/core/numeric.py:2367: DeprecationWarning: elementwise comparison failed; this will raise the error in the future.
+  return bool(asarray(a1 == a2).all())
+............................................................................
+======================================================================
+ERROR: test_creating_and_reading_multiple_sheets (pandas.io.tests.test_excel.ExcelReaderTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 474, in test_creating_and_reading_multiple_sheets
+    for sheetname, df in dfs.iteritems():
+AttributeError: 'dict' object has no attribute 'iteritems'
+
+======================================================================
+ERROR: test_basics_with_nan (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 641, in test_basics_with_nan
+    self.frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_bool_types (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 688, in test_bool_types
+    frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_colaliases (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 734, in test_colaliases
+    self.frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_datetimes (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1218, in test_datetimes
+    write_frame.to_excel(path, 'Sheet1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_duplicated_columns (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1178, in test_duplicated_columns
+    write_frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_excel_date_datetime_format (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 864, in test_excel_date_datetime_format
+    df.to_excel(writer1, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_excel_roundtrip_datetime (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 838, in test_excel_roundtrip_datetime
+    tsf.to_excel(path, 'test1', merge_cells=self.merge_cells)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_excel_roundtrip_indexname (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 820, in test_excel_roundtrip_indexname
+    df.to_excel(path, merge_cells=self.merge_cells)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_excel_sheet_by_name_raise (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 552, in test_excel_sheet_by_name_raise
+    gt.to_excel(pth)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_excelwriter_contextmanager (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 564, in test_excelwriter_contextmanager
+    self.frame.to_excel(writer, 'Data1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_float_types (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 676, in test_float_types
+    frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_inf_roundtrip (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 698, in test_inf_roundtrip
+    frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_int_types (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 656, in test_int_types
+    frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_mixed (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 621, in test_mixed
+    self.mixed_frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_roundtrip (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 579, in test_roundtrip
+    self.frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_roundtrip_indexlabels (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 755, in test_roundtrip_indexlabels
+    self.frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_sheets (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 709, in test_sheets
+    self.frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_swapped_columns (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1192, in test_swapped_columns
+    write_frame.to_excel(path, 'test1', columns=['B', 'A'])
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_float_format (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 969, in test_to_excel_float_format
+    df.to_excel(filename, 'test1', float_format='%.2f')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_multiindex (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 905, in test_to_excel_multiindex
+    frame.to_excel(path, 'test1', header=False)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_multiindex_dates (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 927, in test_to_excel_multiindex_dates
+    tsframe.to_excel(path, 'test1', merge_cells=self.merge_cells)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_multiindex_no_write_index (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 952, in test_to_excel_multiindex_no_write_index
+    frame2.to_excel(path, 'test1', index=False)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_output_encoding (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 987, in test_to_excel_output_encoding
+    df.to_excel(filename, sheet_name='TestSheet', encoding='utf8')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_periodindex (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 889, in test_to_excel_periodindex
+    xp.to_excel(path, 'sht1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_tsframe (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 632, in test_tsframe
+    df.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_write_cells_merge_styled (pandas.io.tests.test_excel.Openpyxl2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1229, in wrapped
+    orig_method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1382, in test_write_cells_merge_styled
+    writer.write_cells(initial_cells, sheet_name=sheet_name)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'font'
+
+======================================================================
+ERROR: test_basics_with_nan (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 641, in test_basics_with_nan
+    self.frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_bool_types (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 688, in test_bool_types
+    frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_colaliases (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 734, in test_colaliases
+    self.frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_datetimes (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1218, in test_datetimes
+    write_frame.to_excel(path, 'Sheet1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_duplicated_columns (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1178, in test_duplicated_columns
+    write_frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_excel_010_hemstring (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1139, in test_excel_010_hemstring
+    res = roundtrip(df)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1128, in roundtrip
+    df.to_excel(path, header=header, merge_cells=self.merge_cells)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_excel_date_datetime_format (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 864, in test_excel_date_datetime_format
+    df.to_excel(writer1, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_excel_roundtrip_datetime (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 838, in test_excel_roundtrip_datetime
+    tsf.to_excel(path, 'test1', merge_cells=self.merge_cells)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_excel_roundtrip_indexname (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 820, in test_excel_roundtrip_indexname
+    df.to_excel(path, merge_cells=self.merge_cells)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_excel_sheet_by_name_raise (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 552, in test_excel_sheet_by_name_raise
+    gt.to_excel(pth)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_excelwriter_contextmanager (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 564, in test_excelwriter_contextmanager
+    self.frame.to_excel(writer, 'Data1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_float_types (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 676, in test_float_types
+    frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_inf_roundtrip (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 698, in test_inf_roundtrip
+    frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_int_types (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 656, in test_int_types
+    frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_mixed (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 621, in test_mixed
+    self.mixed_frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_roundtrip (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 579, in test_roundtrip
+    self.frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_roundtrip_indexlabels (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 755, in test_roundtrip_indexlabels
+    self.frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_sheets (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 709, in test_sheets
+    self.frame.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_swapped_columns (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 1192, in test_swapped_columns
+    write_frame.to_excel(path, 'test1', columns=['B', 'A'])
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_float_format (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 969, in test_to_excel_float_format
+    df.to_excel(filename, 'test1', float_format='%.2f')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_multiindex (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 905, in test_to_excel_multiindex
+    frame.to_excel(path, 'test1', header=False)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_multiindex_dates (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 927, in test_to_excel_multiindex_dates
+    tsframe.to_excel(path, 'test1', merge_cells=self.merge_cells)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_multiindex_no_write_index (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 952, in test_to_excel_multiindex_no_write_index
+    frame2.to_excel(path, 'test1', index=False)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_output_encoding (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 987, in test_to_excel_output_encoding
+    df.to_excel(filename, sheet_name='TestSheet', encoding='utf8')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_to_excel_periodindex (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 889, in test_to_excel_periodindex
+    xp.to_excel(path, 'sht1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
+======================================================================
+ERROR: test_tsframe (pandas.io.tests.test_excel.OpenpyxlTests_NoMerge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_excel.py", line 632, in test_tsframe
+    df.to_excel(path, 'test1')
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/core/frame.py", line 1267, in to_excel
+    startrow=startrow, startcol=startcol)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/excel.py", line 778, in write_cells
+    xcell.style = xcell.style.copy(**style_kwargs)
+  File "/usr/local/lib/python3.4/site-packages/openpyxl/compat/__init__.py", line 67, in new_func
+    return obj(*args, **kwargs)
+TypeError: copy() got an unexpected keyword argument 'alignment'
+
 ======================================================================
 ERROR: test_file_like (pandas.io.tests.test_html.TestReadHtml)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 284, in test_file_like
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 284, in test_file_like
     df1 = self.read_html(f, '.*Water.*')
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 92, in read_html
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 92, in read_html
     return read_html(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 848, in read_html
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/html.py", line 864, in read_html
     parse_dates, tupleize_cols, thousands, attrs, encoding)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/html.py", line 712, in _parse
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/html.py", line 727, in _parse
     raise_with_traceback(retained)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 705, in raise_with_traceback
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/compat/__init__.py", line 705, in raise_with_traceback
     raise exc.with_traceback(traceback)
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
 
@@ -4441,7 +5683,7 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordi
 ERROR: test_string (pandas.io.tests.test_html.TestReadHtml)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 275, in test_string
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 275, in test_string
     data = f.read()
   File "/usr/local/lib/python3.4/encodings/ascii.py", line 26, in decode
     return codecs.ascii_decode(input, self.errors)[0]
@@ -4451,55 +5693,32 @@ UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordi
 ERROR: test_string_io (pandas.io.tests.test_html.TestReadHtml)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 264, in test_string_io
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/io/tests/test_html.py", line 264, in test_string_io
     data1 = StringIO(f.read())
   File "/usr/local/lib/python3.4/encodings/ascii.py", line 26, in decode
     return codecs.ascii_decode(input, self.errors)[0]
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xc2 in position 21552: ordinal not in range(128)
 
 ======================================================================
-ERROR: test_wdi_search (pandas.io.tests.test_wb.TestWB)
+FAIL: test_sum (pandas.tests.test_series.TestSeries)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 1417, in wrapper
-    return t(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_wb.py", line 25, in test_wdi_search
-    result = search('gdp.*capita.*constant').loc[6716:,['id','name']]
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/indexing.py", line 1200, in __getitem__
-    return self._getitem_tuple(key)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/indexing.py", line 704, in _getitem_tuple
-    self._has_valid_tuple(tup)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/indexing.py", line 131, in _has_valid_tuple
-    if not self._has_valid_type(k, i):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/core/indexing.py", line 1260, in _has_valid_type
-    (key.start, self.obj._get_axis_name(axis))
-KeyError: 'start bound [6716] is not the [index]'
-
-======================================================================
-FAIL: test_wdi_download (pandas.io.tests.test_wb.TestWB)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 1417, in wrapper
-    return t(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/io/tests/test_wb.py", line 53, in test_wdi_download
-    assert_frame_equal(result, pandas.DataFrame(expected))
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 707, in assert_frame_equal
-    check_exact=check_exact)
-  File "/usr/local/lib/python3.4/site-packages/pandas-0.15.1-py3.4-linux-x86_64.egg/pandas/util/testing.py", line 651, in assert_series_equal
-    assert_almost_equal(left.values, right.values, check_less_precise)
-  File "das/src/testing.pyx", line 58, in pandas._testing.assert_almost_equal (pandas/src/testing.c:2745)
-  File "das/src/testing.pyx", line 93, in pandas._testing.assert_almost_equal (pandas/src/testing.c:1830)
-  File "das/src/testing.pyx", line 140, in pandas._testing.assert_almost_equal (pandas/src/testing.c:2577)
-AssertionError: expected 39682.47225 but got 39677.30176, with decimal 5
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tests/test_series.py", line 2161, in test_sum
+    self._check_stat_op('sum', np.sum)
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tests/test_series.py", line 2525, in _check_stat_op
+    testit()
+  File "/usr/local/lib/python3.4/site-packages/pandas-0.16.0-py3.4-linux-x86_64.egg/pandas/tests/test_series.py", line 2498, in testit
+    self.assertTrue(np.isnan(f(allna)))
+AssertionError: False is not true
 
 ----------------------------------------------------------------------
-Ran 7838 tests in 717.772s
+Ran 8001 tests in 835.686s
 
-FAILED (SKIP=234, errors=4, failures=1)
-   a  b  c
-0  1  2  3
-1  4  5  6
-2  7  8  9
+FAILED (SKIP=152, errors=56, failures=1)
+
+<class 'pandas.tseries.index.DatetimeIndex'>
+[2014-01-01 00:00:00-05:00, ..., 2014-01-03 00:00:00-05:00]
+Length: 49, Freq: 3600000000001N, Timezone: US/Eastern
 Warning: discarding nonzero nanoseconds
 Warning: discarding nonzero nanoseconds
 Warning: discarding nonzero nanoseconds
@@ -4540,17 +5759,17 @@ category    2500 non-null category
 dtypes: category(1), int64(1)
 memory usage: 41.6 KB
 <class 'pandas.core.frame.DataFrame'>
-Int64Index: 263 entries, 0 to 2497
+Int64Index: 247 entries, 7 to 2486
 Data columns (total 2 columns):
-int64       263 non-null int64
-category    263 non-null category
+int64       247 non-null int64
+category    247 non-null category
 dtypes: category(1), int64(1)
-memory usage: 4.4 KB
+memory usage: 4.2 KB
 zounds!
    jim  joe     jolie
-0   22   49  0.337037
-1   13   42  0.287555
-2   23   17  1.089826
-3   43   48  0.103154
-4   17   17  1.057666
+0   12   32  0.480242
+1   37   39 -0.590194
+2   37   14  0.589246
+3   19   30 -1.772525
+4    2   40  1.240182
 Warning: discarding nonzero nanoseconds

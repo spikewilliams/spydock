@@ -1,6 +1,9 @@
-..............................................S.........................S..SS..................................SSS...........'%run a.py /tmp/tmpkisyj5hl/a'
-..............................ERROR - failed to write data to stream: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='ANSI_X3.4-1968'>
-E....................................................................................................................Automatic calling is: OFF
+:0: FutureWarning: IPython widgets are experimental and may change in the future.
+................................................S...........................S..SS.................................S.........SSS.............['--a=10', '--b=20', '--Foo.Bar.value=10', '--Foo.Bam.value=list(range(10))', "--D.C.value='hi there'"]
+['--a=10', '--b=20', '--Foo.Bar.value=10', '--Foo.Bam.value=list(range(10))', "--D.C.value='hi there'"]
+'%run a.py /tmp/tmpono4aur9/a'
+.................................ERROR - failed to write data to stream: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='ANSI_X3.4-1968'>
+E.......................................................................................................................Automatic calling is: OFF
 -> autocallable()
 Automatic calling is: Smart
 -> len("abc")
@@ -18,8 +21,7 @@ def f():
     test = 1
     return test
 
-The following commands were written to file `/tmp/tmpbaogklay/test4.py`:
-The history saving thread hit an unexpected error (OperationalError('disk I/O error',)).History will not be written to the database.
+The following commands were written to file `/tmp/tmpihb8kkxq/test4.py`:
 === Executing: ===
 a += 1
 === Output: ===
@@ -30,10 +32,36 @@ a += 1
 # a comment
   y=2
 ---------------------------------------------------------------------------
+OSError                                   Traceback (most recent call last)
+/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py in run_code(self, code_obj, result)
+   3034                 #rprint('Running code', repr(code_obj)) # dbg
+-> 3035                 exec(code_obj, self.user_global_ns, self.user_ns)
+   3036             finally:
+
+<ipython-input-5-0ecbd009fc56> in <module>()
+----> 1 raise IOError("foo")
+
+OSError: foo
+
+During handling of the above exception, another exception occurred:
+
 TypeError                                 Traceback (most recent call last)
 TypeError: <lambda>() got an unexpected keyword argument 'tb_offset'
 The original exception:
 ---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py in run_code(self, code_obj, result)
+   3034                 #rprint('Running code', repr(code_obj)) # dbg
+-> 3035                 exec(code_obj, self.user_global_ns, self.user_ns)
+   3036             finally:
+
+<ipython-input-5-023330d95310> in <module>()
+----> 1 a=abracadabra
+
+NameError: name 'abracadabra' is not defined
+
+During handling of the above exception, another exception occurred:
+
 TypeError                                 Traceback (most recent call last)
 TypeError: <lambda>() got multiple values for argument 'tb_offset'
 The original exception:
@@ -45,19 +73,26 @@ ValueError                                Traceback (most recent call last)
 ValueError: test
 Out[3]: 1
 Out[4]: 1
-..S......1 2
+..S.......1 2
 Out[1]: 'a\nb'
 .Out[1]: 'a'
 Out[1]: 'a\nb'
-...S..Out[1]: 1
+........S..Out[1]: 1
 ..Out[2]: 1
-....Macro `macro_var_expand_locals` created. To execute, type its name (without quotes).
+..  File "<ipython-input-2-00dce93c346d>", line 1
+    raise = 3
+          ^
+SyntaxError: invalid syntax
+
+...Macro `macro_var_expand_locals` created. To execute, type its name (without quotes).
 === Macro contents: ===
 str(12)
  .......Out[2]: 3
-..S...Alarm clock
-.S..Alarm clock
-F.......{'a': {'data': {'text/plain': '3'}, 'metadata': {}, 'status': 'ok'},
+...S...Alarm clock
+.SS
+KeyboardInterrupt
+...Alarm clock
+.S........{'a': {'data': {'text/plain': '3'}, 'metadata': {}, 'status': 'ok'},
  'b': {'ename': 'ZeroDivisionError',
        'evalue': 'division by zero',
        'status': 'error',
@@ -69,7 +104,7 @@ SyntaxError: Missing parentheses in call to 'print'
 
 Out[1]: 
 Activating auto-logging. Current session state plus future input saved.
-Filename       : /tmp/tmpz2og3z2_/test_unicode.log
+Filename       : /tmp/tmplz9y3nr1/test_unicode.log
 Mode           : backup
 Output logging : True
 Raw input log  : False
@@ -82,7 +117,11 @@ ERROR - failed to write data to stream: <_io.TextIOWrapper name='<stdout>' mode=
 .Out[1]: ('c', 'd')
 .Out[1]: ('c', 'd')
 .Out[1]: ('c', 'd')
-.Out[1]: <__main__.A at 0x7f6ac24a5fd0>
+.......env: var='val1 '' 'val2
+env: var=val2 val3="val4
+env: var=val1
+env: var=val2
+Out[1]: <__main__.A at 0x7eff2b25eb38>
 ........Available objects for config:
      TerminalInteractiveShell
      HistoryManager
@@ -90,14 +129,14 @@ ERROR - failed to write data to stream: <_io.TextIOWrapper name='<stdout>' mode=
      IPCompleter
      PromptManager
      DisplayFormatter
-     LaTeXTool
      MagicsManager
      ScriptMagics
      AliasManager
      StoreMagics
      StoreMagics
 Out[1]: 3
-..Macro `test` created. To execute, type its name (without quotes).
+..ERROR! Session/line number was not unique in database. History logging moved to new session 7
+Macro `test` created. To execute, type its name (without quotes).
 === Macro contents: ===
 a=1
 def b():
@@ -123,7 +162,7 @@ Flushing input history
        ^
 SyntaxError: invalid syntax
 
-.......CPU times: user 3 us, sys: 1e+03 ns, total: 4 us
+...S....CPU times: user 3 us, sys: 0 ns, total: 3 us
 Wall time: 6.68 us
 Exception reporting mode: Plain
 Doctest mode is: ON
@@ -140,24 +179,25 @@ Exception reporting mode: Context
 Out[9]: <A instance>
 ..Variable   Type    Data/Info
 ----------------------------
-a          A       <object with id 140096502366160 (str() failed)>
-.....1 loops, best of 3: 988 ns per loop
+a          A       <object with id 139634405469992 (str() failed)>
+.....1 loops, best of 3: 1.02 us per loop
+1 loops, best of 1: 2.36 us per loop
+1 loops, best of 1: 2.23 us per loop
+1 loops, best of 1: 1.08 us per loop
 1 loops, best of 1: 2.12 us per loop
-1 loops, best of 1: 2.22 us per loop
-1 loops, best of 1: 1.14 us per loop
-1 loops, best of 1: 2.19 us per loop
-1 loops, best of 1: 2.22 us per loop
-100000000 loops, best of 3: 9.14 ns per loop
-1 loops, best of 1: 66.3 us per loop
-1 loops, best of 1: 67 us per loop
-10 loops, best of 10: 105 ns per loop
-...............   Installed daft_extension.py. To use it, type:
+1 loops, best of 1: 2.27 us per loop
+The slowest run took 117.55 times longer than the fastest. This could mean that an intermediate result is being cached 
+100000000 loops, best of 3: 8.65 ns per loop
+1 loops, best of 1: 52 us per loop
+1 loops, best of 1: 50.5 us per loop
+10 loops, best of 10: 74.7 ns per loop
+.S.........   Installed daft_extension.py. To use it, type:
   %load_ext daft_extension
-Writing /tmp/tmpbb3ld57o/file1
-Writing /tmp/tmpq8zekxl5/file1
-Writing /tmp/tmpkb_qjhnn/file1
-Writing /tmp/tmp5b60gjcq/file2
-Appending to /tmp/tmp5b60gjcq/file2
+Writing /tmp/tmpzfvtreg4/file1
+Writing /tmp/tmp6oezoc_c/file1
+Writing /tmp/tmpl0qzyso3/file1
+Writing /tmp/tmp_dayi0uk/file2
+Appending to /tmp/tmp_dayi0uk/file2
 .............Starting job # 0 in a separate thread.
 Starting job # 2 in a separate thread.
 Starting job # 3 in a separate thread.
@@ -165,12 +205,12 @@ Created `%timeit_alias` as an alias for `%timeit`.
 Created `%%timeit_alias` as an alias for `%%timeit`.
 Created `%%timeit_cell_alias` as an alias for `%%timeit`.
 Created `%env_alias` as an alias for `%env`.
-The following commands were written to file `/tmp/tmp7di144e8/testsave.py`:
+The following commands were written to file `/tmp/tmp3p032cqi/testsave.py`:
 a=1
 def b():
   return a**2
 print(a, b())
-The following commands were written to file `/tmp/tmp7di144e8/testsave.py`:
+The following commands were written to file `/tmp/tmp3p032cqi/testsave.py`:
 a=1
 def b():
   return a**2
@@ -178,15 +218,15 @@ print(a, b())
 The storemagic extension is already loaded. To reload it, use:
   %reload_ext storemagic
 Stored 'var' (int)
-IPython will make a temporary file named: /tmp/ipython_edit_qxg2ncvr/ipython_edit_vavn2chx.py
-............Block assigned to 'foo'
+IPython will make a temporary file named: /tmp/ipython_edit_jvt32553/ipython_edit_pinc33dn.py
+.............Block assigned to 'foo'
 Re-executing '        >>> x = [1,2,3]...' (119 chars)
-......................E..........<function f at 0x7f6ad4361620>
-<bound method SimpleClass.method of <IPython.core.tests.test_oinspect.SimpleClass object at 0x7f6ac2456cf8>>
+.........................<function f at 0x7eff34ff3488>
+<bound method SimpleClass.method of <IPython.core.tests.test_oinspect.SimpleClass object at 0x7eff2b24a160>>
 <built-in function any>
 <method 'upper' of 'str' objects>
  foo()
- Automatic calling is: Full
+ E...........Automatic calling is: Full
 -------> f(1)
 -------> f(-1)
 -------> f(+1)
@@ -195,45 +235,45 @@ Automatic calling is: Full
 -------> x(1)
 Automatic calling is: OFF
 ........S.......S..........Warning: Cannot change to a different GUI toolkit: gtk. Using qt instead.
-         45 function calls (44 primitive calls) in 0.000 seconds
+         46 function calls (45 primitive calls) in 0.000 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
         2    0.000    0.000    0.000    0.000 {built-in method open}
       2/1    0.000    0.000    0.000    0.000 {built-in method exec}
-        1    0.000    0.000    0.000    0.000 interactiveshell.py:2496(safe_execfile)
-        1    0.000    0.000    0.000    0.000 py3compat.py:108(execfile)
+        1    0.000    0.000    0.000    0.000 interactiveshell.py:2587(safe_execfile)
+        1    0.000    0.000    0.000    0.000 py3compat.py:112(execfile)
         1    0.000    0.000    0.000    0.000 {built-in method compile}
         1    0.000    0.000    0.000    0.000 posixpath.py:318(normpath)
         1    0.000    0.000    0.000    0.000 posixpath.py:145(dirname)
         1    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
-        1    0.000    0.000    0.000    0.000 _bootlocale.py:23(getpreferredencoding)
-        1    0.000    0.000    0.000    0.000 syspathcontext.py:57(__enter__)
+        1    0.000    0.000    0.000    0.000 posixpath.py:221(expanduser)
         4    0.000    0.000    0.000    0.000 {built-in method isinstance}
         1    0.000    0.000    0.000    0.000 syspathcontext.py:54(__init__)
-        1    0.000    0.000    0.000    0.000 posixpath.py:221(expanduser)
-        1    0.000    0.000    0.000    0.000 syspathcontext.py:64(__exit__)
         1    0.000    0.000    0.000    0.000 <string>:1(<module>)
-        1    0.000    0.000    0.000    0.000 posixpath.py:355(abspath)
         4    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
-        2    0.000    0.000    0.000    0.000 posixpath.py:38(_get_sep)
-        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 syspathcontext.py:57(__enter__)
+        1    0.000    0.000    0.000    0.000 syspathcontext.py:64(__exit__)
+        1    0.000    0.000    0.000    0.000 _bootlocale.py:23(getpreferredencoding)
         1    0.000    0.000    0.000    0.000 posixpath.py:60(isabs)
-        1    0.000    0.000    0.000    0.000 {built-in method nl_langinfo}
-        1    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
-        1    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
-        2    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
-        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-        1    0.000    0.000    0.000    0.000 {built-in method len}
-        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
-        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
-        1    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 posixpath.py:38(_get_sep)
+        1    0.000    0.000    0.000    0.000 posixpath.py:355(abspath)
         2    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
-        1    0.000    0.000    0.000    0.000 tmp11xz_dba.py:1(<module>)
+        3    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 codecs.py:257(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method nl_langinfo}
+        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 py3compat.py:11(no_code)
+        1    0.000    0.000    0.000    0.000 tmplh8t6njb.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 {built-in method len}
+        1    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
         1    0.000    0.000    0.000    0.000 {built-in method getdefaultencoding}
-        1    0.000    0.000    0.000    0.000 codecs.py:251(__init__)
-        1    0.000    0.000    0.000    0.000 py3compat.py:13(no_code)
  Out[11]: True
 ..............
 IPython CPU timings (estimated):
@@ -253,131 +293,130 @@ NOTE: Enter 'c' at the ipdb>  prompt to continue execution.
 *** Blank or comment
 *** Blank or comment
 NOTE: Enter 'c' at the ipdb>  prompt to continue execution.
-         585 function calls (582 primitive calls) in 0.002 seconds
+         585 function calls (582 primitive calls) in 0.003 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
        21    0.000    0.000    0.000    0.000 {built-in method stat}
         6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1621(get_data)
-        3    0.000    0.000    0.000    0.000 {built-in method open}
         3    0.000    0.000    0.000    0.000 {built-in method compile}
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:99(_write_atomic)
+        3    0.000    0.000    0.000    0.000 {built-in method open}
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2016(find_spec)
         3    0.000    0.000    0.000    0.000 {built-in method replace}
-       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:52(<listcomp>)
         3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1534(get_code)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:52(<listcomp>)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:50(_path_join)
         2    0.000    0.000    0.000    0.000 {built-in method listdir}
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:2147(_find_spec)
-      4/1    0.000    0.000    0.002    0.002 {built-in method exec}
+      4/1    0.000    0.000    0.003    0.003 {built-in method exec}
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1641(set_data)
-       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:68(_path_stat)
         3    0.000    0.000    0.000    0.000 {method 'write' of '_io.FileIO' objects}
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:2147(_find_spec)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:68(_path_stat)
         6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:437(cache_from_source)
        46    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:666(_code_to_bytecode)
-       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(_path_is_mode_type)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1853(_path_hooks)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1019(init_module_attrs)
-        1    0.000    0.000    0.000    0.000 {built-in method mkdir}
-       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:56(_path_split)
-       19    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
-        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:666(_code_to_bytecode)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1853(_path_hooks)
         3    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
-       26    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
-        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2207(_find_and_load_unlocked)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:56(_path_split)
+        1    0.000    0.000    0.000    0.000 {built-in method mkdir}
+       25    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(_path_is_mode_type)
         2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2234(_find_and_load)
+       26    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1186(_load_unlocked)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2207(_find_and_load_unlocked)
        19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:518(_verbose_message)
-        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1186(_load_unlocked)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1979(__init__)
-       11    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
         3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1902(_get_spec)
-        3    0.000    0.000    0.000    0.000 {built-in method dumps}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2061(_fill_cache)
-        1    0.000    0.000    0.001    0.001 runpy.py:88(_run_module_code)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:257(__init__)
         5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:824(cached)
-        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2124(__exit__)
-        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2120(__enter__)
-        1    0.000    0.000    0.001    0.001 util.py:64(find_spec)
-        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:313(_call_with_frames_removed)
+       11    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.001    0.001 runpy.py:88(_run_module_code)
         6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:40(_w_long)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:884(spec_from_file_location)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2011(_get_spec)
-        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:92(_path_isdir)
-       10    0.000    0.000    0.000    0.000 {built-in method hasattr}
-       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1985(<genexpr>)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:739(__exit__)
-        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:87(_path_isfile)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:274(_get_module_lock)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:192(acquire)
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1636(_cache_bytecode)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:506(_calc_mode)
-        1    0.000    0.000    0.001    0.001 runpy.py:62(_run_code)
+        3    0.000    0.000    0.000    0.000 {built-in method dumps}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2124(__exit__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2061(_fill_cache)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2120(__enter__)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:261(__enter__)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:217(release)
-       10    0.000    0.000    0.000    0.000 {built-in method getattr}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1099(create)
-        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1465(exec_module)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1870(_path_importer_cache)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1526(source_to_code)
-        9    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:884(spec_from_file_location)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:274(_get_module_lock)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2011(_get_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:739(__exit__)
+        1    0.000    0.000    0.001    0.001 util.py:64(find_spec)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1985(<genexpr>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:192(acquire)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:92(_path_isdir)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1636(_cache_bytecode)
+       10    0.000    0.000    0.000    0.000 {built-in method hasattr}
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:172(__init__)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2102(path_hook_for_FileFinder)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:313(_call_with_frames_removed)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1099(create)
         2    0.000    0.000    0.000    0.000 {built-in method any}
-        6    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2102(path_hook_for_FileFinder)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1465(exec_module)
+       10    0.000    0.000    0.000    0.000 {built-in method getattr}
        13    0.000    0.000    0.000    0.000 {built-in method len}
+        9    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:87(_path_isfile)
+        1    0.000    0.000    0.001    0.001 runpy.py:62(_run_code)
+        1    0.000    0.000    0.002    0.002 interactiveshell.py:2716(safe_run_module)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1526(source_to_code)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:217(release)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1631(path_stats)
+        1    0.000    0.000    0.001    0.001 {built-in method __import__}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:268(__exit__)
+        9    0.000    0.000    0.000    0.000 {built-in method acquire_lock}
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:129(_new_module)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:534(_check_name_wrapper)
-        1    0.000    0.000    0.001    0.001 {built-in method __import__}
-       11    0.000    0.000    0.000    0.000 {built-in method release_lock}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1631(path_stats)
-        6    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1336(find_spec)
-        1    0.000    0.000    0.001    0.001 absolute.py:2(<module>)
         3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1934(find_spec)
-        1    0.000    0.000    0.002    0.002 interactiveshell.py:2609(safe_run_module)
-        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:742(<genexpr>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:506(_calc_mode)
+       11    0.000    0.000    0.000    0.000 {built-in method release_lock}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1336(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:732(__enter__)
+        1    0.000    0.000    0.001    0.001 absolute.py:2(<module>)
         1    0.000    0.000    0.002    0.002 runpy.py:102(_get_module_details)
+        1    0.000    0.000    0.002    0.002 runpy.py:172(run_module)
+        6    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:742(<genexpr>)
+        5    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2264(_handle_fromlist)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:790(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method is_frozen}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:842(parent)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1266(find_spec)
         1    0.000    0.000    0.000    0.000 runpy.py:25(__init__)
-        9    0.000    0.000    0.000    0.000 {built-in method acquire_lock}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1591(__init__)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:842(parent)
-        1    0.000    0.000    0.002    0.002 runpy.py:172(run_module)
         2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1122(_exec)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:732(__enter__)
-        3    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:268(__exit__)
-        3    0.000    0.000    0.000    0.000 {built-in method is_frozen}
         4    0.000    0.000    0.000    0.000 {built-in method allocate_lock}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:257(__init__)
-        5    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
-        2    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
-        3    0.000    0.000    0.000    0.000 {built-in method isinstance}
-        1    0.000    0.000    0.002    0.002 <string>:1(<module>)
         1    0.000    0.000    0.000    0.000 runpy.py:30(__enter__)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:728(__init__)
-        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
-        1    0.000    0.000    0.000    0.000 runpy.py:39(__exit__)
-        4    0.000    0.000    0.000    0.000 {built-in method get_ident}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1591(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method isinstance}
         3    0.000    0.000    0.000    0.000 {built-in method id}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:850(has_location)
-        1    0.000    0.000    0.000    0.000 runpy.py:57(__exit__)
+        4    0.000    0.000    0.000    0.000 {built-in method get_ident}
         1    0.000    0.000    0.000    0.000 {built-in method is_builtin}
+        1    0.000    0.000    0.002    0.002 <string>:1(<module>)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:288(cb)
-        2    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
         1    0.000    0.000    0.000    0.000 runpy.py:47(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 runpy.py:57(__exit__)
+        1    0.000    0.000    0.000    0.000 runpy.py:39(__exit__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:728(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1616(get_filename)
+        1    0.000    0.000    0.000    0.000 runpy.py:51(__enter__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1000(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:850(has_location)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:34(_relax_case)
         1    0.000    0.000    0.000    0.000 {built-in method setattr}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1616(get_filename)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1000(__init__)
-        1    0.000    0.000    0.000    0.000 runpy.py:51(__enter__)
+        1    0.000    0.000    0.000    0.000 __init__.py:1(<module>)
         1    0.000    0.000    0.000    0.000 sub.py:2(<module>)
-        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-        1    0.000    0.000    0.000    0.000 __init__.py:1(<module>).
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}.
           585 function calls (582 primitive calls) in 0.002 seconds
 
    Ordered by: internal time
@@ -385,1310 +424,213 @@ NOTE: Enter 'c' at the ipdb>  prompt to continue execution.
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
        21    0.000    0.000    0.000    0.000 {built-in method stat}
         6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1621(get_data)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2016(find_spec)
         3    0.000    0.000    0.000    0.000 {built-in method open}
         3    0.000    0.000    0.000    0.000 {built-in method compile}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:99(_write_atomic)
         3    0.000    0.000    0.000    0.000 {built-in method replace}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:99(_write_atomic)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2016(find_spec)
         3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1534(get_code)
-       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:52(<listcomp>)
        20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:50(_path_join)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:52(<listcomp>)
         2    0.000    0.000    0.000    0.000 {built-in method listdir}
         3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:2147(_find_spec)
       4/1    0.000    0.000    0.002    0.002 {built-in method exec}
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:68(_path_stat)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1641(set_data)
         3    0.000    0.000    0.000    0.000 {method 'write' of '_io.FileIO' objects}
-        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:437(cache_from_source)
        46    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
-       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:68(_path_stat)
-        1    0.000    0.000    0.000    0.000 {built-in method mkdir}
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:437(cache_from_source)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1853(_path_hooks)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:666(_code_to_bytecode)
-       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:56(_path_split)
        12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(_path_is_mode_type)
-        3    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1019(init_module_attrs)
+        1    0.000    0.000    0.000    0.000 {built-in method mkdir}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:56(_path_split)
+       25    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
        26    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
-       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:518(_verbose_message)
-        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1186(_load_unlocked)
-       19    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1902(_get_spec)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1979(__init__)
-       11    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
-        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2207(_find_and_load_unlocked)
-        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
-        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:824(cached)
+        3    0.000    0.000    0.000    0.000 {method 'read' of '_io.FileIO' objects}
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1186(_load_unlocked)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1019(init_module_attrs)
         2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2234(_find_and_load)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1902(_get_spec)
+       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:518(_verbose_message)
+        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1979(__init__)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:2207(_find_and_load_unlocked)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:824(cached)
+       11    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
         3    0.000    0.000    0.000    0.000 {built-in method dumps}
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2061(_fill_cache)
-        1    0.000    0.000    0.001    0.001 runpy.py:88(_run_module_code)
-       10    0.000    0.000    0.000    0.000 {built-in method hasattr}
         6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:40(_w_long)
-        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2120(__enter__)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2011(_get_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:739(__exit__)
+        1    0.000    0.000    0.001    0.001 runpy.py:88(_run_module_code)
         9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2124(__exit__)
-       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1985(<genexpr>)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:884(spec_from_file_location)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2120(__enter__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:92(_path_isdir)
+        1    0.000    0.000    0.001    0.001 util.py:64(find_spec)
+       10    0.000    0.000    0.000    0.000 {built-in method hasattr}
        10    0.000    0.000    0.000    0.000 {built-in method getattr}
         5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:313(_call_with_frames_removed)
-        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:92(_path_isdir)
-        1    0.000    0.000    0.001    0.001 runpy.py:62(_run_code)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:261(__enter__)
-        1    0.000    0.000    0.001    0.001 util.py:64(find_spec)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:739(__exit__)
-        2    0.000    0.000    0.000    0.000 {built-in method any}
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1636(_cache_bytecode)
-       11    0.000    0.000    0.000    0.000 {built-in method release_lock}
-        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:87(_path_isfile)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:274(_get_module_lock)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1870(_path_importer_cache)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1526(source_to_code)
-        9    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:506(_calc_mode)
-       13    0.000    0.000    0.000    0.000 {built-in method len}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:172(__init__)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:217(release)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1099(create)
         2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1465(exec_module)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1985(<genexpr>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:884(spec_from_file_location)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1636(_cache_bytecode)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1526(source_to_code)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:217(release)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:192(acquire)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2102(path_hook_for_FileFinder)
-        6    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1631(path_stats)
-        1    0.000    0.000    0.001    0.001 relative.py:2(<module>)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:129(_new_module)
         1    0.000    0.000    0.001    0.001 {built-in method __import__}
-        6    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1336(find_spec)
-        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1934(find_spec)
-        5    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:732(__enter__)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:534(_check_name_wrapper)
-        1    0.000    0.000    0.002    0.002 interactiveshell.py:2609(safe_run_module)
-        9    0.000    0.000    0.000    0.000 {built-in method acquire_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method any}
+       13    0.000    0.000    0.000    0.000 {built-in method len}
+        1    0.000    0.000    0.001    0.001 runpy.py:62(_run_code)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1631(path_stats)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1870(_path_importer_cache)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1099(create)
+       11    0.000    0.000    0.000    0.000 {built-in method release_lock}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2102(path_hook_for_FileFinder)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:506(_calc_mode)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:172(__init__)
+        9    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
         8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:742(<genexpr>)
+        9    0.000    0.000    0.000    0.000 {built-in method acquire_lock}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:261(__enter__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:129(_new_module)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:534(_check_name_wrapper)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:268(__exit__)
-        1    0.000    0.000    0.002    0.002 runpy.py:102(_get_module_details)
-        3    0.000    0.000    0.000    0.000 {built-in method is_frozen}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:842(parent)
+        6    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
+        1    0.000    0.000    0.001    0.001 relative.py:2(<module>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:732(__enter__)
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:790(__init__)
-        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1122(_exec)
-        1    0.000    0.000    0.000    0.000 runpy.py:30(__enter__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1336(find_spec)
+        5    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:87(_path_isfile)
+        1    0.000    0.000    0.002    0.002 interactiveshell.py:2716(safe_run_module)
         1    0.000    0.000    0.000    0.000 runpy.py:25(__init__)
-        4    0.000    0.000    0.000    0.000 {built-in method get_ident}
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1591(__init__)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:2264(_handle_fromlist)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1934(find_spec)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1122(_exec)
+        1    0.000    0.000    0.002    0.002 runpy.py:102(_get_module_details)
         1    0.000    0.000    0.002    0.002 runpy.py:172(run_module)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:842(parent)
+        3    0.000    0.000    0.000    0.000 {built-in method is_frozen}
         3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1266(find_spec)
-        1    0.000    0.000    0.000    0.000 runpy.py:39(__exit__)
-        3    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
-        3    0.000    0.000    0.000    0.000 {built-in method id}
-        3    0.000    0.000    0.000    0.000 {built-in method isinstance}
-        1    0.000    0.000    0.002    0.002 <string>:1(<module>)
-        4    0.000    0.000    0.000    0.000 {built-in method allocate_lock}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:288(cb)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:257(__init__)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1616(get_filename)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1591(__init__)
         2    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method get_ident}
+        4    0.000    0.000    0.000    0.000 {built-in method allocate_lock}
+        1    0.000    0.000    0.002    0.002 <string>:1(<module>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:288(cb)
+        1    0.000    0.000    0.000    0.000 runpy.py:30(__enter__)
+        3    0.000    0.000    0.000    0.000 {built-in method id}
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:728(__init__)
-        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:850(has_location)
-        1    0.000    0.000    0.000    0.000 runpy.py:57(__exit__)
+        3    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
         1    0.000    0.000    0.000    0.000 {built-in method is_builtin}
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1000(__init__)
-        1    0.000    0.000    0.000    0.000 runpy.py:51(__enter__)
-        1    0.000    0.000    0.000    0.000 sub.py:2(<module>)
-        2    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:257(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
         1    0.000    0.000    0.000    0.000 runpy.py:47(__init__)
-        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:34(_relax_case)
-        1    0.000    0.000    0.000    0.000 {built-in method setattr}
+        3    0.000    0.000    0.000    0.000 {built-in method isinstance}
+        1    0.000    0.000    0.000    0.000 runpy.py:57(__exit__)
+        1    0.000    0.000    0.000    0.000 runpy.py:39(__exit__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1616(get_filename)
+        1    0.000    0.000    0.000    0.000 runpy.py:51(__enter__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1000(__init__)
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-        1    0.000    0.000    0.000    0.000 __init__.py:1(<module>)..........
- ...S.....Compiling /.cython/inline/_cython_inline_3f4f99c4a5086e70e82a65d63a97f1a8.pyx because it changed.
-Cythonizing /.cython/inline/_cython_inline_3f4f99c4a5086e70e82a65d63a97f1a8.pyx
-warning: /.cython/inline/_cython_inline_3f4f99c4a5086e70e82a65d63a97f1a8.pyx:6:4: Unreachable code
-.....EEEEEEE.EEEE.....E........E.......E..................../tmp/tmpnk7uw3_7
+        1    0.000    0.000    0.000    0.000 {built-in method setattr}
+        2    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 __init__.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 sub.py:2(<module>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:850(has_location)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:34(_relax_case).........S..
+ ...S.......E.Terminals not available (error was No module named 'terminado')
+SSSSSSTerminals not available (error was No module named 'terminado')
+...Terminals not available (error was No module named 'terminado')
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEETerminals not available (error was No module named 'terminado')
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE.E.........S.E......Terminals not available (error was No module named 'terminado')
+./tmp/tmp5c679335
 Stored 'foo' (int)
-Warning:bar is <function bar at 0x7f6ac1bc4620>
+Warning:bar is <function bar at 0x7eff2bc4ae18>
 Proper storage of interactively declared classes (or instances
 of those classes) is not possible! Only instances
 of classes in real modules on file system can be %store'd.
 
 Stored 'foo' (int)
-()
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmp4w0q1pl1/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+Directory already exists: '/tmp/tmpeaurfgy7/Directory with spaces in'
+/tmp/tmpzwelle9q/target /tmp/tmpzwelle9q/test bad symlink/bad symlink False
+/tmp/tmpj5yg53vq/test good symlink/zfoo.txt /tmp/tmpj5yg53vq/test good symlink/good symlink True
+...Terminals not available (error was No module named 'terminado')
+......Terminals not available (error was No module named 'terminado')
+..........Terminals not available (error was No module named 'terminado')
+...ETerminals not available (error was No module named 'terminado')
+......................()
 (5, 'hi')
 ('hi', 5)
 ({},)
 (None,)
-[2K[2K.[2K[2K....EEEEEEEEEEEEEEEEE..........EEEEEEEE........................S.................EEEEEEESE.....E............S....................S..................................S........SS...SS.SSSSS.SSSSSS..SS..SS.SSSS.SSSS.......S.............................SSS............S.................SSS.......E....SS......SSSS..........................................................................EEF..EE...EEEEE................................................................................................................S........SSS...S................S.F..S..S............S..S...........................................................S.............S......................................................S..S............S..
-======================================================================
-ERROR: IPython.core.tests.test_history.test_history
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/tests/test_history.py", line 58, in test_history
-    ip.magic("%%save %s 1-10" % os.path.join(tmpdir, "test4"))
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 2205, in magic
-    return self.run_line_magic(magic_name, magic_arg_s)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 2126, in run_line_magic
-    result = fn(*args,**kwargs)
-  File "<string>", line 2, in save
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/magic.py", line 193, in <lambda>
-    call = lambda f, *a, **k: f(*a, **k)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/magics/code.py", line 213, in save
-    print(cmds)
-UnicodeEncodeError: 'ascii' codec can't encode characters in position 45-49: ordinal not in range(128)
-
-======================================================================
-ERROR: IPython.core.tests.test_oinspect.test_pinfo_nonascii
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/tests/test_oinspect.py", line 325, in test_pinfo_nonascii
-    ip._inspect('pinfo', 'nonascii2', detail_level=1)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 1498, in _inspect
-    pmethod(info.obj, oname, formatter, info, **kw)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/oinspect.py", line 596, in pinfo
-    page.page(self._format_fields(displayfields))
-  File "/usr/local/lib/python3.4/site-packages/IPython/testing/globalipapp.py", line 171, in nopage
-    print(strng)
-UnicodeEncodeError: 'ascii' codec can't encode characters in position 324-361: ordinal not in range(128)
-
-======================================================================
-ERROR: IPython.extensions.tests.test_octavemagic.test_octave_inline
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/octavemagic.py", line 326, in octave
-    text_output = self._oct.run(code, verbose=False)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 371, in octave_command
-    return self._call(name, *args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 468, in _call
-    data = self.eval(cmd, **eval_kwargs)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 249, in eval
-    post_call=post_call)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 760, in evaluate
-    raise Oct2PyError(msg)
-oct2py.utils.Oct2PyError: Oct2Py tried to run:
-"""
-load /tmp/tmp57ffawzx.mat "A__"
-[a__] = run(A__)
-save -v6 /tmp/tmpq01yqw7z.mat a__
-"""
-Octave returned:
-run: file SCRIPT must exist and be a valid Octave scriptfile
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/tests/test_octavemagic.py", line 27, in test_octave_inline
-    result = ip.run_line_magic('octave', '[1, 2, 3] + 1;')
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 2126, in run_line_magic
-    result = fn(*args,**kwargs)
-  File "<string>", line 2, in octave
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/magic.py", line 193, in <lambda>
-    call = lambda f, *a, **k: f(*a, **k)
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/octavemagic.py", line 328, in octave
-    msg = exception.message
-AttributeError: 'Oct2PyError' object has no attribute 'message'
-
-======================================================================
-ERROR: IPython.extensions.tests.test_octavemagic.test_octave_roundtrip
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/tests/test_octavemagic.py", line 33, in test_octave_roundtrip
-    ip.run_line_magic('octave_push', 'x y')
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 2126, in run_line_magic
-    result = fn(*args,**kwargs)
-  File "<string>", line 2, in octave_push
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/magic.py", line 193, in <lambda>
-    call = lambda f, *a, **k: f(*a, **k)
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/octavemagic.py", line 145, in octave_push
-    self._oct.put(input, self.shell.user_ns[input])
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 539, in __getattr__
-    doc = self._get_doc(name)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 503, in _get_doc
-    raise Oct2PyError(msg % name)
-oct2py.utils.Oct2PyError: Name: "put" does not exist on the Octave session path
-
-======================================================================
-ERROR: IPython.extensions.tests.test_octavemagic.test_octave_cell_magic
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/tests/test_octavemagic.py", line 44, in test_octave_cell_magic
-    'z = x + y;')
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 2162, in run_cell_magic
-    result = fn(magic_arg_s, cell)
-  File "<string>", line 2, in octave
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/magic.py", line 193, in <lambda>
-    call = lambda f, *a, **k: f(*a, **k)
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/octavemagic.py", line 270, in octave
-    self._oct.put(input, val)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 539, in __getattr__
-    doc = self._get_doc(name)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 503, in _get_doc
-    raise Oct2PyError(msg % name)
-oct2py.utils.Oct2PyError: Name: "put" does not exist on the Octave session path
-
-======================================================================
-ERROR: IPython.extensions.tests.test_octavemagic.test_octave_plot
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/octavemagic.py", line 326, in octave
-    text_output = self._oct.run(code, verbose=False)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 371, in octave_command
-    return self._call(name, *args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 468, in _call
-    data = self.eval(cmd, **eval_kwargs)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 249, in eval
-    post_call=post_call)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 760, in evaluate
-    raise Oct2PyError(msg)
-oct2py.utils.Oct2PyError: Oct2Py tried to run:
-"""
-load /tmp/tmp57ffawzx.mat "A__"
-[a__] = run(A__)
-save -v6 /tmp/tmpq01yqw7z.mat a__
-"""
-Octave returned:
-run: file SCRIPT must exist and be a valid Octave scriptfile
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/tests/test_octavemagic.py", line 62, in test_octave_plot
-    'plot([1, 2, 3]); figure; plot([4, 5, 6]);')
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 2162, in run_cell_magic
-    result = fn(magic_arg_s, cell)
-  File "<string>", line 2, in octave
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/magic.py", line 193, in <lambda>
-    call = lambda f, *a, **k: f(*a, **k)
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/octavemagic.py", line 328, in octave
-    msg = exception.message
-AttributeError: 'Oct2PyError' object has no attribute 'message'
-
-======================================================================
-ERROR: IPython.extensions.tests.test_octavemagic.test_octavemagic_localscope
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/tests/test_octavemagic.py", line 70, in test_octavemagic_localscope
-    ip.run_line_magic('octave', '-i x -o result result = x+1')
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 2126, in run_line_magic
-    result = fn(*args,**kwargs)
-  File "<string>", line 2, in octave
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/magic.py", line 193, in <lambda>
-    call = lambda f, *a, **k: f(*a, **k)
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/octavemagic.py", line 270, in octave
-    self._oct.put(input, val)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 539, in __getattr__
-    doc = self._get_doc(name)
-  File "/usr/local/lib/python3.4/site-packages/oct2py/core.py", line 503, in _get_doc
-    raise Oct2PyError(msg % name)
-oct2py.utils.Oct2PyError: Name: "put" does not exist on the Octave session path
-
-======================================================================
-ERROR: Failure: ImportError (No module named 'rpy2')
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
-    raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 414, in loadTestsFromName
-    addr.filename, addr.module)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
-    return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
-    mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
-    return load_source(name, filename, file)
-  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
-    module = methods.load()
-  File "<frozen importlib._bootstrap>", line 1220, in load
-  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
-  File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1471, in exec_module
-  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/tests/test_rmagic.py", line 3, in <module>
-    from IPython.extensions import rmagic
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/rmagic.py", line 56, in <module>
-    import rpy2.rinterface as ri
-ImportError: No module named 'rpy2'
-
-======================================================================
-ERROR: IPython.extensions.tests.test_storemagic.test_store_restore
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/pickleshare.py", line 66, in __getitem__
-    mtime = (fil.stat()[stat.ST_MTIME])
-  File "/usr/local/lib/python3.4/site-packages/IPython/external/path/_path.py", line 970, in stat
-    return os.stat(self)
-FileNotFoundError: [Errno 2] No such file or directory: path('/.ipython/profile_default/db/stored_aliases')
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/extensions/tests/test_storemagic.py", line 19, in test_store_restore
-    nt.assert_in('bar', ip.db['stored_aliases'])
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/pickleshare.py", line 68, in __getitem__
-    raise KeyError(key)
-KeyError: 'stored_aliases'
-
-======================================================================
-ERROR: test suite for <class 'IPython.html.nbconvert.tests.test_nbconvert_handlers.APITest'>
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 210, in run
-    self.setUp()
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 293, in setUp
-    self.setupContext(ancestor)
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 316, in setupContext
-    try_run(context, names)
-  File "/usr/local/lib/python3.4/site-packages/nose/util.py", line 470, in try_run
-    return func()
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/launchnotebook.py", line 74, in setup_class
-    stdout=nose.iptest_stdstreams_fileno(),
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: test suite for <class 'IPython.html.services.kernels.tests.test_kernels_api.KernelAPITest'>
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 210, in run
-    self.setUp()
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 293, in setUp
-    self.setupContext(ancestor)
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 316, in setupContext
-    try_run(context, names)
-  File "/usr/local/lib/python3.4/site-packages/nose/util.py", line 470, in try_run
-    return func()
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/launchnotebook.py", line 74, in setup_class
-    stdout=nose.iptest_stdstreams_fileno(),
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: test suite for <class 'IPython.html.services.nbconvert.tests.test_nbconvert_api.APITest'>
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 210, in run
-    self.setUp()
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 293, in setUp
-    self.setupContext(ancestor)
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 316, in setupContext
-    try_run(context, names)
-  File "/usr/local/lib/python3.4/site-packages/nose/util.py", line 470, in try_run
-    return func()
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/launchnotebook.py", line 74, in setup_class
-    stdout=nose.iptest_stdstreams_fileno(),
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: test_checkpoint_subdir (IPython.html.services.notebooks.tests.test_nbmanager.TestFileNotebookManager)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/services/notebooks/tests/test_nbmanager.py", line 64, in test_checkpoint_subdir
-    os.mkdir(os.path.join(td, subd))
-UnicodeEncodeError: 'ascii' codec can't encode character '\u2202' in position 21: ordinal not in range(128)
-
-======================================================================
-ERROR: test_copy_notebook (IPython.html.services.notebooks.tests.test_nbmanager.TestNotebookManager)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/services/notebooks/tests/test_nbmanager.py", line 269, in test_copy_notebook
-    os.mkdir(os.path.join(nm.notebook_dir, path))
-UnicodeEncodeError: 'ascii' codec can't encode character '\xe5' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test suite for <class 'IPython.html.services.notebooks.tests.test_notebooks_api.APITest'>
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 210, in run
-    self.setUp()
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 293, in setUp
-    self.setupContext(ancestor)
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 316, in setupContext
-    try_run(context, names)
-  File "/usr/local/lib/python3.4/site-packages/nose/util.py", line 470, in try_run
-    return func()
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/launchnotebook.py", line 74, in setup_class
-    stdout=nose.iptest_stdstreams_fileno(),
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: test suite for <class 'IPython.html.services.sessions.tests.test_sessions_api.SessionAPITest'>
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 210, in run
-    self.setUp()
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 293, in setUp
-    self.setupContext(ancestor)
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 316, in setupContext
-    try_run(context, names)
-  File "/usr/local/lib/python3.4/site-packages/nose/util.py", line 470, in try_run
-    return func()
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/launchnotebook.py", line 74, in setup_class
-    stdout=nose.iptest_stdstreams_fileno(),
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: test suite for <class 'IPython.html.tests.test_files.FilesTest'>
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 210, in run
-    self.setUp()
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 293, in setUp
-    self.setupContext(ancestor)
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 316, in setupContext
-    try_run(context, names)
-  File "/usr/local/lib/python3.4/site-packages/nose/util.py", line 470, in try_run
-    return func()
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/launchnotebook.py", line 74, in setup_class
-    stdout=nose.iptest_stdstreams_fileno(),
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: test_check_nbextension (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: install_nbextension when ipython_dir doesn't exist
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_create_nbextensions (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_install_nbextension (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_install_symlink (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_install_symlink_bad (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_install_tar (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_install_url (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_install_zip (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_overwrite_dir (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_overwrite_file (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_quiet (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_single_dir (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_single_file (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_skip_old_file (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: test_update_file (IPython.html.tests.test_nbextensions.TestInstallNBExtension)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 67, in setUp
-    touch(fullpath)
-  File "/usr/local/lib/python3.4/site-packages/IPython/html/tests/test_nbextensions.py", line 39, in touch
-    open(file, 'a').close()
-UnicodeEncodeError: 'ascii' codec can't encode character '\u0192' in position 17: ordinal not in range(128)
-
-======================================================================
-ERROR: Does pylab work in the in-process kernel?
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/tests/test_kernel.py", line 38, in setUp
-    self.km.start_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/manager.py", line 43, in start_kernel
-    self.kernel = InProcessKernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/ipkernel.py", line 68, in __init__
-    super(InProcessKernel, self).__init__(**traits)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/zmq/ipkernel.py", line 145, in __init__
-    kernel      = self,
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/configurable.py", line 365, in instance
-    '%s are being created.' % cls.__name__
-IPython.config.configurable.MultipleInstanceError: Multiple incompatible subclass instances of InProcessInteractiveShell are being created.
-
-======================================================================
-ERROR: Does the in-process kernel handle raw_input correctly?
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/tests/test_kernel.py", line 38, in setUp
-    self.km.start_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/manager.py", line 43, in start_kernel
-    self.kernel = InProcessKernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/ipkernel.py", line 68, in __init__
-    super(InProcessKernel, self).__init__(**traits)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/zmq/ipkernel.py", line 145, in __init__
-    kernel      = self,
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/configurable.py", line 365, in instance
-    '%s are being created.' % cls.__name__
-IPython.config.configurable.MultipleInstanceError: Multiple incompatible subclass instances of InProcessInteractiveShell are being created.
-
-======================================================================
-ERROR: Does the in-process kernel correctly capture IO?
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/tests/test_kernel.py", line 38, in setUp
-    self.km.start_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/manager.py", line 43, in start_kernel
-    self.kernel = InProcessKernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/ipkernel.py", line 68, in __init__
-    super(InProcessKernel, self).__init__(**traits)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/zmq/ipkernel.py", line 145, in __init__
-    kernel      = self,
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/configurable.py", line 365, in instance
-    '%s are being created.' % cls.__name__
-IPython.config.configurable.MultipleInstanceError: Multiple incompatible subclass instances of InProcessInteractiveShell are being created.
-
-======================================================================
-ERROR: Does requesting completion from an in-process kernel work?
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/tests/test_kernelmanager.py", line 70, in test_complete
-    km.start_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/manager.py", line 43, in start_kernel
-    self.kernel = InProcessKernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/ipkernel.py", line 68, in __init__
-    super(InProcessKernel, self).__init__(**traits)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/zmq/ipkernel.py", line 145, in __init__
-    kernel      = self,
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/configurable.py", line 365, in instance
-    '%s are being created.' % cls.__name__
-IPython.config.configurable.MultipleInstanceError: Multiple incompatible subclass instances of InProcessInteractiveShell are being created.
-
-======================================================================
-ERROR: Does executing code in an in-process kernel work?
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/tests/test_kernelmanager.py", line 60, in test_execute
-    km.start_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/manager.py", line 43, in start_kernel
-    self.kernel = InProcessKernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/ipkernel.py", line 68, in __init__
-    super(InProcessKernel, self).__init__(**traits)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/zmq/ipkernel.py", line 145, in __init__
-    kernel      = self,
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/configurable.py", line 365, in instance
-    '%s are being created.' % cls.__name__
-IPython.config.configurable.MultipleInstanceError: Multiple incompatible subclass instances of InProcessInteractiveShell are being created.
-
-======================================================================
-ERROR: Does requesting history from an in-process kernel work?
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/tests/test_kernelmanager.py", line 98, in test_history
-    km.start_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/manager.py", line 43, in start_kernel
-    self.kernel = InProcessKernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/ipkernel.py", line 68, in __init__
-    super(InProcessKernel, self).__init__(**traits)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/zmq/ipkernel.py", line 145, in __init__
-    kernel      = self,
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/configurable.py", line 365, in instance
-    '%s are being created.' % cls.__name__
-IPython.config.configurable.MultipleInstanceError: Multiple incompatible subclass instances of InProcessInteractiveShell are being created.
-
-======================================================================
-ERROR: Does the in-process kernel manager implement the basic KM interface?
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/tests/test_kernelmanager.py", line 32, in test_interface
-    km.start_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/manager.py", line 43, in start_kernel
-    self.kernel = InProcessKernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/ipkernel.py", line 68, in __init__
-    super(InProcessKernel, self).__init__(**traits)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/zmq/ipkernel.py", line 145, in __init__
-    kernel      = self,
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/configurable.py", line 365, in instance
-    '%s are being created.' % cls.__name__
-IPython.config.configurable.MultipleInstanceError: Multiple incompatible subclass instances of InProcessInteractiveShell are being created.
-
-======================================================================
-ERROR: Does requesting object information from an in-process kernel work?
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/tests/test_kernelmanager.py", line 84, in test_object_info
-    km.start_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/manager.py", line 43, in start_kernel
-    self.kernel = InProcessKernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/inprocess/ipkernel.py", line 68, in __init__
-    super(InProcessKernel, self).__init__(**traits)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/zmq/ipkernel.py", line 145, in __init__
-    kernel      = self,
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/configurable.py", line 365, in instance
-    '%s are being created.' % cls.__name__
-IPython.config.configurable.MultipleInstanceError: Multiple incompatible subclass instances of InProcessInteractiveShell are being created.
-
-======================================================================
-ERROR: simple print statement in kernel
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/test_kernel.py", line 46, in test_simple_print
-    with kernel() as kc:
-  File "/usr/local/lib/python3.4/contextlib.py", line 59, in __enter__
-    return next(self.gen)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 111, in kernel
-    yield start_global_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 97, in start_global_kernel
-    KM, KC = start_new_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 46, in start_new_kernel
-    kwargs = dict(stdout=nose.iptest_stdstreams_fileno(), stderr=STDOUT)
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: test that sys.path doesn't get messed up by default
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/test_kernel.py", line 57, in test_sys_path
-    with kernel() as kc:
-  File "/usr/local/lib/python3.4/contextlib.py", line 59, in __enter__
-    return next(self.gen)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 111, in kernel
-    yield start_global_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 97, in start_global_kernel
-    KM, KC = start_new_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 46, in start_new_kernel
-    kwargs = dict(stdout=nose.iptest_stdstreams_fileno(), stderr=STDOUT)
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: test that sys.path doesn't get messed up when `--profile-dir` is specified
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/test_kernel.py", line 65, in test_sys_path_profile_dir
-    with new_kernel(['--profile-dir', locate_profile('default')]) as kc:
-  File "/usr/local/lib/python3.4/contextlib.py", line 59, in __enter__
-    return next(self.gen)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 142, in new_kernel
-    km, kc = start_new_kernel(argv)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 46, in start_new_kernel
-    kwargs = dict(stdout=nose.iptest_stdstreams_fileno(), stderr=STDOUT)
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: printing from forked mp.Process
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 215, in knownfailer
-    return f(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/test_kernel.py", line 73, in test_subprocess_print
-    with new_kernel() as kc:
-  File "/usr/local/lib/python3.4/contextlib.py", line 59, in __enter__
-    return next(self.gen)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 142, in new_kernel
-    km, kc = start_new_kernel(argv)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 46, in start_new_kernel
-    kwargs = dict(stdout=nose.iptest_stdstreams_fileno(), stderr=STDOUT)
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: mp.Process without print doesn't trigger iostream mp_mode
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/test_kernel.py", line 103, in test_subprocess_noprint
-    with kernel() as kc:
-  File "/usr/local/lib/python3.4/contextlib.py", line 59, in __enter__
-    return next(self.gen)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 111, in kernel
-    yield start_global_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 97, in start_global_kernel
-    KM, KC = start_new_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 46, in start_new_kernel
-    kwargs = dict(stdout=nose.iptest_stdstreams_fileno(), stderr=STDOUT)
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: error in mp.Process doesn't crash
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 215, in knownfailer
-    return f(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/test_kernel.py", line 126, in test_subprocess_error
-    with new_kernel() as kc:
-  File "/usr/local/lib/python3.4/contextlib.py", line 59, in __enter__
-    return next(self.gen)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 142, in new_kernel
-    km, kc = start_new_kernel(argv)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 46, in start_new_kernel
-    kwargs = dict(stdout=nose.iptest_stdstreams_fileno(), stderr=STDOUT)
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: test [raw_]input
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/test_kernel.py", line 148, in test_raw_input
-    with kernel() as kc:
-  File "/usr/local/lib/python3.4/contextlib.py", line 59, in __enter__
-    return next(self.gen)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 111, in kernel
-    yield start_global_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 97, in start_global_kernel
-    KM, KC = start_new_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 46, in start_new_kernel
-    kwargs = dict(stdout=nose.iptest_stdstreams_fileno(), stderr=STDOUT)
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: IPython.kernel.tests.test_kernel.test_save_history
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/test_kernel.py", line 191, in test_save_history
-    with kernel() as kc, TemporaryDirectory() as td:
-  File "/usr/local/lib/python3.4/contextlib.py", line 59, in __enter__
-    return next(self.gen)
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 111, in kernel
-    yield start_global_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 97, in start_global_kernel
-    KM, KC = start_new_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 46, in start_new_kernel
-    kwargs = dict(stdout=nose.iptest_stdstreams_fileno(), stderr=STDOUT)
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: test suite for <module 'IPython.kernel.tests.test_message_spec' from '/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/test_message_spec.py'>
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 210, in run
-    self.setUp()
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 293, in setUp
-    self.setupContext(ancestor)
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 316, in setupContext
-    try_run(context, names)
-  File "/usr/local/lib/python3.4/site-packages/nose/util.py", line 470, in try_run
-    return func()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/test_message_spec.py", line 35, in setup
-    KC = start_global_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 97, in start_global_kernel
-    KM, KC = start_new_kernel()
-  File "/usr/local/lib/python3.4/site-packages/IPython/kernel/tests/utils.py", line 46, in start_new_kernel
-    kwargs = dict(stdout=nose.iptest_stdstreams_fileno(), stderr=STDOUT)
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: Can notebook names include accents?
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/nbconvert/tests/test_nbconvertapp.py", line 187, in test_accents_in_filename
-    self.create_empty_notebook(u'nb1_an\xe1lisis.ipynb')
-  File "/usr/local/lib/python3.4/site-packages/IPython/nbconvert/tests/base.py", line 120, in create_empty_notebook
-    with io.open(path, 'w', encoding='utf-8') as f:
-UnicodeEncodeError: 'ascii' codec can't encode character '\xe1' in position 6: ordinal not in range(128)
-
-======================================================================
-ERROR: test suite for <module 'IPython.parallel.tests' from '/usr/local/lib/python3.4/site-packages/IPython/parallel/tests/__init__.py'>
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 210, in run
-    self.setUp()
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 293, in setUp
-    self.setupContext(ancestor)
-  File "/usr/local/lib/python3.4/site-packages/nose/suite.py", line 316, in setupContext
-    try_run(context, names)
-  File "/usr/local/lib/python3.4/site-packages/nose/util.py", line 470, in try_run
-    return func()
-  File "/usr/local/lib/python3.4/site-packages/IPython/parallel/tests/__init__.py", line 75, in setup
-    cp.start()
-  File "/usr/local/lib/python3.4/site-packages/IPython/parallel/tests/__init__.py", line 43, in start
-    stdout=nose.iptest_stdstreams_fileno(), stderr=STDOUT,
-AttributeError: 'module' object has no attribute 'iptest_stdstreams_fileno'
-
-======================================================================
-ERROR: Failure: ImportError (
-    Could not load requested Qt binding. Please ensure that
-    PyQt4 >= 4.7 or PySide >= 1.0.3 is available,
-    and only one is imported per session.
-
-    Currently-imported Qt library:   None
-    PyQt4 installed:                 False
-    PySide >= 1.0.3 installed:       False
-    Tried to load:                   ['pyside', 'pyqt']
-    )
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
-    raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 414, in loadTestsFromName
-    addr.filename, addr.module)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
-    return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
-    mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
-    return load_source(name, filename, file)
-  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
-    module = methods.load()
-  File "<frozen importlib._bootstrap>", line 1220, in load
-  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
-  File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1471, in exec_module
-  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
-  File "/usr/local/lib/python3.4/site-packages/IPython/qt/console/tests/test_ansi_code_processor.py", line 5, in <module>
-    from IPython.qt.console.ansi_code_processor import AnsiCodeProcessor
-  File "/usr/local/lib/python3.4/site-packages/IPython/qt/console/ansi_code_processor.py", line 12, in <module>
-    from IPython.external.qt import QtGui
-  File "/usr/local/lib/python3.4/site-packages/IPython/external/qt.py", line 23, in <module>
-    QtCore, QtGui, QtSvg, QT_API = load_qt(api_opts)
-  File "/usr/local/lib/python3.4/site-packages/IPython/external/qt_loaders.py", line 258, in load_qt
-    api_options))
-ImportError: 
-    Could not load requested Qt binding. Please ensure that
-    PyQt4 >= 4.7 or PySide >= 1.0.3 is available,
-    and only one is imported per session.
-
-    Currently-imported Qt library:   None
-    PyQt4 installed:                 False
-    PySide >= 1.0.3 installed:       False
-    Tried to load:                   ['pyside', 'pyqt']
-    
-
-======================================================================
-ERROR: Failure: ImportError (
-    Could not load requested Qt binding. Please ensure that
-    PyQt4 >= 4.7 or PySide >= 1.0.3 is available,
-    and only one is imported per session.
-
-    Currently-imported Qt library:   None
-    PyQt4 installed:                 False
-    PySide >= 1.0.3 installed:       False
-    Tried to load:                   ['pyside', 'pyqt']
-    )
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
-    raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 414, in loadTestsFromName
-    addr.filename, addr.module)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
-    return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
-    mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
-    return load_source(name, filename, file)
-  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
-    module = methods.load()
-  File "<frozen importlib._bootstrap>", line 1220, in load
-  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
-  File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1471, in exec_module
-  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
-  File "/usr/local/lib/python3.4/site-packages/IPython/qt/console/tests/test_console_widget.py", line 5, in <module>
-    from IPython.external.qt import QtCore, QtGui
-  File "/usr/local/lib/python3.4/site-packages/IPython/external/qt.py", line 23, in <module>
-    QtCore, QtGui, QtSvg, QT_API = load_qt(api_opts)
-  File "/usr/local/lib/python3.4/site-packages/IPython/external/qt_loaders.py", line 258, in load_qt
-    api_options))
-ImportError: 
-    Could not load requested Qt binding. Please ensure that
-    PyQt4 >= 4.7 or PySide >= 1.0.3 is available,
-    and only one is imported per session.
-
-    Currently-imported Qt library:   None
-    PyQt4 installed:                 False
-    PySide >= 1.0.3 installed:       False
-    Tried to load:                   ['pyside', 'pyqt']
-    
-
-======================================================================
-ERROR: Failure: ImportError (
-    Could not load requested Qt binding. Please ensure that
-    PyQt4 >= 4.7 or PySide >= 1.0.3 is available,
-    and only one is imported per session.
-
-    Currently-imported Qt library:   None
-    PyQt4 installed:                 False
-    PySide >= 1.0.3 installed:       False
-    Tried to load:                   ['pyside', 'pyqt']
-    )
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
-    raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 414, in loadTestsFromName
-    addr.filename, addr.module)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
-    return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
-    mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
-    return load_source(name, filename, file)
-  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
-    module = methods.load()
-  File "<frozen importlib._bootstrap>", line 1220, in load
-  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
-  File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1471, in exec_module
-  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
-  File "/usr/local/lib/python3.4/site-packages/IPython/qt/console/tests/test_kill_ring.py", line 5, in <module>
-    from IPython.external.qt import QtGui
-  File "/usr/local/lib/python3.4/site-packages/IPython/external/qt.py", line 23, in <module>
-    QtCore, QtGui, QtSvg, QT_API = load_qt(api_opts)
-  File "/usr/local/lib/python3.4/site-packages/IPython/external/qt_loaders.py", line 258, in load_qt
-    api_options))
-ImportError: 
-    Could not load requested Qt binding. Please ensure that
-    PyQt4 >= 4.7 or PySide >= 1.0.3 is available,
-    and only one is imported per session.
-
-    Currently-imported Qt library:   None
-    PyQt4 installed:                 False
-    PySide >= 1.0.3 installed:       False
-    Tried to load:                   ['pyside', 'pyqt']
-    
-
-======================================================================
-ERROR: test_handle_image_PIL (IPython.terminal.console.tests.test_image_handler.ZMQTerminalInteractiveShellTestCase)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/console/tests/test_image_handler.py", line 29, in setUp
-    self.shell = ZMQTerminalInteractiveShell(kernel_client=client)
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/interactiveshell.py", line 328, in __init__
-    **kwargs
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 465, in __init__
-    self.init_history()
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 1521, in init_history
-    self.history_manager = HistoryManager(shell=self, parent=self)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/history.py", line 491, in __init__
-    self.save_flag = threading.Event()
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 360, in __set__
-    new_value = self._validate(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 375, in _validate
-    return self.validate(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 870, in validate
-    self.error(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 707, in error
-    raise TraitError(e)
-IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f6aa84cbc18>) was specified.
-
-======================================================================
-ERROR: test_handle_image_callable (IPython.terminal.console.tests.test_image_handler.ZMQTerminalInteractiveShellTestCase)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/console/tests/test_image_handler.py", line 29, in setUp
-    self.shell = ZMQTerminalInteractiveShell(kernel_client=client)
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/interactiveshell.py", line 328, in __init__
-    **kwargs
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 465, in __init__
-    self.init_history()
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 1521, in init_history
-    self.history_manager = HistoryManager(shell=self, parent=self)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/history.py", line 491, in __init__
-    self.save_flag = threading.Event()
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 360, in __set__
-    new_value = self._validate(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 375, in _validate
-    return self.validate(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 870, in validate
-    self.error(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 707, in error
-    raise TraitError(e)
-IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f6ab057ab00>) was specified.
-
-======================================================================
-ERROR: test_handle_image_stream (IPython.terminal.console.tests.test_image_handler.ZMQTerminalInteractiveShellTestCase)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/console/tests/test_image_handler.py", line 29, in setUp
-    self.shell = ZMQTerminalInteractiveShell(kernel_client=client)
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/interactiveshell.py", line 328, in __init__
-    **kwargs
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 465, in __init__
-    self.init_history()
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 1521, in init_history
-    self.history_manager = HistoryManager(shell=self, parent=self)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/history.py", line 491, in __init__
-    self.save_flag = threading.Event()
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 360, in __set__
-    new_value = self._validate(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 375, in _validate
-    return self.validate(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 870, in validate
-    self.error(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 707, in error
-    raise TraitError(e)
-IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f6ad6539a20>) was specified.
-
-======================================================================
-ERROR: test_handle_image_tempfile (IPython.terminal.console.tests.test_image_handler.ZMQTerminalInteractiveShellTestCase)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/console/tests/test_image_handler.py", line 29, in setUp
-    self.shell = ZMQTerminalInteractiveShell(kernel_client=client)
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/interactiveshell.py", line 328, in __init__
-    **kwargs
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 465, in __init__
-    self.init_history()
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 1521, in init_history
-    self.history_manager = HistoryManager(shell=self, parent=self)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/history.py", line 491, in __init__
-    self.save_flag = threading.Event()
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 360, in __set__
-    new_value = self._validate(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 375, in _validate
-    return self.validate(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 870, in validate
-    self.error(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 707, in error
-    raise TraitError(e)
-IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f6ad6551f28>) was specified.
-
-======================================================================
-ERROR: test_no_call_by_default (IPython.terminal.console.tests.test_image_handler.ZMQTerminalInteractiveShellTestCase)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/console/tests/test_image_handler.py", line 29, in setUp
-    self.shell = ZMQTerminalInteractiveShell(kernel_client=client)
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/interactiveshell.py", line 328, in __init__
-    **kwargs
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 465, in __init__
-    self.init_history()
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/interactiveshell.py", line 1521, in init_history
-    self.history_manager = HistoryManager(shell=self, parent=self)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/history.py", line 491, in __init__
-    self.save_flag = threading.Event()
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 360, in __set__
-    new_value = self._validate(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 375, in _validate
-    return self.validate(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 870, in validate
-    self.error(obj, value)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/traitlets.py", line 707, in error
-    raise TraitError(e)
-IPython.utils.traitlets.TraitError: The 'save_flag' trait of a HistoryManager instance must be an Event or None, but a value of class 'threading.Event' (i.e. <threading.Event object at 0x7f6ad6566828>) was specified.
-
-======================================================================
-FAIL: test_exit_code_signal (IPython.core.tests.test_interactiveshell.TestSystemRaw)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/IPython/testing/decorators.py", line 225, in skipper_func
-    return f(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/tests/test_interactiveshell.py", line 468, in test_exit_code_signal
-    self.assertEqual(ip.user_ns['_exit_code'], -signal.SIGALRM)
-AssertionError: 142 != -14
-
-======================================================================
-FAIL: ipython qtconsole --help-all works
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/qt/console/tests/test_app.py", line 24, in test_help_output
-    tt.help_all_output_test('qtconsole')
-  File "/usr/local/lib/python3.4/site-packages/IPython/testing/tools.py", line 453, in help_all_output_test
-    nt.assert_equal(rc, 0, err)
-AssertionError: 1 != 0 : Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/runpy.py", line 170, in _run_module_as_main
-    "__main__", mod_spec)
-  File "/usr/local/lib/python3.4/runpy.py", line 85, in _run_code
-    exec(code, run_globals)
-  File "/usr/local/lib/python3.4/site-packages/IPython/__main__.py", line 14, in <module>
-    start_ipython()
-  File "/usr/local/lib/python3.4/site-packages/IPython/__init__.py", line 120, in start_ipython
-    return launch_new_instance(argv=argv, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/application.py", line 563, in launch_instance
-    app.initialize(argv)
-  File "<string>", line 2, in initialize
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/application.py", line 92, in catch_config_error
-    return method(app, *args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/ipapp.py", line 321, in initialize
-    super(TerminalIPythonApp, self).initialize(argv)
-  File "<string>", line 2, in initialize
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/application.py", line 92, in catch_config_error
-    return method(app, *args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/IPython/core/application.py", line 381, in initialize
-    self.parse_command_line(argv)
-  File "/usr/local/lib/python3.4/site-packages/IPython/terminal/ipapp.py", line 316, in parse_command_line
-    return super(TerminalIPythonApp, self).parse_command_line(argv)
-  File "<string>", line 2, in parse_command_line
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/application.py", line 92, in catch_config_error
-    return method(app, *args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/application.py", line 475, in parse_command_line
-    return self.initialize_subcommand(subc, subargv)
-  File "<string>", line 2, in initialize_subcommand
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/application.py", line 92, in catch_config_error
-    return method(app, *args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/IPython/config/application.py", line 406, in initialize_subcommand
-    subapp = import_item(subapp)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/importstring.py", line 42, in import_item
-    module = __import__(package, fromlist=[obj])
-  File "/usr/local/lib/python3.4/site-packages/IPython/qt/console/qtconsoleapp.py", line 58, in <module>
-    from IPython.external.qt import QtCore, QtGui
-  File "/usr/local/lib/python3.4/site-packages/IPython/external/qt.py", line 23, in <module>
-    QtCore, QtGui, QtSvg, QT_API = load_qt(api_opts)
-  File "/usr/local/lib/python3.4/site-packages/IPython/external/qt_loaders.py", line 258, in load_qt
-    api_options))
-ImportError: 
-    Could not load requested Qt binding. Please ensure that
-    PyQt4 >= 4.7 or PySide >= 1.0.3 is available,
-    and only one is imported per session.
-
-    Currently-imported Qt library:   None
-    PyQt4 installed:                 False
-    PySide >= 1.0.3 installed:       False
-    Tried to load:                   ['pyside', 'pyqt']
-    
-
-
-======================================================================
-FAIL: IPython.utils.tests.test_path.test_not_writable_ipdir
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/IPython/testing/decorators.py", line 225, in skipper_func
-    return f(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/IPython/utils/tests/test_path.py", line 477, in test_not_writable_ipdir
-    ipdir = path.get_ipython_dir()
-  File "/usr/local/lib/python3.4/site-packages/IPython/testing/tools.py", line 378, in __exit__
-    assert s in printed, notprinted_msg.format(s, self.channel, printed)
-AssertionError: Did not find 'is not a writable location' in printed output (on stderr):
--------
-
--------
-
-
-----------------------------------------------------------------------
-Ran 1256 tests in 57.061s
-
-FAILED (SKIP=75, errors=60, failures=3)
+[2K[2K.[2K[2K...[2K[2K........Terminals not available (error was No module named 'terminado')
+..E.EEEEEEEEEEEEEEEEEEEEEE..............EEEEEEEE........................S............................................EEEEEEESE.EE...S....E.............S......................
