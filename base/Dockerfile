@@ -45,15 +45,15 @@ RUN apt-get -y install unzip && \
 
 RUN pip3 install pymysql xlrd  
 #TODO: find version of xlutils that will work with xlwt/python 3.x 
-RUN pip3 install numexpr bottleneck xlsxwriter openpyxl SQLAlchemy bokeh
+RUN pip3 install numexpr bottleneck xlsxwriter openpyxl SQLAlchemy bokeh nltk py2neo
 
 #RUN wget https://pypi.python.org/packages/source/S/SQLAlchemy/SQLAlchemy-0.9.6.tar.gz \
 #	&& tar -xf SQLAlchemy*.tar.gz \
 #	&& cd SQLAlchemy* && python3 setup.py install && cd .. \
 #	&& rm -rf SQLAlchemy*
 
-RUN wget https://github.com/pydata/pandas/archive/v0.16.0.tar.gz \ 
-	&& tar -xf v0.16.0.tar.gz \
+RUN wget https://github.com/pydata/pandas/archive/v0.16.2.tar.gz \ 
+	&& tar -xf v0.16.2.tar.gz \
 	&& cd pandas-* && python3 setup.py install && cd .. \
 	&& rm -rf pandas-* && rm v0*tar.gz
 

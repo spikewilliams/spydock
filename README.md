@@ -1,11 +1,11 @@
 SpyDock
 =======
 
-Release 2015.04 (Oxygen) contains the following packages:
+Release 2015.06 (Flourine) contains the following packages:
 
 - Python: 3.4.3 
-- IPython: 3.0.0 
-- Pandas: 0.16.0 
+- IPython: 3.1.0 
+- Pandas: 0.16.2 
 
 Currently, usage of SpyDock is limited to running scripts inside the web-based “IPython Notebook” IDE, which is built in to the container. This environment is well-suited for the development and execution of web-scraping and data processing scripts.
 
