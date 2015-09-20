@@ -1,13 +1,15 @@
 SpyDock
 =======
 
-Release 2015.06 (Flourine) contains the following packages:
+Release 2015.09 (Neon) contains the following packages:
 
-- Python: 3.4.3 
-- IPython: 3.1.0 
-- Pandas: 0.16.2 
+- Python: 3.5.0 
+- IPython: 4.0.0
+- Jupyter: 1.0.0 
+- Pandas: 0.16.2
+- GDAL: 2.0.0 
 
-Currently, usage of SpyDock is limited to running scripts inside the web-based “IPython Notebook” IDE, which is built in to the container. This environment is well-suited for the development and execution of web-scraping and data processing scripts.
+Currently, usage of SpyDock is limited to running scripts inside the web-based "Jupyter Notebook” IDE, which is built in to the container. This environment is well-suited for the development and execution of web-scraping and data processing scripts, as well as for GIS functionality through use of the GDAL library.
 
 To run this environment on port 8888, use the following docker command:
 

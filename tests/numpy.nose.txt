@@ -1,76 +1,25 @@
-............................S....................................................................................................................................................................................S...................................................................................................................................................................SS.................S................................................S...........................S.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E........................................................................................................................................................................................................SSS............................................./usr/local/lib/python3.4/site-packages/numpy/core/tests/test_regression.py:793: FutureWarning: assignment exception type will change in the future
+............................S....................................................................................................................................................................................S...................................................................................................................................................................SS.................S................................................S...........................S.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E........................................................................................................................................................................................................SSS............................................./usr/local/lib/python3.5/site-packages/numpy/core/tests/test_regression.py:793: FutureWarning: assignment exception type will change in the future
   def ia(x, s, v): x[(s>0)]=v
-...........................................................E............................................................................................................................................................................................................./usr/local/lib/python3.4/site-packages/numpy/core/tests/test_ufunc.py:543: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+...........................................................E............................................................................................................................................................................................................./usr/local/lib/python3.5/site-packages/numpy/core/tests/test_ufunc.py:543: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
   ref = ref and a1.base != None
-/usr/local/lib/python3.4/site-packages/numpy/core/tests/test_ufunc.py:544: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_ufunc.py:544: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
   ref = ref and a2.base != None
-...........................................................E.........................................................................SSSSS.........................................E......................E...........................................................................................EEEEEE..................SSSSSSSSSSSSSSSSSSSSSSS...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................EException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f2e9b4e9ef0>>
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/zipfile.py", line 1466, in __del__
-    self.close()
-  File "/usr/local/lib/python3.4/zipfile.py", line 1580, in close
-    fp.close()
-OSError: [Errno 28] No space left on device
-EException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f2e9ee26278>>
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/zipfile.py", line 1466, in __del__
-    self.close()
-  File "/usr/local/lib/python3.4/zipfile.py", line 1575, in close
-    self.fp.flush()
-OSError: [Errno 28] No space left on device
-EEEException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f2e9ee39b38>>
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/zipfile.py", line 1466, in __del__
-    self.close()
-  File "/usr/local/lib/python3.4/zipfile.py", line 1476, in close
-    pos1 = self.fp.tell()
-  File "/usr/local/lib/python3.4/tempfile.py", line 399, in func_wrapper
-    return func(*args, **kwargs)
-ValueError: I/O operation on closed file
-EEEException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f2e9ee391d0>>
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/zipfile.py", line 1466, in __del__
-    self.close()
-  File "/usr/local/lib/python3.4/zipfile.py", line 1476, in close
-    pos1 = self.fp.tell()
-ValueError: I/O operation on closed file
-EF....E.EEException ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f2e9ee39dd8>>
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/zipfile.py", line 1466, in __del__
-    self.close()
-  File "/usr/local/lib/python3.4/zipfile.py", line 1580, in close
-    fp.close()
-OSError: [Errno 28] No space left on device
-Exception ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f2e9ee39a20>>
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/zipfile.py", line 1466, in __del__
-    self.close()
-  File "/usr/local/lib/python3.4/zipfile.py", line 1580, in close
-    fp.close()
-OSError: [Errno 28] No space left on device
-Exception ignored in: <bound method ZipFile.__del__ of <zipfile.ZipFile object at 0x7f2e9ee39940>>
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/zipfile.py", line 1466, in __del__
-    self.close()
-  File "/usr/local/lib/python3.4/zipfile.py", line 1580, in close
-    fp.close()
-OSError: [Errno 28] No space left on device
-..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................../usr/local/lib/python3.4/site-packages/numpy/ma/core.py:3900: UserWarning: Warning: converting a masked element to nan.
+...........................................................E.........................................................................SSSSS.........................................E......................E...........................................................................................EEEEEE..................SSSSSSSSSSSSSSSSSSSSSSS...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E............E......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................../usr/local/lib/python3.5/site-packages/numpy/ma/core.py:3900: UserWarning: Warning: converting a masked element to nan.
   warnings.warn("Warning: converting a masked element to nan.")
-............./usr/local/lib/python3.4/site-packages/numpy/ma/core.py:3683: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+............./usr/local/lib/python3.5/site-packages/numpy/ma/core.py:3683: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
   check = ndarray.__eq__(self.filled(0), other)
-/usr/local/lib/python3.4/site-packages/numpy/ma/tests/test_core.py:1139: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+/usr/local/lib/python3.5/site-packages/numpy/ma/tests/test_core.py:1139: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
   assert_equal(a.data == None, False)
-/usr/local/lib/python3.4/site-packages/numpy/ma/tests/test_core.py:1140: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+/usr/local/lib/python3.5/site-packages/numpy/ma/tests/test_core.py:1140: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
   assert_equal(a.mask == None, False)
-/usr/local/lib/python3.4/site-packages/numpy/ma/core.py:3716: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+/usr/local/lib/python3.5/site-packages/numpy/ma/core.py:3716: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
   check = ndarray.__ne__(self.filled(0), other)
-.............................................................................................................................................................................................................E..............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E...........................................................
+............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E...........................................................
 ======================================================================
 ERROR: test_floating_exceptions (test_numeric.TestFloatExceptions)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
     raise KnownFailureTest(msg)
 numpy.testing.noseclasses.KnownFailureTest: See ticket #2350
 
@@ -78,7 +27,7 @@ numpy.testing.noseclasses.KnownFailureTest: See ticket #2350
 ERROR: Ticket #99
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
     raise KnownFailureTest(msg)
 numpy.testing.noseclasses.KnownFailureTest: numpy.intp('0xff', 16) not supported on Py3, as it does not inherit from Python int
 
@@ -86,9 +35,9 @@ numpy.testing.noseclasses.KnownFailureTest: numpy.intp('0xff', 16) not supported
 ERROR: test_umath.TestComplexFunctions.test_branch_cuts_failing
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
+  File "/usr/local/lib/python3.5/site-packages/nose/case.py", line 198, in runTest
     self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
     raise KnownFailureTest(msg)
 numpy.testing.noseclasses.KnownFailureTest: These branch cuts are known to fail
 
@@ -96,9 +45,9 @@ numpy.testing.noseclasses.KnownFailureTest: These branch cuts are known to fail
 ERROR: test_umath_complex.TestCarg.test_zero
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
+  File "/usr/local/lib/python3.5/site-packages/nose/case.py", line 198, in runTest
     self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
     raise KnownFailureTest(msg)
 numpy.testing.noseclasses.KnownFailureTest: Complex arithmetic with signed zero is buggy on most implementation
 
@@ -106,9 +55,9 @@ numpy.testing.noseclasses.KnownFailureTest: Complex arithmetic with signed zero 
 ERROR: test_umath_complex.TestCexp.test_special_values2
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
+  File "/usr/local/lib/python3.5/site-packages/nose/case.py", line 198, in runTest
     self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
     raise KnownFailureTest(msg)
 numpy.testing.noseclasses.KnownFailureTest: cexp(nan + 0I) is wrong on most implementations
 
@@ -116,24 +65,23 @@ numpy.testing.noseclasses.KnownFailureTest: cexp(nan + 0I) is wrong on most impl
 ERROR: Failure: ImportError (cannot import name 'fib2')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
     raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 418, in loadTestsFromName
+  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
     addr.filename, addr.module)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
     return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
     mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
     return load_source(name, filename, file)
-  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
-    module = methods.load()
-  File "<frozen importlib._bootstrap>", line 1220, in load
-  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
-  File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1471, in exec_module
-  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
-  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/f2py_ext/tests/test_fib2.py", line 5, in <module>
+  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/f2py_ext/tests/test_fib2.py", line 5, in <module>
     from f2py_ext import fib2
 ImportError: cannot import name 'fib2'
 
@@ -141,24 +89,23 @@ ImportError: cannot import name 'fib2'
 ERROR: Failure: ImportError (cannot import name 'foo')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
     raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 418, in loadTestsFromName
+  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
     addr.filename, addr.module)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
     return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
     mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
     return load_source(name, filename, file)
-  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
-    module = methods.load()
-  File "<frozen importlib._bootstrap>", line 1220, in load
-  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
-  File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1471, in exec_module
-  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
-  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/f2py_f90_ext/tests/test_foo.py", line 5, in <module>
+  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/f2py_f90_ext/tests/test_foo.py", line 5, in <module>
     from f2py_f90_ext import foo
 ImportError: cannot import name 'foo'
 
@@ -166,24 +113,23 @@ ImportError: cannot import name 'foo'
 ERROR: Failure: ImportError (cannot import name 'fib3')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
     raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 418, in loadTestsFromName
+  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
     addr.filename, addr.module)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
     return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
     mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
     return load_source(name, filename, file)
-  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
-    module = methods.load()
-  File "<frozen importlib._bootstrap>", line 1220, in load
-  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
-  File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1471, in exec_module
-  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
-  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/gen_ext/tests/test_fib3.py", line 5, in <module>
+  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/gen_ext/tests/test_fib3.py", line 5, in <module>
     from gen_ext import fib3
 ImportError: cannot import name 'fib3'
 
@@ -191,24 +137,23 @@ ImportError: cannot import name 'fib3'
 ERROR: Failure: ImportError (No module named 'pyrex_ext.primes')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
     raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 418, in loadTestsFromName
+  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
     addr.filename, addr.module)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
     return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
     mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
     return load_source(name, filename, file)
-  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
-    module = methods.load()
-  File "<frozen importlib._bootstrap>", line 1220, in load
-  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
-  File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1471, in exec_module
-  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
-  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/pyrex_ext/tests/test_primes.py", line 5, in <module>
+  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/pyrex_ext/tests/test_primes.py", line 5, in <module>
     from pyrex_ext.primes import primes
 ImportError: No module named 'pyrex_ext.primes'
 
@@ -216,24 +161,23 @@ ImportError: No module named 'pyrex_ext.primes'
 ERROR: Failure: ImportError (cannot import name 'example')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
     raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 418, in loadTestsFromName
+  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
     addr.filename, addr.module)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
     return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
     mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
     return load_source(name, filename, file)
-  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
-    module = methods.load()
-  File "<frozen importlib._bootstrap>", line 1220, in load
-  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
-  File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1471, in exec_module
-  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
-  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/swig_ext/tests/test_example.py", line 5, in <module>
+  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/swig_ext/tests/test_example.py", line 5, in <module>
     from swig_ext import example
 ImportError: cannot import name 'example'
 
@@ -241,24 +185,23 @@ ImportError: cannot import name 'example'
 ERROR: Failure: ImportError (cannot import name 'example2')
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/failure.py", line 39, in runTest
+  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
     raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.4/site-packages/nose/loader.py", line 418, in loadTestsFromName
+  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
     addr.filename, addr.module)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 47, in importFromPath
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
     return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.4/site-packages/nose/importer.py", line 94, in importFromDir
+  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
     mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.4/imp.py", line 235, in load_module
+  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
     return load_source(name, filename, file)
-  File "/usr/local/lib/python3.4/imp.py", line 171, in load_source
-    module = methods.load()
-  File "<frozen importlib._bootstrap>", line 1220, in load
-  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
-  File "<frozen importlib._bootstrap>", line 1129, in _exec
-  File "<frozen importlib._bootstrap>", line 1471, in exec_module
-  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
-  File "/usr/local/lib/python3.4/site-packages/numpy/distutils/tests/swig_ext/tests/test_example2.py", line 5, in <module>
+  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/swig_ext/tests/test_example2.py", line 5, in <module>
     from swig_ext import example2
 ImportError: cannot import name 'example2'
 
@@ -266,291 +209,35 @@ ImportError: cannot import name 'example2'
 ERROR: test_big_arrays (test_io.TestSavezLoad)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 146, in skipper_func
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 146, in skipper_func
     return f(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 199, in test_big_arrays
-    np.savez(tmp, a=a)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 534, in savez
-    _savez(file, args, kwds, False)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 597, in _savez
-    format.write_array(fid, np.asanyarray(val))
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 562, in write_array
-    array.tofile(fp)
-OSError: 2147583648 requested and 1560334256 written
+  File "/usr/local/lib/python3.5/site-packages/numpy/lib/tests/test_io.py", line 196, in test_big_arrays
+    a = np.empty(L, dtype=np.uint8)
+MemoryError
 
 ======================================================================
-ERROR: test_closing_fid (test_io.TestSavezLoad)
+ERROR: test_io.test_gzip_load
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 597, in _savez
-    format.write_array(fid, np.asanyarray(val))
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 562, in write_array
-    array.tofile(fp)
-OSError: first argument must be a string or open file
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 282, in test_closing_fid
-    np.savez(fp, data='LOVELY LOAD')
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 534, in savez
-    _savez(file, args, kwds, False)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 603, in _savez
-    fid.close()
-OSError: [Errno 28] No space left on device
-
-======================================================================
-ERROR: test_closing_zipfile_after_load (test_io.TestSavezLoad)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 306, in test_closing_zipfile_after_load
-    with tempdir(prefix="numpy_test_closing_zipfile_after_load_") as tmpdir:
-  File "/usr/local/lib/python3.4/contextlib.py", line 59, in __enter__
-    return next(self.gen)
-  File "/usr/local/lib/python3.4/site-packages/numpy/testing/utils.py", line 1713, in tempdir
-    tmpdir = mkdtemp(*args, **kwargs)
-  File "/usr/local/lib/python3.4/tempfile.py", line 295, in mkdtemp
-    _os.mkdir(file, 0o700)
-OSError: [Errno 28] No space left on device: '/tmp/numpy_test_closing_zipfile_after_load_rk_hi6vy'
-
-======================================================================
-ERROR: test_format_2_0 (test_io.TestSavezLoad)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 597, in _savez
-    format.write_array(fid, np.asanyarray(val))
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 538, in write_array
-    version)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 319, in _write_array_header
-    fp.write(header)
-OSError: [Errno 28] No space left on device
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 166, in test_format_2_0
-    self.check_roundtrips(a)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 111, in check_roundtrips
-    self.roundtrip(a)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 179, in roundtrip
-    RoundtripTest.roundtrip(self, np.savez, *args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 92, in roundtrip
-    save_func(target_file, *arr, **save_kwds)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 534, in savez
-    _savez(file, args, kwds, False)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 603, in _savez
-    fid.close()
-OSError: [Errno 28] No space left on device
-
-======================================================================
-ERROR: test_mmap (test_io.TestSavezLoad)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 597, in _savez
-    format.write_array(fid, np.asanyarray(val))
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 562, in write_array
-    array.tofile(fp)
-OSError: first argument must be a string or open file
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 92, in roundtrip
-    save_func(target_file, *arr, **save_kwds)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 534, in savez
-    _savez(file, args, kwds, False)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 603, in _savez
-    fid.close()
-OSError: [Errno 28] No space left on device
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 215, in knownfailer
-    return f(*args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 152, in test_mmap
-    self.roundtrip(a, file_on_disk=True, load_kwds={'mmap_mode': 'r'})
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 179, in roundtrip
-    RoundtripTest.roundtrip(self, np.savez, *args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 107, in roundtrip
-    if not isinstance(arr_reloaded, np.lib.npyio.NpzFile):
-UnboundLocalError: local variable 'arr_reloaded' referenced before assignment
-
-======================================================================
-ERROR: test_multiple_arrays (test_io.TestSavezLoad)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 597, in _savez
-    format.write_array(fid, np.asanyarray(val))
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 562, in write_array
-    array.tofile(fp)
-OSError: first argument must be a string or open file
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 208, in test_multiple_arrays
-    self.roundtrip(a, b)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 179, in roundtrip
-    RoundtripTest.roundtrip(self, np.savez, *args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 92, in roundtrip
-    save_func(target_file, *arr, **save_kwds)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 534, in savez
-    _savez(file, args, kwds, False)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 603, in _savez
-    fid.close()
-OSError: [Errno 28] No space left on device
-
-======================================================================
-ERROR: test_named_arrays (test_io.TestSavezLoad)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 597, in _savez
-    format.write_array(fid, np.asanyarray(val))
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 562, in write_array
-    array.tofile(fp)
-OSError: first argument must be a string or open file
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 214, in test_named_arrays
-    np.savez(c, file_a=a, file_b=b)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 534, in savez
-    _savez(file, args, kwds, False)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 603, in _savez
-    fid.close()
-OSError: [Errno 28] No space left on device
-
-======================================================================
-ERROR: test_not_closing_opened_fid (test_io.TestSavezLoad)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 597, in _savez
-    format.write_array(fid, np.asanyarray(val))
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 562, in write_array
-    array.tofile(fp)
-OSError: first argument must be a string or open file
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 255, in test_not_closing_opened_fid
-    np.savez(fp, data='LOVELY LOAD')
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 534, in savez
-    _savez(file, args, kwds, False)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 603, in _savez
-    fid.close()
-OSError: [Errno 28] No space left on device
-
-======================================================================
-ERROR: test_record (test_io.TestSavezLoad)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 597, in _savez
-    format.write_array(fid, np.asanyarray(val))
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 562, in write_array
-    array.tofile(fp)
-OSError: first argument must be a string or open file
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 159, in test_record
-    self.check_roundtrips(a)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 111, in check_roundtrips
-    self.roundtrip(a)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 179, in roundtrip
-    RoundtripTest.roundtrip(self, np.savez, *args, **kwargs)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 92, in roundtrip
-    save_func(target_file, *arr, **save_kwds)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 534, in savez
-    _savez(file, args, kwds, False)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 603, in _savez
-    fid.close()
-OSError: [Errno 28] No space left on device
-
-======================================================================
-ERROR: test_io.test_gzip_loadtxt
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
+  File "/usr/local/lib/python3.5/site-packages/nose/case.py", line 198, in runTest
     self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 1692, in test_gzip_loadtxt
-    os.write(f, s.read())
-OSError: [Errno 28] No space left on device
-
-======================================================================
-ERROR: test_io.test_npzfile_dict
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 597, in _savez
-    format.write_array(fid, np.asanyarray(val))
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 562, in write_array
-    array.tofile(fp)
-OSError: first argument must be a string or open file
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 1716, in test_npzfile_dict
-    np.savez(s, x=x, y=y)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 534, in savez
-    _savez(file, args, kwds, False)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 603, in _savez
-    fid.close()
-OSError: [Errno 28] No space left on device
-
-======================================================================
-ERROR: test_io.test_load_refcount
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 597, in _savez
-    format.write_array(fid, np.asanyarray(val))
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/format.py", line 562, in write_array
-    array.tofile(fp)
-OSError: first argument must be a string or open file
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 1743, in test_load_refcount
-    np.savez(f, [1, 2, 3])
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 534, in savez
-    _savez(file, args, kwds, False)
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/npyio.py", line 603, in _savez
-    fid.close()
-OSError: [Errno 28] No space left on device
-
-======================================================================
-ERROR: test_fromtextfile (test_mrecords.TestMRecordsImport)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/ma/tests/test_mrecords.py", line 489, in test_fromtextfile
-    os.write(tmp_fd, fcontent)
-OSError: [Errno 28] No space left on device
+  File "/usr/local/lib/python3.5/site-packages/numpy/lib/tests/test_io.py", line 1675, in test_gzip_load
+    assert_array_equal(np.load(f), a)
+  File "/usr/local/lib/python3.5/site-packages/numpy/lib/npyio.py", line 381, in load
+    fid.seek(-N, 1)  # back-up
+  File "/usr/local/lib/python3.5/site-packages/numpy/lib/npyio.py", line 52, in seek
+    offset = self.offset + offset
+AttributeError: 'GzipFile' object has no attribute 'offset'
 
 ======================================================================
 ERROR: test_simple (test_utils.TestArrayAlmostEqualNulp)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
     raise KnownFailureTest(msg)
 numpy.testing.noseclasses.KnownFailureTest: Github issue #347
 
-======================================================================
-FAIL: test_savez_filename_clashes (test_io.TestSavezLoad)
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.4/site-packages/numpy/lib/tests/test_io.py", line 245, in test_savez_filename_clashes
-    raise AssertionError(errors)
-AssertionError: [OSError(28, 'No space left on device'), OSError(28, 'No space left on device'), OSError(28, 'No space left on device')]
+Ran 5423 tests in 73.487s
 
-----------------------------------------------------------------------
-Ran 5423 tests in 100.790s
-
-FAILED (SKIP=38, errors=25, failures=1)
+FAILED (SKIP=38, errors=14)
