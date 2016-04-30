@@ -1,3 +1,3 @@
 #!/bin/bash
-docker run -i -t spydock/base pip3 freeze
+docker run -i -t spikewilliams/spydock pip3 freeze
 

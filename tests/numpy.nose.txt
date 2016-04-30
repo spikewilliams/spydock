@@ -1,45 +1,153 @@
-............................S....................................................................................................................................................................................S...................................................................................................................................................................SS.................S................................................S...........................S.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E........................................................................................................................................................................................................SSS............................................./usr/local/lib/python3.5/site-packages/numpy/core/tests/test_regression.py:793: FutureWarning: assignment exception type will change in the future
-  def ia(x, s, v): x[(s>0)]=v
-...........................................................E............................................................................................................................................................................................................./usr/local/lib/python3.5/site-packages/numpy/core/tests/test_ufunc.py:543: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
-  ref = ref and a1.base != None
-/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_ufunc.py:544: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
-  ref = ref and a2.base != None
-...........................................................E.........................................................................SSSSS.........................................E......................E...........................................................................................EEEEEE..................SSSSSSSSSSSSSSSSSSSSSSS...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E............E......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................../usr/local/lib/python3.5/site-packages/numpy/ma/core.py:3900: UserWarning: Warning: converting a masked element to nan.
-  warnings.warn("Warning: converting a masked element to nan.")
-............./usr/local/lib/python3.5/site-packages/numpy/ma/core.py:3683: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
-  check = ndarray.__eq__(self.filled(0), other)
-/usr/local/lib/python3.5/site-packages/numpy/ma/tests/test_core.py:1139: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
-  assert_equal(a.data == None, False)
-/usr/local/lib/python3.5/site-packages/numpy/ma/tests/test_core.py:1140: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
-  assert_equal(a.mask == None, False)
-/usr/local/lib/python3.5/site-packages/numpy/ma/core.py:3716: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
-  check = ndarray.__ne__(self.filled(0), other)
-............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E...........................................................
+......................./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  if not (desired == actual):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:134: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  assert_(np.datetime64('NaT') == np.datetime64('NaT', 'us'))
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:135: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  assert_(np.datetime64('NaT', 'us') == np.datetime64('NaT'))
+../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  if not (desired == actual):
+........./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  if not (desired == actual):
+..../usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1097: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  if op(dt_nat, dt_nat):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1103: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  if op(td_nat, td_nat):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1099: FutureWarning: In the future, 'NAT < x' and 'x < NAT' will always be False.
+  if op(dt_nat, dt_other):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1105: FutureWarning: In the future, 'NAT < x' and 'x < NAT' will always be False.
+  if op(td_nat, td_other):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1097: FutureWarning: In the future, 'NAT <= x' and 'x <= NAT' will always be False.
+  if op(dt_nat, dt_nat):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1099: FutureWarning: In the future, 'NAT <= x' and 'x <= NAT' will always be False.
+  if op(dt_nat, dt_other):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1103: FutureWarning: In the future, 'NAT <= x' and 'x <= NAT' will always be False.
+  if op(td_nat, td_nat):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1105: FutureWarning: In the future, 'NAT <= x' and 'x <= NAT' will always be False.
+  if op(td_nat, td_other):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1101: FutureWarning: In the future, 'NAT > x' and 'x > NAT' will always be False.
+  if op(dt_other, dt_nat):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1107: FutureWarning: In the future, 'NAT > x' and 'x > NAT' will always be False.
+  if op(td_other, td_nat):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1097: FutureWarning: In the future, 'NAT >= x' and 'x >= NAT' will always be False.
+  if op(dt_nat, dt_nat):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1101: FutureWarning: In the future, 'NAT >= x' and 'x >= NAT' will always be False.
+  if op(dt_other, dt_nat):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1103: FutureWarning: In the future, 'NAT >= x' and 'x >= NAT' will always be False.
+  if op(td_nat, td_nat):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1107: FutureWarning: In the future, 'NAT >= x' and 'x >= NAT' will always be False.
+  if op(td_other, td_nat):
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1111: FutureWarning: In the future, NAT != NAT will be True rather than False.
+  assert_(np.not_equal(dt_nat, dt_other))
+/usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1114: FutureWarning: In the future, NAT != NAT will be True rather than False.
+  assert_(np.not_equal(td_nat, td_other))
+./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  if not (desired == actual):
+....../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  if not (desired == actual):
+./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  if not (desired == actual):
+..../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  if not (desired == actual):
+...................../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  return comparison(*args, **kwargs)
+....../usr/local/lib/python3.5/site-packages/numpy/core/arrayprint.py:737: FutureWarning: In the future, NAT != NAT will be True rather than False.
+  v = data[not_equal(data, nat_value)].view('i8')
+/usr/local/lib/python3.5/site-packages/numpy/core/arrayprint.py:751: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  if x + 1 == x:
+./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+  if not (desired == actual):
+...............................................................................................................................................S........................................................................................................................................................S..SS...SSS.EEE....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S...................................................................S................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E............................................................................................................................................................................................................................................................................................................................SSS..................................................................................................................E.......................................................................................................................................................................................................................................................................................................................................................................................................................................................E......................E..................................................................................................................SSSSSSSSSSSSSSSSSSSSSSS.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
 ======================================================================
-ERROR: test_floating_exceptions (test_numeric.TestFloatExceptions)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
-    raise KnownFailureTest(msg)
-numpy.testing.noseclasses.KnownFailureTest: See ticket #2350
-
-======================================================================
-ERROR: Ticket #99
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
-    raise KnownFailureTest(msg)
-numpy.testing.noseclasses.KnownFailureTest: numpy.intp('0xff', 16) not supported on Py3, as it does not inherit from Python int
-
-======================================================================
-ERROR: test_umath.TestComplexFunctions.test_branch_cuts_failing
+ERROR: test_longdouble.test_format
 ----------------------------------------------------------------------
 Traceback (most recent call last):
   File "/usr/local/lib/python3.5/site-packages/nose/case.py", line 198, in runTest
     self.test(*self.arg)
-  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
-    raise KnownFailureTest(msg)
-numpy.testing.noseclasses.KnownFailureTest: These branch cuts are known to fail
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 215, in knownfailer
+    raise KnownFailureException(msg)
+numpy.testing.utils.KnownFailureException: BUG #2376
+
+======================================================================
+ERROR: test_longdouble.test_percent
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/site-packages/nose/case.py", line 198, in runTest
+    self.test(*self.arg)
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 215, in knownfailer
+    raise KnownFailureException(msg)
+numpy.testing.utils.KnownFailureException: BUG #2376
+
+======================================================================
+ERROR: test_longdouble.test_array_repr
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/site-packages/nose/case.py", line 198, in runTest
+    self.test(*self.arg)
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 215, in knownfailer
+    raise KnownFailureException(msg)
+numpy.testing.utils.KnownFailureException: array repr problem
+
+======================================================================
+ERROR: test_floating_exceptions (test_numeric.TestFloatExceptions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 215, in knownfailer
+    raise KnownFailureException(msg)
+numpy.testing.utils.KnownFailureException: See ticket #2350
+
+======================================================================
+ERROR: test_intp (test_regression.TestRegression)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 215, in knownfailer
+    raise KnownFailureException(msg)
+numpy.testing.utils.KnownFailureException: numpy.intp('0xff', 16) not supported on Py3, as it does not inherit from Python int
 
 ======================================================================
 ERROR: test_umath_complex.TestCarg.test_zero
@@ -47,9 +155,9 @@ ERROR: test_umath_complex.TestCarg.test_zero
 Traceback (most recent call last):
   File "/usr/local/lib/python3.5/site-packages/nose/case.py", line 198, in runTest
     self.test(*self.arg)
-  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
-    raise KnownFailureTest(msg)
-numpy.testing.noseclasses.KnownFailureTest: Complex arithmetic with signed zero is buggy on most implementation
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 215, in knownfailer
+    raise KnownFailureException(msg)
+numpy.testing.utils.KnownFailureException: Complex arithmetic with signed zero is buggy on most implementation
 
 ======================================================================
 ERROR: test_umath_complex.TestCexp.test_special_values2
@@ -57,187 +165,21 @@ ERROR: test_umath_complex.TestCexp.test_special_values2
 Traceback (most recent call last):
   File "/usr/local/lib/python3.5/site-packages/nose/case.py", line 198, in runTest
     self.test(*self.arg)
-  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
-    raise KnownFailureTest(msg)
-numpy.testing.noseclasses.KnownFailureTest: cexp(nan + 0I) is wrong on most implementations
-
-======================================================================
-ERROR: Failure: ImportError (cannot import name 'fib2')
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
-    raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
-    addr.filename, addr.module)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
-    return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
-    mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
-    return load_source(name, filename, file)
-  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
-    module = _load(spec)
-  File "<frozen importlib._bootstrap>", line 693, in _load
-  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
-  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
-  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/f2py_ext/tests/test_fib2.py", line 5, in <module>
-    from f2py_ext import fib2
-ImportError: cannot import name 'fib2'
-
-======================================================================
-ERROR: Failure: ImportError (cannot import name 'foo')
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
-    raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
-    addr.filename, addr.module)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
-    return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
-    mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
-    return load_source(name, filename, file)
-  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
-    module = _load(spec)
-  File "<frozen importlib._bootstrap>", line 693, in _load
-  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
-  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
-  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/f2py_f90_ext/tests/test_foo.py", line 5, in <module>
-    from f2py_f90_ext import foo
-ImportError: cannot import name 'foo'
-
-======================================================================
-ERROR: Failure: ImportError (cannot import name 'fib3')
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
-    raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
-    addr.filename, addr.module)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
-    return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
-    mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
-    return load_source(name, filename, file)
-  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
-    module = _load(spec)
-  File "<frozen importlib._bootstrap>", line 693, in _load
-  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
-  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
-  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/gen_ext/tests/test_fib3.py", line 5, in <module>
-    from gen_ext import fib3
-ImportError: cannot import name 'fib3'
-
-======================================================================
-ERROR: Failure: ImportError (No module named 'pyrex_ext.primes')
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
-    raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
-    addr.filename, addr.module)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
-    return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
-    mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
-    return load_source(name, filename, file)
-  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
-    module = _load(spec)
-  File "<frozen importlib._bootstrap>", line 693, in _load
-  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
-  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
-  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/pyrex_ext/tests/test_primes.py", line 5, in <module>
-    from pyrex_ext.primes import primes
-ImportError: No module named 'pyrex_ext.primes'
-
-======================================================================
-ERROR: Failure: ImportError (cannot import name 'example')
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
-    raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
-    addr.filename, addr.module)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
-    return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
-    mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
-    return load_source(name, filename, file)
-  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
-    module = _load(spec)
-  File "<frozen importlib._bootstrap>", line 693, in _load
-  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
-  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
-  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/swig_ext/tests/test_example.py", line 5, in <module>
-    from swig_ext import example
-ImportError: cannot import name 'example'
-
-======================================================================
-ERROR: Failure: ImportError (cannot import name 'example2')
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/nose/failure.py", line 39, in runTest
-    raise self.exc_val.with_traceback(self.tb)
-  File "/usr/local/lib/python3.5/site-packages/nose/loader.py", line 418, in loadTestsFromName
-    addr.filename, addr.module)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 47, in importFromPath
-    return self.importFromDir(dir_path, fqname)
-  File "/usr/local/lib/python3.5/site-packages/nose/importer.py", line 94, in importFromDir
-    mod = load_module(part_fqname, fh, filename, desc)
-  File "/usr/local/lib/python3.5/imp.py", line 234, in load_module
-    return load_source(name, filename, file)
-  File "/usr/local/lib/python3.5/imp.py", line 172, in load_source
-    module = _load(spec)
-  File "<frozen importlib._bootstrap>", line 693, in _load
-  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
-  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
-  File "/usr/local/lib/python3.5/site-packages/numpy/distutils/tests/swig_ext/tests/test_example2.py", line 5, in <module>
-    from swig_ext import example2
-ImportError: cannot import name 'example2'
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 215, in knownfailer
+    raise KnownFailureException(msg)
+numpy.testing.utils.KnownFailureException: cexp(nan + 0I) is wrong on most implementations
 
 ======================================================================
 ERROR: test_big_arrays (test_io.TestSavezLoad)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 146, in skipper_func
+  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 147, in skipper_func
     return f(*args, **kwargs)
   File "/usr/local/lib/python3.5/site-packages/numpy/lib/tests/test_io.py", line 196, in test_big_arrays
     a = np.empty(L, dtype=np.uint8)
 MemoryError
 
-======================================================================
-ERROR: test_io.test_gzip_load
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/nose/case.py", line 198, in runTest
-    self.test(*self.arg)
-  File "/usr/local/lib/python3.5/site-packages/numpy/lib/tests/test_io.py", line 1675, in test_gzip_load
-    assert_array_equal(np.load(f), a)
-  File "/usr/local/lib/python3.5/site-packages/numpy/lib/npyio.py", line 381, in load
-    fid.seek(-N, 1)  # back-up
-  File "/usr/local/lib/python3.5/site-packages/numpy/lib/npyio.py", line 52, in seek
-    offset = self.offset + offset
-AttributeError: 'GzipFile' object has no attribute 'offset'
+Ran 5974 tests in 249.848s
 
-======================================================================
-ERROR: test_simple (test_utils.TestArrayAlmostEqualNulp)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 213, in knownfailer
-    raise KnownFailureTest(msg)
-numpy.testing.noseclasses.KnownFailureTest: Github issue #347
-
-----------------------------------------------------------------------
-Ran 5423 tests in 73.487s
-
-FAILED (SKIP=38, errors=14)
+FAILED (SKIP=35, errors=8)

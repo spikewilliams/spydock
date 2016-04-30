@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t spydock/base base
+docker build -t spikewilliams/spydock base

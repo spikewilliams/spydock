@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --no-cache=true -t spydock/base base
+docker build --no-cache=true -t spikewilliams/spydock base
