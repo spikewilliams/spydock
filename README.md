@@ -1,13 +1,13 @@
 SpyDock
 =======
 
-Release 2016.04 contains the following packages:
+Release 2016.08 contains the following packages:
 
-- Python: 3.5.1 
-- IPython: 4.2.0
+- Python: 3.5.2 
+- IPython: 5.0.0
 - Jupyter: 1.0.0 
-- Pandas: 0.18.0
-- GDAL: 2.0.1 
+- Pandas: 0.18.1
+- GDAL: 2.1.0 
 
 
 SpyDock is accessed via a web service, in which scripts are run inside the web-based "Jupyter Notebook” IDE, which is built in to the container. This environment is well-suited for the development and execution of web-scraping and data processing scripts, as well as for GIS functionality through use of the GDAL library. Spydock now also includes libhxl, for use in working with data files stored using [Humanitarian Exchange Language][2] tags.
