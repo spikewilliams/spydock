@@ -1,24 +1,24 @@
-......................./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+......................./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:378: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   if not (desired == actual):
 /usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:134: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   assert_(np.datetime64('NaT') == np.datetime64('NaT', 'us'))
 /usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:135: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   assert_(np.datetime64('NaT', 'us') == np.datetime64('NaT'))
-../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:378: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   if not (desired == actual):
-........./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+........./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:378: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   if not (desired == actual):
 ..../usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1097: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   if op(dt_nat, dt_nat):
@@ -52,57 +52,57 @@
   assert_(np.not_equal(dt_nat, dt_other))
 /usr/local/lib/python3.5/site-packages/numpy/core/tests/test_datetime.py:1114: FutureWarning: In the future, NAT != NAT will be True rather than False.
   assert_(np.not_equal(td_nat, td_other))
-./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:378: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   if not (desired == actual):
-....../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+....../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:378: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   if not (desired == actual):
-./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:378: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   if not (desired == actual):
-..../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+..../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:378: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   if not (desired == actual):
-...................../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+...................../usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
-/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:661: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+/usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:665: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   return comparison(*args, **kwargs)
 ....../usr/local/lib/python3.5/site-packages/numpy/core/arrayprint.py:737: FutureWarning: In the future, NAT != NAT will be True rather than False.
   v = data[not_equal(data, nat_value)].view('i8')
 /usr/local/lib/python3.5/site-packages/numpy/core/arrayprint.py:751: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   if x + 1 == x:
-./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:374: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
+./usr/local/lib/python3.5/site-packages/numpy/testing/utils.py:378: FutureWarning: In the future, 'NAT == x' and 'x == NAT' will always be False.
   if not (desired == actual):
-...............................................................................................................................................S........................................................................................................................................................S..SS...SSS.EEE....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S...................................................................S................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E............................................................................................................................................................................................................................................................................................................................SSS..................................................................................................................E.......................................................................................................................................................................................................................................................................................................................................................................................................................................................E......................E..................................................................................................................SSSSSSSSSSSSSSSSSSSSSSS.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+...............................................................................................................................................S.........................................................................................................................................................S..SS...SSS.EEE.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S...................................................................S.................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E............................................................................................................................................................................................................................................................................................................................SSS..................................................................................................................E.......................................................................................................................................................................................................................................................................................................................................................................................................................................................E......................E...................................................................................................................SSSSSSSSSSSSSSSSSSSSSSS......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
 ======================================================================
 ERROR: test_longdouble.test_format
 ----------------------------------------------------------------------
@@ -169,17 +169,7 @@ Traceback (most recent call last):
     raise KnownFailureException(msg)
 numpy.testing.utils.KnownFailureException: cexp(nan + 0I) is wrong on most implementations
 
-======================================================================
-ERROR: test_big_arrays (test_io.TestSavezLoad)
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.5/site-packages/numpy/testing/decorators.py", line 147, in skipper_func
-    return f(*args, **kwargs)
-  File "/usr/local/lib/python3.5/site-packages/numpy/lib/tests/test_io.py", line 196, in test_big_arrays
-    a = np.empty(L, dtype=np.uint8)
-MemoryError
+Ran 5986 tests in 173.823s
 
-----------------------------------------------------------------------
-Ran 5974 tests in 249.848s
-
-FAILED (SKIP=35, errors=8)
+FAILED (SKIP=35, errors=7)
