@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  spydock:
+    image: spikewilliams/spydock
+    ports:
+    - "8888:8888"
+    volumes:
+    - ./notebooks:/notebooks
+    - ./data:/data
+    - ./output:/output
+    - ./logs:/var/logs

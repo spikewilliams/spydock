@@ -28,7 +28,7 @@ RUN apt-get install -y gfortran \
     libxslt1-dev \
     octave
 
-RUN wget https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz \
+RUN wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tgz \
     && tar -xf Python-*.tgz \
     && cd Python-* && ./configure  --with-ensurepip=install && make && make install && cd .. \
     && rm -rf Python-3*
@@ -47,17 +47,12 @@ RUN pip3 install pymysql xlrd xlwt
 #TODO: find version of xlutils that will work with xlwt/python 3.x
 RUN pip3 install numexpr bottleneck xlsxwriter openpyxl SQLAlchemy bokeh nltk py2neo libhxl
 
-#RUN wget https://pypi.python.org/packages/source/S/SQLAlchemy/SQLAlchemy-1.0.14.tar.gz \
-#   && tar -xf SQLAlchemy*.tar.gz \
-#   && cd SQLAlchemy* && python3 setup.py install && cd .. \
-#   && rm -rf SQLAlchemy*
-
-RUN wget https://github.com/pydata/pandas/archive/v0.18.1.tar.gz \
-    && tar -xf v0.18.1.tar.gz \
+RUN wget https://github.com/pydata/pandas/archive/v0.19.2.tar.gz \
+    && tar -xf v0.19.2.tar.gz \
     && cd pandas-* && python3 setup.py install && cd .. \
     && rm -rf pandas-* && rm v0*tar.gz
 
-RUN wget https://github.com/scipy/scipy/releases/download/v0.17.1/scipy-0.17.1.tar.gz \
+RUN wget https://github.com/scipy/scipy/releases/download/v0.18.1/scipy-0.18.1.tar.gz \
     && tar -xf scipy-*.tar.gz \
     && cd scipy-* && python3 setup.py install && cd .. \
     && rm -rf scipy-*
@@ -69,7 +64,7 @@ RUN wget https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplot
     && cd matplotlib-1.5.1 && python3 setup.py install && cd .. \
     && rm -rf matplotlib-*
 
-RUN wget http://download.osgeo.org/gdal/2.1.0/gdal-2.1.0.tar.gz \
+RUN wget http://download.osgeo.org/gdal/2.1.3/gdal-2.1.3.tar.gz \
         && tar -xf gdal-*.tar.gz \
         && cd gdal-* && ./configure --with-libtiff=internal --with-geotiff=internal --with-jpeg=internal --with-jpeg12 && make && make install && cd .. \
         && rm -rf gdal-*
