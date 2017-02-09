@@ -85,8 +85,10 @@ RUN apt-get remove -y --purge libsqlite3-dev libssl-dev wget  gfortran libncurse
 
 ADD scripts/run_unit_tests /run_unit_tests
 ADD scripts/start_notebook /start_notebook
+ADD scripts/echo_token /echo_token
 
 RUN chmod a+x /start_notebook
+RUN chmod a+x /echo_token
 RUN chmod a+x /run_unit_tests
 
 EXPOSE 8888

@@ -3,11 +3,11 @@ SpyDock
 
 Release 2017.02 contains the following packages:
 
-- Python: 3.6.0 
+- Python: 3.6.0
 - IPython: 5.0.0
-- Jupyter: 1.0.0 
+- Jupyter: 1.0.0
 - Pandas: 0.19.2
-- GDAL: 2.1.3 
+- GDAL: 2.1.3
 
 
 SpyDock is accessed via a web service, in which scripts are run inside the web-based "Jupyter Notebook” IDE, which is built in to the container. This environment is well-suited for the development and execution of web-scraping and data processing scripts, as well as for GIS functionality through use of the GDAL library. Spydock now also includes libhxl, for use in working with data files stored using [Humanitarian Exchange Language][2] tags.
@@ -18,9 +18,17 @@ Spydock may be built in a docker supporting linux environment using the build.sh
 
 To run this environment on port 8888, use the following docker command:
 
-    docker run -d=true -p=8888:8888 spikewilliams/spydock
+    docker run -d=true -p=8888:8888 --name spydock-notebook spikewilliams/spydock
 
-Next point your browser to port 8888 on your server, and you will be able to interact with the Jupyter Notebook IDE. If you want to know more about how to use Jupyter Notebook, [here are some tutorials.][1] to get you started. Also, please ensure that you are safely behind a firewall and that port 8888 is not unduly exposed to people who may wish your computer harm.
+Next, get the URL you are going to connect with, including the token value
+
+    docker exec spydock-notebook jupyter notebook list  
+
+This will give you the URL of the notebook AS IT APPEARS INSIDE THE DOCKER CONTAINER. Thus, it refers to an IP address of 0.0.0.0 - YOU WILL NEED TO CHANGE THIS IN THE URL TO THE CORRECT ADDRESS - such a localhost, 127.0.0.1, or an external gateway address to your machine.
+
+Paste the URL into your browser and you will be able to interact with the Jupyter Notebook IDE. If you want to know more about how to use Jupyter Notebook, [here are some tutorials.][1] to get you started. Also, please ensure that you are safely behind a firewall and that port 8888 is not unduly exposed to people who may wish your computer harm.
+
+When you get to the landing page, Jupyter is going to ask you to add a token to the url. To get this value of this URL run:
 
 SpyDock containers have several volumes that can be mounted to local directories. These include:
 
