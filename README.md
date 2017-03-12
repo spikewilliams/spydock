@@ -28,8 +28,6 @@ This will give you the URL of the notebook AS IT APPEARS INSIDE THE DOCKER CONTA
 
 Paste the URL into your browser and you will be able to interact with the Jupyter Notebook IDE. If you want to know more about how to use Jupyter Notebook, [here are some tutorials.][1] to get you started. Also, please ensure that you are safely behind a firewall and that port 8888 is not unduly exposed to people who may wish your computer harm.
 
-When you get to the landing page, Jupyter is going to ask you to add a token to the url. To get this value of this URL run:
-
 SpyDock containers have several volumes that can be mounted to local directories. These include:
 
 - /notebooks - This is where scripts created in IPython Notebook are hosted
