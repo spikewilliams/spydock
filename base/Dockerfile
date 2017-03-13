@@ -93,3 +93,5 @@ RUN chmod a+x /run_unit_tests
 
 EXPOSE 8888
 CMD /start_notebook
+
+
