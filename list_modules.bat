@@ -1,2 +1,1 @@
-docker run -i -t spikewilliams/spydock pip3 freeze
-
+docker run -i --rm -t spikewilliams/spydock pip3 freeze

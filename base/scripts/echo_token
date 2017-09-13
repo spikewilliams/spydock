@@ -1,4 +1,4 @@
 #!/bin/bash
 jupyter notebook list
-set TOKEN=`jupyter notebook list | cut -f2 -d'=' | cut -f1 -d=' '`
+set TOKEN=`jupyter notebook list --allow-root | cut -f2 -d'=' | cut -f1 -d=' '`
 echo "The Jupyter access token for this instance is $TOKEN"
