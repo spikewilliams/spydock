@@ -1,4 +1,3 @@
-=======
 SpyDock
 =======
 
@@ -22,7 +21,7 @@ To run this environment on port 8888, use the following docker command:
 
     docker run -d=true -p=8888:8888 --name spydock-notebook -e PASSWORD=your_notebook_password spikewilliams/spydock
 
-If you have pulled this repository from git, you can use the .bat or .sh scripts to launch the spydock environment. For windows, run:
+If you have pulled this repository from github, you can use the .bat or .sh scripts to launch the spydock environment. For windows, run:
 
     start_spydock.bat <your_notebook_password>
 
