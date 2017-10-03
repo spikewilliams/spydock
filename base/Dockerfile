@@ -58,7 +58,7 @@ RUN wget https://github.com/matplotlib/matplotlib/archive/v2.0.2.tar.gz \
     && rm -rf matplotlib-2.0.2 \
     && rm -rf v2.0.2.tar.gz
 
-RUN wget http://download.osgeo.org/gdal/2.2.1/gdal-2.2.1.tar.gz \
+RUN wget http://download.osgeo.org/gdal/2.2.2/gdal-2.2.2.tar.gz \
         && tar -xf gdal-*.tar.gz \
         && cd gdal-* && ./configure --with-libtiff=internal --with-geotiff=internal --with-jpeg=internal --with-jpeg12 && make && make install && cd .. \
         && rm -rf gdal-*
